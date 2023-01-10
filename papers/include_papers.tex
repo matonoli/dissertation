@@ -1,0 +1,81 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Include the papers. Try this out once in the beginning, but maybe disable it
+% for the main phase of your writing - it takes too long to compile otherwise.
+
+% Papers should be formatted to G5 and then included! (Paula can do this for you)
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%     First paper    %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\cleardoublepage
+\addcontentsline{toc}{section}{Paper~\I: {\PaperItitle}} % <<<<<<<<<<<<<<<<< Change the two Roman numbers here
+\thispagestyle{empty}
+\vspace*{20mm} %increase by 2cm each time. % <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< Important
+\begin{minipage}{8cm}
+
+\end{minipage}%
+\hfill{ 
+\fontsize{20}{30}\selectfont {\bf Paper~\I}}\marginpar{\rule[-4mm]{50mm}{14mm}} % Change the Roman number here
+\vfill
+\textbf{S. Doctor} and B. someone\\
+An Exact Ewald Summation Method in Theory and Practice\\
+\textit{The Journal of Physical Chemistry A}, 2020, 124(19), pp. 3943-3946\\
+Reproduced with permission from \textit{J. Phys. Chem. A}\\
+Copyright 2020 American Chemical Society.
+
+%Second: The PDF itself
+\cleardoublepage
+% Include the PDF. Comment this while writing the thesis, only add later. 
+% Options are: all pages, scaled to full width (use 0.95 if that is too high for some reason), with thesis page number
+\includepdf[pages=-,pagecommand={}]{papers/paperI.pdf}
+% One additional option could be useful: To cut away the margins of the included PDFs use:
+% clip,viewport=<left> <bottom> <right> <top>
+% To determine the four numbers you can use the ./determineViewport.sh script in the thesis directory. 
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%     Second paper    %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\cleardoublepage
+\addcontentsline{toc}{section}{Paper~\II: {\PaperIItitle}} % <<<<<<<<<<<<<<<<< Change the two Roman numbers here
+\thispagestyle{empty}
+\vspace*{34mm} %increase by 14mm each time. % <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< Important
+\begin{minipage}{8cm}
+% Optional text, 1 line max, can also be left empty
+%Conference poster in Appendix A.1
+\end{minipage}%
+\hfill{ 
+\fontsize{20}{30}\selectfont {\bf Paper~\II}}\marginpar{\rule[-4mm]{50mm}{14mm}} % Change the Roman number here
+\vfill
+\textbf{S. Doctor}, B. someone, C. another and D. another\\
+Grand canonical simulations of ions between charged conducting surfaces using exact 3D Ewald summations\\
+\textit{Physical Chemistry Chemical Physics}, 2020, 22(24), pp. 13659-13665\\
+Reproduced from \textit{Phys. Chem. Chem. Phys.} with permission from the PCCP Owner Societies.
+
+\cleardoublepage
+\includepdf[pages=-,pagecommand={}]{papers/paperII.pdf}
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Repeat for all papers ..   %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Finally, an optional appendix, for example if your posters are helpful in any way.
+%\cleardoublepage
+%\appendix
+%\thispagestyle{empty}
+%\vspace*{4cm} %increase by 2cm each time. %<<<<<<<<<<<<<<<<<<<<<<<<<<<<< Important
+%\hfill{ %\fontspec{Frutiger}
+%\fontsize{20}{30}\selectfont {\bf Appendix}}\marginpar{\rule[-4mm]{50mm}{14mm}}
+%\vfill
+
+%\appendix
+%\chap{Appendix: Conference posters}
+%\section*{Poster 1:}
+%Media-Tryck's suggestion to a poster layout, can be downloaded from \url{https://bildweb.srv.lu.se/login/}.
+%Presented 2067 at the \emph{Symposium for time travel} 
+%in Berlin, Germany. For further details refer to Paper~\I and
+%Sect.~\ref{sec:mainresults}.
+
+% include poster itself. Cropping works as described above for the papers.
+%\includepdf[pages=-,width=\paperwidth-10mm]{posterMediaTryck.pdf} %smaller margin, works fine when printing (hopefully ;) Hallå, Jonas!)

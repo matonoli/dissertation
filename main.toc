@@ -1,0 +1,18 @@
+\setcounter {tocdepth}{3}
+\babel@toc {english}{}
+\thispagestyle {empty}
+\contentsline {section}{List of publications}{ii}%
+\contentsline {section}{Acknowledgements}{iii}%
+\babel@toc {swedish}{}
+\contentsline {section}{Populärvetenskaplig sammanfattning på svenska}{iv}%
+\babel@toc {english}{}
+\contentsline {chapter}{PhD Thesis\ this is a subtitle}{1}%
+\contentsline {chapter}{\numberline {1}Introduction to quantum chromodynamics}{3}%
+\contentsline {chapter}{\numberline {2}Collisions of particles at high energies}{5}%
+\contentsline {chapter}{\numberline {3}QCD phenomena in high energy collisions}{7}%
+\contentsline {chapter}{Scientific publications}{9}%
+\contentsline {section}{Author contributions}{9}%
+\contentsline {subsection}{Paper~\textrm {\scshape i}\xspace : Title paper 1}{9}%
+\contentsline {subsection}{Paper~\textrm {\scshape ii}\xspace : Title paper 2}{9}%
+\contentsline {section}{Paper~\textrm {\scshape i}\xspace : {Title paper 1}}{11}%
+\contentsline {section}{Paper~\textrm {\scshape ii}\xspace : {Title paper 2}}{15}%

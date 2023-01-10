@@ -1,0 +1,71 @@
+\newcommand{\myName}{Oliver Matonoha}
+\newcommand{\myYear}{2023}
+\newcommand{\myMainTitle}{PhD Thesis}
+\newcommand{\mySubTitle}{this is a subtitle}
+
+% Compact combination of combining title and subtitle, used in datasheet and as
+% chapter title for the main part.
+\newcommand{\myTitle}{\myMainTitle\ \mySubTitle} 
+
+\newcommand{\myFaculty}{Faculty of Natural Sciences}
+\newcommand{\myDepartment}{Department of Physics}
+\newcommand{\myAddress}{Box 124\\SE--221 00 LUND\\Sweden} % Three lines maximum!
+
+% Only change once you are ready. Looks to scary otherwise.
+% This might be the degree you are obtaining: Thesis for the degree of Doctor of Philosophy
+\newcommand{\myDegree}{Thesis for the degree of Doctorate}
+\newcommand{\myAdvisors}{Prof.~Doktor~Professorsson, Prof.~Knirk~Gnork}
+\newcommand{\myOpponent}{Prof. Gammal och Grå}
+
+\newcommand{\myDefenceAnnouncement}{%
+	To be presented, with the permission of the
+	\myFaculty\xspace of Lund University, for public criticism at LINXS (Delta 5, floor 5, IDEON building)
+	on friday, the 30th of October \myYear\xspace at 10:15. }
+\newcommand{\myCoverFront}{%
+	{\bf Cover illustration front:} 
+	Cool figure by bla and bla.}
+\newcommand{\myCoverBack}{%
+	{\bf Cover illustration back:} Another cool image by bla.}
+\newcommand{\myFundingInformation}{%
+	{\bf Funding information:} 
+	The thesis work was financially supported by the Swedish Research Council.}
+	
+\newcommand{\quotes}[2]{\begin{flushright}\textit{#1}\\--- #2\end{flushright}}
+% Series number. Astronomy users:
+% Series: {\scshape lunfd6/(nfas}-1048)/1-\myPages/(\myYear)}
+% where you increment the number 1048 by one wrt to last thesis at the department
+% 
+% Your department maybe uses something else, probably an ISSN number? 
+%\newcommand{\mySeries}{%
+%	\ISSN: $<$ISSN number$>$}
+
+\newcommand{\myISBNprint}{123456789}
+\newcommand{\myISBNpdf}{123456789}
+\newcommand{\myFormSignDate}{2020-09-18}
+
+% total page number is computed automatically:
+\newcommand{\myPages}{\lastpageref{LastPages}}
+
+\newcommand{\myFormDefenceDate}{2020-10-30}
+\newcommand{\myFormKeywords}{%
+	quantum chromodynamics, quark-gluon plasma}
+
+% Write a short english abstract of the thesis here, goes into the data sheet page 4. 
+\newcommand{\myAbstract}{
+\input{chapters/abstract.tex}
+}%
+
+% --- Shortcut thesis commands for paper references and titles ---
+% Included papers - only need to type this once
+\newcommand{\PaperIauthor}{\textbf{S. Doctor}, B. Someone}
+\newcommand{\PaperIIauthor}{\textbf{S. Doctor}, B. Someone, C Another}
+
+\newcommand{\PaperIref}{\textit{The Journal of Physical Chemistry A}, 2020, 124(19), pp. 3943-3946}
+\newcommand{\PaperIIref}{\textit{Physical Chemistry Chemical Physics}, 2020, 22(24), pp. 13659-13665}
+
+\newcommand{\PaperItitle}{Title paper 1}
+\newcommand{\PaperIItitle}{Title paper 2}
+
+% Declare other commands such as useful math operators:
+\DeclareMathOperator{\erfc}{erfc}
+\DeclareMathOperator{\erf}{erf}
