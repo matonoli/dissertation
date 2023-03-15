@@ -60,6 +60,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%  Table of contents   %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \setcounter{page}{1} % Page Roman 1 of the frontmatter
 \setcounter{tocdepth}{1}
+\setcounter{secnumdepth}{2}
 \tableofcontents
 % no page number on toc page:
 \addtocontents{toc}{\protect\thispagestyle{empty}}
@@ -143,25 +144,43 @@ All papers are reproduced with permission of their respective publishers.
 \newpage
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Actual kappa %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\part{Research motivation}
 \chapter{Introduction to quantum chromodynamics}
 \input{chapters/introduction}
 \chapter{Collisions of particles at high energies}
 \input{chapters/cool}
 \chapter{QCD phenomena in high energy collisions}
+\input{chapters/blank}
+\chapter{Phenomenological models of hadronic collisions}
+\input{chapters/blank}
+
+\part{Experimental Setup and Methodology}
+\chapter{Large Hadron Collider}
+\input{chapters/experiment}
+\chapter{The ALICE Detector}
+\input{chapters/alice}
+\chapter{Events, Vertices, Tracks, and Particles}
+\input{chapters/blank}
+
+\part{Author's measurements}
+\chapter{Reconstruction of neutral strange particles with ALICE}
+\input{chapters/analysis}
+\chapter{Transverse Spherocity}
+\input{chapters/sphero}
+\chapter{Underlying Event}
+\input{chapters/blank}
+\chapter{Discussion of Results and Conclusions}
 \input{chapters/outlook}
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-% ===============================================================
-% ====================== References:  ===========================
 
-% Bibliography renamed to references
-\renewcommand{\bibname}{References}
-\bibliographystyle{unsrtnat}
-\bibliography{refs}  % Link to bibtex file
-% ===============================================================
-% ====================== Part II: Scientific publications  ======
-% ===============================================================
-
-\chap{Scientific publications}
+\appendix
+\part{Appendices}
+\chapter{List of Acronyms}
+\input{chapters/blank}
+\chapter{Mathematical Derivations}
+\input{chapters/blank}
+\chapter{Complementary Material}
+\input{chapters/blank}
+\chapter{Scientific Publications}
 \sect{Author contributions}
 
 %Co-authors are abbreviated as follows: \\
@@ -176,5 +195,21 @@ I participated in developing the theory and wrote the simulation software. I par
 I participated in developing the theory and writing simulation software. I participated in writing the manuscript.
 
 \input{papers/include_papers}
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% ===============================================================
+% ====================== References:  ===========================
+
+% Bibliography renamed to references
+\renewcommand{\bibname}{References}
+\bibliographystyle{unsrtnat}
+\bibliography{refs}  % Link to bibtex file
+% ===============================================================
+% ====================== Part II: Scientific publications  ======
+% ===============================================================
+
+%\chap{Scientific publications}
 
 \end{document}

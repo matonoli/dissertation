@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999991 (TeX Live 2019/Debian) (preloaded format=xelatex 2022.8.22)  9 JAN 2023 20:24
+This is XeTeX, Version 3.14159265-2.6-0.999991 (TeX Live 2019/Debian) (preloaded format=xelatex 2022.8.22)  6 MAR 2023 10:51
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -719,6 +719,63 @@ File: ppxetex.def 2020/01/28 v0.5q Pdfpages driver for XeTeX (AM)
 \c@AM@survey=\count331
 \AM@templatesizebox=\box70
 )
+(/usr/share/texlive/texmf-dist/tex/latex/derivative/derivative.sty
+Package: derivative 2020/02/03 v0.97 Nice and easy derivatives
+\l__deriv_vmo_int=\count332
+\l__deriv_tmpa_int=\count333
+\l__deriv_numerical_int=\count334
+\l__deriv_sort_counter_int=\count335
+\l__deriv_sort_max_int=\count336
+\l__deriv_position_int=\count337
+\l__deriv_rebuild_int=\count338
+\l__deriv_odv_sep_inf_ord_muskip=\muskip18
+\l__deriv_odv_sep_inf_fun_muskip=\muskip19
+\l__deriv_odv_sep_ord_fun_muskip=\muskip20
+\l__deriv_odv_sep_var_ord_muskip=\muskip21
+\l__deriv_odv_sep_inf_var_muskip=\muskip22
+\l__deriv_odv_sep_eval_sb_muskip=\muskip23
+\l__deriv_odv_sep_eval_sp_muskip=\muskip24
+\l__deriv_mdv_sep_inf_ord_muskip=\muskip25
+\l__deriv_mdv_sep_inf_fun_muskip=\muskip26
+\l__deriv_mdv_sep_ord_fun_muskip=\muskip27
+\l__deriv_mdv_sep_var_ord_muskip=\muskip28
+\l__deriv_mdv_sep_inf_var_muskip=\muskip29
+\l__deriv_mdv_sep_eval_sb_muskip=\muskip30
+\l__deriv_mdv_sep_eval_sp_muskip=\muskip31
+\l__deriv_fdv_sep_inf_ord_muskip=\muskip32
+\l__deriv_fdv_sep_inf_fun_muskip=\muskip33
+\l__deriv_fdv_sep_ord_fun_muskip=\muskip34
+\l__deriv_fdv_sep_var_ord_muskip=\muskip35
+\l__deriv_fdv_sep_inf_var_muskip=\muskip36
+\l__deriv_fdv_sep_eval_sb_muskip=\muskip37
+\l__deriv_fdv_sep_eval_sp_muskip=\muskip38
+\l__deriv_adv_sep_inf_ord_muskip=\muskip39
+\l__deriv_adv_sep_inf_fun_muskip=\muskip40
+\l__deriv_adv_sep_ord_fun_muskip=\muskip41
+\l__deriv_adv_sep_var_ord_muskip=\muskip42
+\l__deriv_adv_sep_inf_var_muskip=\muskip43
+\l__deriv_adv_sep_eval_sb_muskip=\muskip44
+\l__deriv_adv_sep_eval_sp_muskip=\muskip45
+\l__deriv_jdv_sep_inf_ord_muskip=\muskip46
+\l__deriv_jdv_sep_inf_fun_muskip=\muskip47
+\l__deriv_jdv_sep_ord_fun_muskip=\muskip48
+\l__deriv_jdv_sep_var_ord_muskip=\muskip49
+\l__deriv_jdv_sep_inf_var_muskip=\muskip50
+\l__deriv_jdv_sep_eval_sb_muskip=\muskip51
+\l__deriv_jdv_sep_eval_sp_muskip=\muskip52
+\l__deriv_pdv_sep_inf_ord_muskip=\muskip53
+\l__deriv_pdv_sep_inf_fun_muskip=\muskip54
+\l__deriv_pdv_sep_ord_fun_muskip=\muskip55
+\l__deriv_pdv_sep_inf_var_muskip=\muskip56
+\l__deriv_pdv_sep_var_ord_muskip=\muskip57
+\l__deriv_pdv_sep_var_inf_muskip=\muskip58
+\l__deriv_pdv_sep_ord_inf_muskip=\muskip59
+\l__deriv_pdv_sep_eval_sb_muskip=\muskip60
+\l__deriv_pdv_sep_eval_sp_muskip=\muskip61
+)
+(/usr/share/texlive/texmf-dist/tex/latex/spverbatim/spverbatim.sty
+Package: spverbatim 2009/08/10 v1.0 Verbatim with breakable spaces
+)
 (./auxiliary_textfiles/aas_macros.sty)
 (/usr/share/texlive/texmf-dist/tex/generic/babel/babel.sty
 Package: babel 2020/02/14 3.40 The Babel package
@@ -731,13 +788,13 @@ Language: swedish 2005/03/31 v2.3d Swedish support from the babel system
 
 (/usr/share/texlive/texmf-dist/tex/generic/babel/babel.def
 File: babel.def 2020/02/14 3.40 Babel common definitions
-\babel@savecnt=\count332
+\babel@savecnt=\count339
 \U@D=\dimen193
 
 (/usr/share/texlive/texmf-dist/tex/generic/babel/xebabel.def
 (/usr/share/texlive/texmf-dist/tex/generic/babel/txtbabel.def))
 \bbl@readstream=\read2
-\bbl@dirlevel=\count333
+\bbl@dirlevel=\count340
 )
 Package babel Info: Making " an active character on input line 90.
 )
@@ -763,7 +820,7 @@ Package: natbib 2010/09/13 8.31b (PWD, AO)
 \bibhang=\skip133
 \bibsep=\skip134
 LaTeX Info: Redefining \cite on input line 694.
-\c@NAT@ctr=\count334
+\c@NAT@ctr=\count341
 )
 (/usr/share/texlive/texmf-dist/tex/latex/geometry/geometry.sty
 Package: geometry 2020/01/02 v5.9 Page Geometry
@@ -771,9 +828,9 @@ Package: geometry 2020/01/02 v5.9 Page Geometry
 (/usr/share/texlive/texmf-dist/tex/generic/iftex/ifvtex.sty
 Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
 )
-\Gm@cnth=\count335
-\Gm@cntv=\count336
-\c@Gm@tempcnt=\count337
+\Gm@cnth=\count342
+\Gm@cntv=\count343
+\c@Gm@tempcnt=\count344
 \Gm@bindingoffset=\dimen194
 \Gm@wd@mp=\dimen195
 \Gm@odd@mp=\dimen196
@@ -841,14 +898,14 @@ ex
 \pgf@yd=\dimen269
 \w@pgf@writea=\write3
 \r@pgf@reada=\read3
-\c@pgf@counta=\count338
-\c@pgf@countb=\count339
-\c@pgf@countc=\count340
-\c@pgf@countd=\count341
+\c@pgf@counta=\count345
+\c@pgf@countb=\count346
+\c@pgf@countc=\count347
+\c@pgf@countd=\count348
 \t@pgf@toka=\toks39
 \t@pgf@tokb=\toks40
 \t@pgf@tokc=\toks41
-\pgf@sys@id@count=\count342
+\pgf@sys@id@count=\count349
  (/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgf.cfg
 File: pgf.cfg 2020/01/08 v3.1.5b (3.1.5b)
 )
@@ -864,13 +921,13 @@ File: pgfsys-dvipdfmx.def 2020/01/08 v3.1.5b (3.1.5b)
 f
 File: pgfsys-common-pdf.def 2020/01/08 v3.1.5b (3.1.5b)
 )
-\pgfsys@objnum=\count343
+\pgfsys@objnum=\count350
 )))
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsyssoftpath.code.
 tex
 File: pgfsyssoftpath.code.tex 2020/01/08 v3.1.5b (3.1.5b)
-\pgfsyssoftpath@smallbuffer@items=\count344
-\pgfsyssoftpath@bigbuffer@items=\count345
+\pgfsyssoftpath@smallbuffer@items=\count351
+\pgfsyssoftpath@bigbuffer@items=\count352
 )
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsysprotocol.code.
 tex
@@ -884,7 +941,7 @@ Package: pgfcore 2020/01/08 v3.1.5b (3.1.5b)
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathutil.code.tex)
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathparser.code.tex
 \pgfmath@dimen=\dimen270
-\pgfmath@count=\count346
+\pgfmath@count=\count353
 \pgfmath@box=\box72
 \pgfmath@toks=\toks42
 \pgfmath@stack@operand=\toks43
@@ -908,7 +965,7 @@ tex)
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.integerari
 thmetics.code.tex)))
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfloat.code.tex
-\c@pgfmathroundto@lastzeros=\count347
+\c@pgfmathroundto@lastzeros=\count354
 ))
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfint.code.tex)
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepoints.code.te
@@ -947,7 +1004,7 @@ File: pgfcorescopes.code.tex 2020/01/08 v3.1.5b (3.1.5b)
 \pgfpic=\box73
 \pgf@hbox=\box74
 \pgf@layerbox@main=\box75
-\pgf@picture@serial@count=\count348
+\pgf@picture@serial@count=\count355
 )
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoregraphicstate.c
 ode.tex
@@ -980,8 +1037,8 @@ File: pgfcorearrows.code.tex 2020/01/08 v3.1.5b (3.1.5b)
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreshade.code.tex
 File: pgfcoreshade.code.tex 2020/01/08 v3.1.5b (3.1.5b)
 \pgf@max=\dimen294
-\pgf@sys@shading@range@num=\count349
-\pgf@shadingcount=\count350
+\pgf@sys@shading@range@num=\count356
+\pgf@shadingcount=\count357
 )
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreimage.code.tex
 File: pgfcoreimage.code.tex 2020/01/08 v3.1.5b (3.1.5b)
@@ -1037,9 +1094,9 @@ Package: trimspaces 2009/09/17 v1.1 Trim spaces around a token list
 \tcb@upperbox=\box79
 \tcb@lowerbox=\box80
 \tcb@phantombox=\box81
-\c@tcbbreakpart=\count351
-\c@tcblayer=\count352
-\tcolorbox@number=\count353
+\c@tcbbreakpart=\count358
+\c@tcblayer=\count359
+\tcolorbox@number=\count360
 \tcb@temp=\box82
 \tcb@temp=\box83
 \tcb@temp=\box84
@@ -1070,7 +1127,7 @@ Package: tikz 2020/01/08 v3.1.5b (3.1.5b)
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/pgflibraryplothandlers
 .code.tex
 File: pgflibraryplothandlers.code.tex 2020/01/08 v3.1.5b (3.1.5b)
-\pgf@plot@mark@count=\count354
+\pgf@plot@mark@count=\count361
 \pgfplotmarksize=\dimen299
 )
 \tikz@lastx=\dimen300
@@ -1085,18 +1142,18 @@ File: pgflibraryplothandlers.code.tex 2020/01/08 v3.1.5b (3.1.5b)
 \tikz@figbox@bg=\box87
 \tikz@tempbox=\box88
 \tikz@tempbox@bg=\box89
-\tikztreelevel=\count355
-\tikznumberofchildren=\count356
-\tikznumberofcurrentchild=\count357
-\tikz@fig@count=\count358
+\tikztreelevel=\count362
+\tikznumberofchildren=\count363
+\tikznumberofcurrentchild=\count364
+\tikz@fig@count=\count365
 
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/modules/pgfmodulematrix.code.tex
 File: pgfmodulematrix.code.tex 2020/01/08 v3.1.5b (3.1.5b)
-\pgfmatrixcurrentrow=\count359
-\pgfmatrixcurrentcolumn=\count360
-\pgf@matrix@numberofcolumns=\count361
+\pgfmatrixcurrentrow=\count366
+\pgfmatrixcurrentcolumn=\count367
+\pgf@matrix@numberofcolumns=\count368
 )
-\tikz@expandcount=\count362
+\tikz@expandcount=\count369
 
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
 zlibrarytopaths.code.tex
@@ -1107,10 +1164,35 @@ File: tikzlibrarytopaths.code.tex 2020/01/08 v3.1.5b (3.1.5b)
 (/usr/share/texlive/texmf-dist/tex/latex/tcolorbox/tcbskinsjigsaw.code.tex
 Library (tcolorbox): 'tcbskinsjigsaw.code.tex' version '4.22'
 ))
-\c@exa=\count363
+\c@exa=\count370
 ) (./parameters.tex) (./main.aux
-\c@pagesLTS.roman.1.local.cnt=\count364
-\c@pagesLTS.arabic.1.local.cnt=\count365
+\c@pagesLTS.roman.1.local.cnt=\count371
+
+
+LaTeX Warning: Label `fig:experiment:cern' multiply defined.
+
+
+LaTeX Warning: Label `fig:experiment:cern' multiply defined.
+
+
+LaTeX Warning: Label `fig:experiment:cern' multiply defined.
+
+
+LaTeX Warning: Label `fig:experiment:cern' multiply defined.
+
+
+LaTeX Warning: Label `fig:experiment:cern' multiply defined.
+
+
+LaTeX Warning: Label `fig:experiment:cern' multiply defined.
+
+
+LaTeX Warning: Label `fig:analysis:peakfit' multiply defined.
+
+
+LaTeX Warning: Label `fig:analysis:peakfit' multiply defined.
+
+\c@pagesLTS.arabic.1.local.cnt=\count372
 )
 \openout1 = `main.aux'.
 
@@ -1125,8 +1207,7 @@ LaTeX Font Info:    ... okay on input line 38.
 LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 38.
 LaTeX Font Info:    Trying to load font information for TS1+cmr on input line 3
 8.
-
-(/usr/share/texlive/texmf-dist/tex/latex/base/ts1cmr.fd
+ (/usr/share/texlive/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 2019/12/16 v2.5j Standard LaTeX font definitions
 )
 LaTeX Font Info:    ... okay on input line 38.
@@ -1181,7 +1262,7 @@ Package: fr-longtable 2007/11/28 v0.1b (beta) floatrow: additions for longtable
 
 \flrow@LT@lasthead=\box91
 \flrow@LT@prelastfoot=\box92
-\c@FBLTpage=\count366
+\c@FBLTpage=\count373
 )
 \AtBeginShipoutBox=\box93
 
@@ -1231,9 +1312,9 @@ Package pdflscape Info: Auto-detected driver: dvipdfm (xetex) on input line 98.
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 (./auxiliary_textfiles/frontmatter.tex
-\c@pagesLTS.pnc.roman=\count367
-\c@pagesLTS.double.roman=\count368
-\c@pagesLTS.current.local.roman=\count369
+\c@pagesLTS.pnc.roman=\count374
+\c@pagesLTS.double.roman=\count375
+\c@pagesLTS.current.local.roman=\count376
  [1
 
 
@@ -1244,13 +1325,13 @@ File: figures/LundUniversity_C2line_BLACK.eps Graphic file (type eps)
 <figures/LundUniversity_C2line_BLACK.eps>
  [3]
 (./auxiliary_textfiles/datasheet.tex
-\c@aformdx=\count370
-\c@aformdy=\count371
-\c@aformx=\count372
-\c@aformy=\count373
-\c@aformtx=\count374
-\c@aformtdx=\count375
-\c@aformty=\count376
+\c@aformdx=\count377
+\c@aformdy=\count378
+\c@aformx=\count379
+\c@aformy=\count380
+\c@aformtx=\count381
+\c@aformtdx=\count382
+\c@aformty=\count383
 
 Underfull \hbox (badness 10000) in paragraph at lines 48--48
 
@@ -1312,27 +1393,28 @@ File: figures/miljologotyper.pdf Graphic file (type pdf)
 <use figures/miljologotyper.pdf>
 ) [6] [7] [8
 
-] (./main.toc)
+] (./main.toc [1])
 \tf@toc=\write6
 \openout6 = `main.toc'.
 
- [1] [2] (./chapters/acknowledgements.tex) [3]
-(./chapters/sammanfattning.tex)
+ [2] [3] (./chapters/acknowledgements.tex)
+[4] (./chapters/sammanfattning.tex)
 
 Package blindtext Warning: swedish not defined, using English instead.
-(blindtext)                 on input line 126.
+(blindtext)                 on input line 127.
 
-[4]
-\c@pagesLTS.roman.1.local.count=\count377
-\c@pagesLTS.pnc.arabic=\count378
-\c@pagesLTS.double.arabic=\count379
-\c@pagesLTS.current.local.arabic=\count380
+[5] [6
+
+]
+\c@pagesLTS.roman.1.local.count=\count384
+\c@pagesLTS.pnc.arabic=\count385
+\c@pagesLTS.double.arabic=\count386
+\c@pagesLTS.current.local.arabic=\count387
  [1
-
 
 ] [2
 
-]
+] [3] [4]
 Chapter 1.
 (./chapters/introduction.tex
 
@@ -1364,35 +1446,253 @@ script=latn;language=dflt;+onum;+pnum;+sups;+smcp;mapping=tex-text;"
 ript=latn;language=dflt;+onum;+pnum;+sups;mapping=tex-text;"
 (fontspec)             - 'small caps'  (m/fsc) with NFSS spec.: 
 
-
-
-Package natbib Warning: Citation `reed07' on page 3 undefined on input line 2.
-
 File: figures/graph.png Graphic file (type bmp)
 <figures/graph.png>
-) [3] [4]
+) [5
+
+] [6]
 Chapter 2.
 (./chapters/cool.tex
 File: figures/graph.png Graphic file (type bmp)
 <figures/graph.png>
- [5
+ [7
 
-]) [6]
+]) [8]
 Chapter 3.
-(./chapters/outlook.tex)
-No file main.bbl.
-[7
+(./chapters/blank.tex) [9
 
-] [8
+] [10
 
-] (./papers/include_papers.tex [9] [10
+]
+Chapter 4.
+(./chapters/blank.tex) [11] [12
+
+] [13] [14]
+Chapter 5.
+(./chapters/experiment.tex [15
+
+]
+File: ./figures/lhc/cern.png Graphic file (type bmp)
+<./figures/lhc/cern.png>
+File: ./figures/lhc/dipole.jpg Graphic file (type bmp)
+<./figures/lhc/dipole.jpg>
+) [16] [17] [18
+
+]
+Chapter 6.
+(./chapters/alice.tex
+File: ./figures/alice/alicephoto.jpg Graphic file (type bmp)
+<./figures/alice/alicephoto.jpg>
+ [19]
+File: ./figures/alice/alicescheme2.png Graphic file (type bmp)
+<./figures/alice/alicescheme2.png>
+File: ./figures/alice/aliceevent.png Graphic file (type bmp)
+<./figures/alice/aliceevent.png>
+ [20]
+File: ./figures/alice/alicetpc.png Graphic file (type bmp)
+<./figures/alice/alicetpc.png>
+File: ./figures/alice/aliceits.jpg Graphic file (type bmp)
+<./figures/alice/aliceits.jpg>
+) [21] [22]
+Chapter 7.
+(./chapters/blank.tex) [23
+
+] [24
+
+] [25] [26]
+Chapter 8.
+(./chapters/analysis.tex
+
+LaTeX Warning: Reference `fig:analysis:v0decay.' on page 27 undefined on input 
+line 17.
+
+[27
+
+]
+File: ./figures/analysis/analysis_v0decay.png Graphic file (type bmp)
+<./figures/analysis/analysis_v0decay.png>
+
+Package fontspec Info: Font family 'FrutigerLTStd-Roman.ttf(1)' created for
+(fontspec)             font 'FrutigerLTStd-Roman.ttf' with options
+(fontspec)             [Ligatures=TeX,Path =
+(fontspec)             ./fonts/Frutiger/,BoldFont=FrutigerLTStd-Bold.ttf,Italic
+Font=FrutigerLTStd-Italic.ttf,VerticalPosition=Superior].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.:
+(fontspec)             <->"[./fonts/Frutiger/FrutigerLTStd-Roman.ttf]/OT:script
+=latn;language=dflt;+sups;mapping=tex-text;"
+(fontspec)             - 'small caps'  (m/fsc) with NFSS spec.: 
+(fontspec)             - 'bold' (b/n) with NFSS spec.:
+(fontspec)             <->"[./fonts/Frutiger/FrutigerLTStd-Bold.ttf]/OT:script=
+latn;language=dflt;+sups;mapping=tex-text;"
+(fontspec)             - 'bold small caps'  (b/fsc) with NFSS spec.: 
+(fontspec)             - 'italic' (m/it) with NFSS spec.:
+(fontspec)             <->"[./fonts/Frutiger/FrutigerLTStd-Italic.ttf]/OT:scrip
+t=latn;language=dflt;+sups;mapping=tex-text;"
+(fontspec)             - 'small caps'  (m/fsc) with NFSS spec.: 
+
+
+
+Package natbib Warning: Citation `tuvathesis' on page 28 undefined on input lin
+e 31.
+
+
+Package fontspec Info: Font family 'AGaramondPro(2)' created for font
+(fontspec)             'AGaramondPro' with options [Ligatures=TeX,Path =
+(fontspec)             ./fonts/AGaramondPro/,Mapping = tex-text,Numbers =
+(fontspec)             {OldStyle, Proportional},UprightFont =
+(fontspec)             *-Regular.otf,BoldFont=
+(fontspec)             *-Semibold.otf,ItalicFont=*-Italic.otf,Numbers={Monospac
+ed}].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.:
+(fontspec)             <->"[./fonts/AGaramondPro/AGaramondPro-Regular.otf]/OT:s
+cript=latn;language=dflt;+onum;+tnum;mapping=tex-text;"
+(fontspec)             - 'small caps'  (m/fsc) with NFSS spec.:
+(fontspec)             <->"[./fonts/AGaramondPro/AGaramondPro-Regular.otf]/OT:s
+cript=latn;language=dflt;+onum;+tnum;+smcp;mapping=tex-text;"
+(fontspec)             - 'bold' (b/n) with NFSS spec.:
+(fontspec)             <->"[./fonts/AGaramondPro/AGaramondPro-Semibold.otf]/OT:
+script=latn;language=dflt;+onum;+tnum;mapping=tex-text;"
+(fontspec)             - 'bold small caps'  (b/fsc) with NFSS spec.:
+(fontspec)             <->"[./fonts/AGaramondPro/AGaramondPro-Semibold.otf]/OT:
+script=latn;language=dflt;+onum;+tnum;+smcp;mapping=tex-text;"
+(fontspec)             - 'italic' (m/it) with NFSS spec.:
+(fontspec)             <->"[./fonts/AGaramondPro/AGaramondPro-Italic.otf]/OT:sc
+ript=latn;language=dflt;+onum;+tnum;mapping=tex-text;"
+(fontspec)             - 'small caps'  (m/fsc) with NFSS spec.: 
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[28] [29]
+
+LaTeX Warning: Reference `fig:analysis:sideband' on page 30 undefined on input 
+line 95.
+
+File: ./figures/analysis/fitK0s.png Graphic file (type bmp)
+<./figures/analysis/fitK0s.png>
+File: ./figures/analysis/fitL.png Graphic file (type bmp)
+<./figures/analysis/fitL.png>
+File: ./figures/analysis/fitL.png Graphic file (type bmp)
+<./figures/analysis/fitL.png>
+File: ./figures/analysis/sidebands.png Graphic file (type bmp)
+<./figures/analysis/sidebands.png>
+File: ./figures/analysis/regionK0s.png Graphic file (type bmp)
+<./figures/analysis/regionK0s.png>
+File: ./figures/analysis/regionL.png Graphic file (type bmp)
+<./figures/analysis/regionL.png>
+File: ./figures/analysis/regionL.png Graphic file (type bmp)
+<./figures/analysis/regionL.png>
+
+LaTeX Warning: Reference `fig:analysis:sigexclosure' on page 30 undefined on in
+put line 124.
+
+[30]
+File: ./figures/analysis/im_primaryPDG.png Graphic file (type bmp)
+<./figures/analysis/im_primaryPDG.png>
+File: ./figures/analysis/im_secondaryPDG.png Graphic file (type bmp)
+<./figures/analysis/im_secondaryPDG.png>
+ [31] [32]
+File: ./figures/analysis/lbar_fdm.png Graphic file (type bmp)
+<./figures/analysis/lbar_fdm.png>
+File: ./figures/analysis/lbar_fdm.png Graphic file (type bmp)
+<./figures/analysis/lbar_fdm.png>
+File: ./figures/analysis/l_fd_hm.png Graphic file (type bmp)
+<./figures/analysis/l_fd_hm.png>
+ [33] [34]
+File: ./figures/analysis/cEffi.pdf Graphic file (type pdf)
+<use ./figures/analysis/cEffi.pdf>
+File: ./figures/analysis/K0toK0_MBandV0M_offi.png Graphic file (type bmp)
+<./figures/analysis/K0toK0_MBandV0M_offi.png>
+File: ./figures/analysis/LtoL_MBandV0M_offi.png Graphic file (type bmp)
+<./figures/analysis/LtoL_MBandV0M_offi.png>
+ [35] [36] [37] [38]
+File: ./figures/analysis/cRYL_K0s.png Graphic file (type bmp)
+<./figures/analysis/cRYL_K0s.png>
+File: ./figures/analysis/cRYL_L.png Graphic file (type bmp)
+<./figures/analysis/cRYL_L.png>
+File: ./figures/analysis/cRYL_Lbar.png Graphic file (type bmp)
+<./figures/analysis/cRYL_Lbar.png>
+
+Overfull \hbox (23.36365pt too wide) in paragraph at lines 309--324
+ [] 
+ []
+
+[39]
+File: ./figures/analysis/L_fd_mb.png Graphic file (type bmp)
+<./figures/analysis/L_fd_mb.png>
+) [40] [41] [42
+
+]
+Chapter 9.
+(./chapters/sphero.tex
+File: ./figures/sphero/SO_Unfolded_CL1_Perc_1.pdf Graphic file (type pdf)
+<use ./figures/sphero/SO_Unfolded_CL1_Perc_1.pdf>
+File: ./figures/sphero/SO_Unfolded_CL1_Perc_10.pdf Graphic file (type pdf)
+<use ./figures/sphero/SO_Unfolded_CL1_Perc_10.pdf>
+File: ./figures/sphero/SO_Unfolded_V0M_Perc_1.pdf Graphic file (type pdf)
+<use ./figures/sphero/SO_Unfolded_V0M_Perc_1.pdf>
+File: ./figures/sphero/sp_K0s_V0M01_spher10.pdf Graphic file (type pdf)
+<use ./figures/sphero/sp_K0s_V0M01_spher10.pdf>
+File: ./figures/sphero/sp_K0s_NCharged01_spher10.pdf Graphic file (type pdf)
+<use ./figures/sphero/sp_K0s_NCharged01_spher10.pdf>
+File: ./figures/sphero/sp_K0s_NCharged_spher1.pdf Graphic file (type pdf)
+<use ./figures/sphero/sp_K0s_NCharged_spher1.pdf>
+File: ./figures/sphero/sp_K0s_V0M01_spher1.pdf Graphic file (type pdf)
+<use ./figures/sphero/sp_K0s_V0M01_spher1.pdf>
+File: ./figures/sphero/sp_K0s_NCharged01_spher1.pdf Graphic file (type pdf)
+<use ./figures/sphero/sp_K0s_NCharged01_spher1.pdf>
+File: ./figures/sphero/sp_LLbar_V0M01_spher10.pdf Graphic file (type pdf)
+<use ./figures/sphero/sp_LLbar_V0M01_spher10.pdf>
+File: ./figures/sphero/sp_LLbar_NCharged01_spher10.pdf Graphic file (type pdf)
+<use ./figures/sphero/sp_LLbar_NCharged01_spher10.pdf>
+File: ./figures/sphero/sp_LLbar_NCharged_spher1.pdf Graphic file (type pdf)
+<use ./figures/sphero/sp_LLbar_NCharged_spher1.pdf>
+File: ./figures/sphero/sp_LLbar_V0M01_spher1.pdf Graphic file (type pdf)
+<use ./figures/sphero/sp_LLbar_V0M01_spher1.pdf>
+File: ./figures/sphero/sp_LLbar_NCharged01_spher1.pdf Graphic file (type pdf)
+<use ./figures/sphero/sp_LLbar_NCharged01_spher1.pdf>
+) [43] [44] [45] [46]
+Chapter 10.
+(./chapters/blank.tex) [47
+
+] [48
+
+]
+Chapter 11.
+(./chapters/outlook.tex) [49] [50
+
+] [51] [52]
+Appendix A.
+(./chapters/blank.tex) [53
+
+] [54
+
+]
+Appendix B.
+(./chapters/blank.tex) [55] [56
+
+]
+Appendix C.
+(./chapters/blank.tex) [57] [58
+
+]
+Appendix D.
+(./papers/include_papers.tex [59] [60
 
 ]
 Overfull \hbox (26.26378pt too wide) in paragraph at lines 17--17
 [][] 
  []
 
-[11] [12
+[61] [62
 
 ]
 File: papers/paperI.pdf Graphic file (type pdf)
@@ -1409,14 +1709,14 @@ File: papers/paperI.pdf Graphic file (type pdf)
 <use papers/paperI.pdf, page 1>
 File: papers/paperI.pdf Graphic file (type pdf)
 <use papers/paperI.pdf, page 1>
- [13] [14
+ [63] [64
 
 ]
 Overfull \hbox (26.26378pt too wide) in paragraph at lines 47--47
 [][] 
  []
 
-[15] [16
+[65] [66
 
 ]
 File: papers/paperII.pdf Graphic file (type pdf)
@@ -1433,14 +1733,17 @@ File: papers/paperII.pdf Graphic file (type pdf)
 <use papers/paperII.pdf, page 1>
 File: papers/paperII.pdf Graphic file (type pdf)
 <use papers/paperII.pdf, page 1>
- [17]) 
+ [67]) (./main.bbl [68
+
+]) 
 AED: pageslts setting LastPage 
+[69]
 
 Package natbib Warning: There were undefined citations.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 180.
-Package atveryend Info: Executing hook `AfterLastShipout' on input line 180.
-\c@pagesLTS.arabic.1.local.count=\count381
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 215.
+Package atveryend Info: Executing hook `AfterLastShipout' on input line 215.
+\c@pagesLTS.arabic.1.local.count=\count388
 
 AED: pageslts setting VeryLastPage via AfterLastShipout 
 
@@ -1451,17 +1754,24 @@ Package pageslts Info: Total number of pages is odd.
 
 
 (./main.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 180.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 180.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 180.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 215.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 215.
+
+
+LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: There were multiply-defined labels.
+
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 215.
  ) 
 Here is how much of TeX's memory you used:
- 30220 strings out of 479819
- 615525 string characters out of 5895846
- 952771 words of memory out of 5000000
- 46704 multiletter control sequences out of 15000+600000
- 541663 words of font info for 98 fonts, out of 8000000 for 9000
+ 32050 strings out of 479819
+ 673861 string characters out of 5895846
+ 993858 words of memory out of 5000000
+ 48420 multiletter control sequences out of 15000+600000
+ 548322 words of font info for 144 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 67i,18n,104p,978b,1136s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 67i,19n,105p,978b,1136s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on main.pdf (29 pages).
+Output written on main.pdf (83 pages).

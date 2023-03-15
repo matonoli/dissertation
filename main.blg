@@ -1,0 +1,50 @@
+This is BibTeX, Version 0.99d (TeX Live 2019/Debian)
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: main.aux
+The style file: unsrtnat.bst
+Database file #1: refs.bib
+Warning--empty journal in ALICEprimaries
+Warning--empty year in ALICEprimaries
+Warning--empty year in ALICEprimaries
+You've used 2 entries,
+            2481 wiz_defined-function locations,
+            564 strings with 4712 characters,
+and the built_in function-call counts, 694 in all, are:
+= -- 53
+> -- 28
+< -- 1
++ -- 12
+- -- 8
+* -- 54
+:= -- 117
+add.period$ -- 6
+call.type$ -- 2
+change.case$ -- 4
+chr.to.int$ -- 2
+cite$ -- 5
+duplicate$ -- 37
+empty$ -- 66
+format.name$ -- 10
+if$ -- 138
+int.to.chr$ -- 1
+int.to.str$ -- 3
+missing$ -- 2
+newline$ -- 18
+num.names$ -- 6
+pop$ -- 20
+preamble$ -- 1
+purify$ -- 2
+quote$ -- 0
+skip$ -- 20
+stack$ -- 0
+substring$ -- 22
+swap$ -- 3
+text.length$ -- 0
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 14
+warning$ -- 3
+while$ -- 5
+width$ -- 0
+write$ -- 31
+(There were 3 warnings)

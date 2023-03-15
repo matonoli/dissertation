@@ -1,18 +1,53 @@
 \setcounter {tocdepth}{3}
 \babel@toc {english}{}
 \thispagestyle {empty}
-\contentsline {section}{List of publications}{ii}%
-\contentsline {section}{Acknowledgements}{iii}%
+\contentsline {section}{List of publications}{iii}%
+\contentsline {section}{Acknowledgements}{iv}%
 \babel@toc {swedish}{}
-\contentsline {section}{Populärvetenskaplig sammanfattning på svenska}{iv}%
+\contentsline {section}{Populärvetenskaplig sammanfattning på svenska}{v}%
 \babel@toc {english}{}
 \contentsline {chapter}{PhD Thesis\ this is a subtitle}{1}%
-\contentsline {chapter}{\numberline {1}Introduction to quantum chromodynamics}{3}%
-\contentsline {chapter}{\numberline {2}Collisions of particles at high energies}{5}%
-\contentsline {chapter}{\numberline {3}QCD phenomena in high energy collisions}{7}%
-\contentsline {chapter}{Scientific publications}{9}%
-\contentsline {section}{Author contributions}{9}%
-\contentsline {subsection}{Paper~\textrm {\scshape i}\xspace : Title paper 1}{9}%
-\contentsline {subsection}{Paper~\textrm {\scshape ii}\xspace : Title paper 2}{9}%
-\contentsline {section}{Paper~\textrm {\scshape i}\xspace : {Title paper 1}}{11}%
-\contentsline {section}{Paper~\textrm {\scshape ii}\xspace : {Title paper 2}}{15}%
+\contentsline {part}{I\hspace {1em}Research motivation}{3}%
+\contentsline {chapter}{\numberline {1}Introduction to quantum chromodynamics}{5}%
+\contentsline {chapter}{\numberline {2}Collisions of particles at high energies}{7}%
+\contentsline {chapter}{\numberline {3}QCD phenomena in high energy collisions}{9}%
+\contentsline {chapter}{\numberline {4}Phenomenological models of hadronic collisions}{11}%
+\contentsline {part}{II\hspace {1em}Experimental Setup and Methodology}{13}%
+\contentsline {chapter}{\numberline {5}Large Hadron Collider}{15}%
+\contentsline {section}{\numberline {5.1}European Organisation for Nuclear Research}{15}%
+\contentsline {section}{\numberline {5.2}Large Hadron Collider (LHC)}{15}%
+\contentsline {chapter}{\numberline {6}The ALICE Detector}{19}%
+\contentsline {section}{\numberline {6.1}Time Projection Chamber}{20}%
+\contentsline {section}{\numberline {6.2}Inner Tracking Systems}{21}%
+\contentsline {chapter}{\numberline {7}Events, Vertices, Tracks, and Particles}{23}%
+\contentsline {part}{III\hspace {1em}Author's measurements}{25}%
+\contentsline {chapter}{\numberline {8}Reconstruction of neutral strange particles with ALICE}{27}%
+\contentsline {section}{\numberline {8.1}Analysed datasets}{27}%
+\contentsline {section}{\numberline {8.2}Identification of \ensuremath {\rm V 0 s}\xspace using ALICE}{28}%
+\contentsline {section}{\numberline {8.3}Signal extraction}{28}%
+\contentsline {subsection}{\numberline {8.3.1}Validation using simulations}{30}%
+\contentsline {section}{\numberline {8.4}Normalisation}{31}%
+\contentsline {section}{\numberline {8.5}Corrections to the reconstructed production}{32}%
+\contentsline {subsection}{\numberline {8.5.1}Secondary contribution correction}{32}%
+\contentsline {subsection}{\numberline {8.5.2}Reconstruction efficiency}{34}%
+\contentsline {section}{\numberline {8.6}Transverse momentum spectra}{35}%
+\contentsline {subsection}{\numberline {8.6.1}Comparisons with previously published results}{35}%
+\contentsline {section}{\numberline {8.7}Systematic uncertainties}{36}%
+\contentsline {subsection}{\numberline {8.7.1}Variation of selection criteria}{38}%
+\contentsline {subsection}{\numberline {8.7.2}Feeddown correction}{39}%
+\contentsline {chapter}{\numberline {9}Transverse Spherocity}{43}%
+\contentsline {section}{\numberline {9.1}Understanding transverse spherocity}{43}%
+\contentsline {section}{\numberline {9.2}Transverse momentum spectra}{43}%
+\contentsline {chapter}{\numberline {10}Underlying Event}{47}%
+\contentsline {chapter}{\numberline {11}Discussion of Results and Conclusions}{49}%
+\contentsline {part}{IV\hspace {1em}Appendices}{51}%
+\contentsline {chapter}{\numberline {A}List of Acronyms}{53}%
+\contentsline {chapter}{\numberline {B}Mathematical Derivations}{55}%
+\contentsline {chapter}{\numberline {C}Complementary Material}{57}%
+\contentsline {chapter}{\numberline {D}Scientific Publications}{59}%
+\contentsline {section}{Author contributions}{59}%
+\contentsline {subsection}{Paper~\textrm {\scshape i}\xspace : Title paper 1}{59}%
+\contentsline {subsection}{Paper~\textrm {\scshape ii}\xspace : Title paper 2}{59}%
+\contentsline {section}{Paper~\textrm {\scshape i}\xspace : {Title paper 1}}{61}%
+\contentsline {section}{Paper~\textrm {\scshape ii}\xspace : {Title paper 2}}{65}%
+\contentsline {chapter}{References}{69}%
