@@ -1,9 +1,198 @@
-\blindtext
-page\footnote{to optimize page space}. Extra text \cite{reed07}
+\def \imgpath {"./figures/intro"}
+\section{Standard Model of elementary particles}
 
-\begin{figure}
-    \centering
-    \includegraphics[scale=0.5]{figures/graph.png}
-    \caption{Caption}
-    \label{fig:my_label}
+One paragraph QFT\\
+One paragraph description\\
+One paragraph successess and drawbacks
+
+\begin{figure}[H]
+\includegraphics[width=0.90\textwidth]{\imgpath/SM.pdf}
+\caption{Standard model.}
 \end{figure}
+
+\subsection{Quantum Electrodynamics}
+
+One paragraph
+
+\section{Coordinate systems and kinematic observables}
+
+Particles in HEP processes are described by their Lorentz-invariant four-vectors, $\bm{x} = (ct, x, y, z)$ and $\bm{p} = (E/c, p_x, p_y, p_z) = (E/c, \pt, p_z)$. In LHC experiments, the coordinate system is defined such that the $x$-axis points in the direction of the LHC, and the $z$-axis points in the direction of the beam, as shown in Fig.~\ref{fig:intro:coordinates}. In addition to the standard Cartesian coordinates, two observables, $\varphi$ (azimuthal angle) and $\eta$ (pseudorapidity), are used to describe the position and momentum of particles relative to the interaction point, which is located at $x = y = z = 0$. Pseudorapidity is defined as a function of the polar angle $\theta$, where 
+\begin{align}
+\eta = -\ln(\tan(\theta/2)) \quad .
+\end{align}
+For high-momentum particles ($p \geq mc$), pseudorapidity is an approximation of the rapidity relative to the beam, given by 
+\begin{align}
+y = \frac{1}{2} \ln \frac{E + p_z c}{E - p_z c} \quad .
+\end{align}
+Rapidity is a convenient quantity to use because it transforms additively under Lorentz boosts, unlike velocity. In these coordinates, the following relations hold:
+\begin{align}
+p_x = |\vec{\pt}| \cos \varphi \, , \quad \
+p_y = |\vec{\pt}| \sin \varphi \, , \quad \
+p_z = |\vec{p} \,| \sinh \eta \, .
+\end{align}
+
+\begin{figure}[H]
+\includegraphics[width=0.85\textwidth]{\imgpath/coordinates.pdf}
+\caption{Coordinate system of an LHC experiment.}
+\label{fig:intro:coordinates}
+\end{figure}
+
+\section{Processes involving gluons}
+
+Diagrams, screening(?), divergences
+
+\subsection{Running coupling constant}
+
+One paragraph, one figure
+
+\subsection{Perturbative QCD}
+
+One paragraph
+
+\section{From partons to hadrons}
+
+\subsection{Initial and Final State Radiation}
+
+In quantum field theory, charged particles are surrounded by a cloud of virtual particles, which can be thought of as fluctuations in the particle's field. For example, the electron state can be described as a superposition of the bare electron plus additional massless bosons:
+\begin{align}
+|\mathrm{e}\rangle_\mathrm{phys} = |\mathrm{e}\rangle + |\mathrm{e}\gamma\rangle + |\mathrm{e}\gamma\gamma\rangle + \ldots
+\end{align}
+and, at higher orders, pairs of virtual electrons. The fluctuations continuously form and recombine, with their lifetime depending on their energy and momentum. Specifically, the lifetime of a fluctuation with energy $\omega$ and transverse momentum $k_\mathrm{T}$ can be approximated as:
+\begin{align}
+\tau \approx \frac{\omega}{k_\mathrm{T}} \quad .
+\end{align}
+This implies that fluctuations with smaller-$k_\mathrm{T}$ live longer.
+
+As illustrated in Fig.~\ref{fig:intro:isrfsrsketch}, the coherent mixed state of the bare charge and the field fluctuations can be disturbed by the presence of an interaction. Intuitively, this interaction can change the energy and momentum of the fluctuations, their formation and recombination, and lead to the emission of radiation in two ways:
+\begin{enumerate}
+\item a fluctuation is kicked on-shell by the interaction and part of the field continues in its original direction, which leads to Initial State Radiation (ISR);
+\item as a result of the field of the scattered particle rearranging itself , which can be a source of Final State Radiation (FSR).
+\end{enumerate}
+
+In both of the cases, a larger momentum transfer implies more radiation. \textit{For hard, wide angle emissions, cross sections can be calculated perturbatively at fixed orders}. 
+
+Soft and collinear emissions, however, lead to infra-red divergences ($\propto \frac{1}{\omega}$,$\propto \frac{1}{k_\mathrm{T}^2}$) and thus, need to be factorised away from the amplitudes or the cross sections and then described using resummation techniques. Without any emissions, the probabilities of finding electrons and photons of fractional momentum $x$ with respect to the whole system are:
+\begin{align}
+f_\mathrm{e} (x) = \delta (1-x) \, , \quad \ f_\gamma(x) = 0 \, ,
+\end{align}
+When considering the emissions above some scales parametrised by the resolution parameter $Q^2$, these probabilities, however, evolve according to the DGLAP equation:
+\begin{align}
+\label{eq:intro:dglap}
+\frac{\partial}{\partial\ln Q^2}
+\begin{pmatrix}
+f_e(x, Q^2)\\
+f_{\gamma}(x, Q^2)
+\end{pmatrix}
+&= \frac{\alpha_\mathrm{em}}{2\pi}
+\int_x^1 \frac{dz}{z}
+\begin{pmatrix}
+P_{ee}(z) & P_{e\gamma}(z)\\
+P_{\gamma e}(z) & P_{\gamma\gamma}(z)
+\end{pmatrix}
+\begin{pmatrix}
+f_e\left(\frac{x}{z}, Q^2\right)\\
+f_{\gamma}\left(\frac{x}{z}, Q^2\right)
+\end{pmatrix} \quad ,
+\end{align}
+where $P_{ij}(z)$ are the splitting probability functions of a particle $i$ emitting a particle $j$.
+
+In QCD, the behaviour is analogous, with $\alpha_\mathrm{em} \rightarrow \alpha_s$, $e\rightarrow q$, and $\gamma \rightarrow g$. 
+
+\begin{figure}[H]
+\subfloat[][]{\includegraphics[width=.480\textwidth]{\imgpath/isrfsr1.png}}
+\subfloat[][]{\includegraphics[width=.480\textwidth]{\imgpath/isrfsr2.png}}
+\caption{Illustration of the field fluctuations and emmisions of radiation in a scattering process.}
+\label{fig:intro:isrfsrsketch}
+\end{figure}
+
+\subsection{Factorisation theorem}
+
+The evolution equations \ref{eq:intro:dglap} imply that the probabilities of observing emissions with a fractional momentum $x$ depend on the resolution $Q^2$. In QCD, 
+\begin{enumerate}
+\item when applied to the initial state, they are known as parton distribution functions (PDFs) and determine the probabilities of finding partons\footnote{Partons refer to the valence quarks, sea quarks, and gluons inside hadrons.} in the composite hadronic state. 
+\item When applied to the final state, they are called fragmentation functions, and determine the probabilities of measuring fragments of the outgoing particles.
+\end{enumerate}
+
+This leads to the factorisation theorem for processes involving collisions of two hadrons, which separates the perturbatively calculable partonic cross section from the non-perturbative partonic evolution and hadronisation. The theorem can be expressed as follows:
+\begin{align}
+\sigma = f_i^A(x_i,\mu_F)f_j^B(x_j,\mu_F) \otimes \hat{\sigma}_{ij\to n}(\mu_F,\mu_R) \otimes D_{n \to n'} \, .
+\end{align}
+Here, $i$ and $j$ are the initial partons, $\hat{\sigma}_{ij\to n}$ is the partonic cross section, $D_{n \to n'}$ is the process-specific fragmentation function for evolving the partons $n$ into the particles' final state $n'$, and $\mu_F$ and $\mu_R$ are the factorisation and renormalisation scales, respectively. The factorisation scale, $\mu_F$, determines the scale below which the emissions are absorbed into the PDFs. The theorem is depicted in Fig.~\ref{fig:intro:factorisation}.
+
+\begin{figure}[H]
+\includegraphics[width=0.65\textwidth]{\imgpath/factorisation.png}
+\caption{Illustration of the factorisation theorem. (NEEDS TO BE REMADE).}
+\label{fig:intro:factorisation}
+\end{figure}
+
+\subsection{Parton distribution functions}
+
+The PDFs defining the probabilities of finding quarks and gluons in nucleons can be determined experimentally at hadron-electron colliders such as HERA. They are determined from measurements of deep inelastic scatterings in a range of energies and momentum transfers. They are displayed in Fig.~\ref{fig:intro:pdfs} as a function of the fractional momentum $x$ (also called Bj\"orken $x$). 
+
+According to collider kinematics, $x \propto \frac{1}{\sqrt{s}}$, therefore, the partonic composition of ultra-relativistic hadrons is dominated by gluons. Following unitarity principles and BK evolution equation, it is expected that gluons start recombining and the gluonic content saturates as $x\rightarrow0$. This is actively reseached, however, not directly measured yet. Additionally, it should be noted that in ultra-relativistic heavy nuclei, the partons are modified in the contracted nuclear environment and the PDFs are referred to as nPDFs.
+
+\begin{figure}[H]
+\includegraphics[width=0.4\textwidth]{\imgpath/pdf.eps}
+\caption{Parton distribution functions determined at HERA. TBA}
+\label{fig:intro:pdfs}
+\end{figure}
+
+\subsection{Parton fragmentation and the Lund string}
+
+After the scattering process, the produced partons continue to fragment by emitting more partons in a process called the parton shower. Since the coupling strength in QCD increases with decreasing the energy scale of the splitting, this leads to the production of many soft, collimated emissions known as jets. The partonic evolution continues until the virtuality of the partons reaches the hadronization scale ($\approx \Lambda_\mathrm{QCD}$). There are multiple frameworks within QCD to describe the evolution of partons into their final state, such as using the DGLAP equations or the so-called dipole formalism.
+
+Once the partonic final state is reached, the partons hadronise into the observable mesons and baryons. The hadronisation process is not calculable in QCD and requires phenomenological models to describe it. One such model is the Lund String model, which describes hadronisation as the breaking of a color string between the quarks in the final state. In this model, the energy stored in the color string is converted into the mass of new hadrons.
+
+According to confinement, hadronisation should involve at least two partons with complementary colours. In QCD, the $q\bar{q}$ potential takes the shape of
+\begin{align}
+V_{q\bar{q}} \approx - \frac{4}{3}\frac{\alpha_s \hbar c}{r} + \kappa r \quad ,
+\end{align}
+where $\kappa$ is a paramater with value around $1 \mathrm{GeV} /\mathrm{fm}$. In the non-perturbative regime (long distances), the potential is dominated by the linear part, which is reminiscent of a system bound by a string with tension $\kappa$. This is taken advantage of by the Lund string model -- a $q$ and $\bar{q}$ pair separated by distance $\Delta x$ is bound by a color field (string) with energy $\kappa \Delta x$. 
+
+If the $q$ and $\bar{q}$ continue separating as a result of the scattering, the energy stored in the color field increases. At some point, it can become energetically favourable to produce a new $q\bar{q}$ pair out of vacuum, which is a quantum mechanics tunnelling phenomenon characterised by the probability:
+\begin{align}
+\frac{\mathrm{d}P}{\mathrm{d}m_\mathrm{T}} \propto \exp \left( -\frac{\pi m_\mathrm{T}^2}{\kappa} \right) \quad ,
+\label{eq:intro:tunnel}
+\end{align}
+where $m_\mathrm{T}$ is the transverse mass of the produced quarks. Otherwise, the $q\bar{q}$ system starts contracting and oscillates with a period $T = 2 E_\mathrm{kin}/\kappa$, where $E_\mathrm{kin}$ is its maximum kinetic energy. The produced $q$ and $\bar{q}$ then connect by new color fields to the original pair. This process repeats itself result in cascade of many $q\bar{q}$ pair connected by many color strings. In this descriptions, baryons can also be created by double tunnelling of a $qq\bar{qq}$ pair. The process is illustrated in Fig.~\ref{eq:intro:lundstring}.
+
+\begin{figure}[H]
+\subfloat[][]{\includegraphics[width=.330\textwidth]{\imgpath/tubelike.png}}
+\subfloat[][]{\includegraphics[width=.330\textwidth]{\imgpath/lundstring.png}}
+\subfloat[][]{\includegraphics[width=.330\textwidth]{\imgpath/lundgluon.png}}
+\caption{Illustration of the color field between two quarks and its simplified representation with a string. Illustration of the string splitting by producing new $q\bar{q}$ in the $t-z$ plane. Illustration of the treatment of gluons in the Lund string model.}
+\label{fig:intro:lundstring}
+\end{figure}
+
+Equation \ref{eq:intro:tunnel} also implies that production of strange quarks is suppressed by a factor of 
+\begin{align}
+\rho = \exp \left( -\frac{\pi (m^2_s - m^2_{u,d})}{\kappa} \right) \quad .
+\end{align}
+This parameter is typically tuned to data, as substituting constituent ($m_s \approx \gevcc{0.5}$, $m_{u,d} \approx \gevcc{0.33}$) versus current masses ($m_s \approx \gevcc{0.1}$, $m_{u,d} \approx 0$) leads to considerable differences underestimating and overestimating data, respectively.
+
+For a $q\bar{q}g$ system, in this model, the gluon connects to the quark and antiquark and is effectively treated as a ``kink" on the color field, adding energy and momentum to the $q\bar{q}$ string (stretching it in its direction), as visualised in Fig.~\ref{eq:intro:lundstring}.
+
+It should be noted that in the paradigm of AA collisions, hadron production can be alternatively modelled by hadronisation at the QGP's phase boundary by \textit{coalescing} free quarks. 
+
+TBA a sentence about the actual hadronisation.
+
+
+\section{Lattice QCD}
+
+One paragraph
+
+\section{QCD phase diagram}
+
+One paragraph, figure
+
+\subsection{Phase transition}
+
+One paragraph, bag model derivation of $T$
+
+\subsection{Chiral symmetry restoration}
+
+One paragraph, figure
+
+\section{Implications}
+
+One paragraph

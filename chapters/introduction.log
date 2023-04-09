@@ -1,0 +1,5909 @@
+This is XeTeX, Version 3.14159265-2.6-0.999991 (TeX Live 2019/Debian) (preloaded format=xelatex 2022.8.22)  7 APR 2023 17:04
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**introduction.tex
+(./introduction.tex
+LaTeX2e <2020-02-02> patch level 2
+L3 programming layer <2020-02-14>
+
+! LaTeX Error: Environment figure undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1 \begin{figure}
+                  
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Environment tikzpicture undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2 \begin{tikzpicture}
+                       [scale=1.4,font=\sffamily\small,rectangle/.style={fil...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2 \begin{tikzpicture}[
+                        scale=1.4,font=\sffamily\small,rectangle/.style={fil...
+
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+Missing character: There is no [ in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no = in font nullfont!
+Missing character: There is no 1 in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 4 in font nullfont!
+Missing character: There is no , in font nullfont!
+Missing character: There is no f in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no = in font nullfont!
+! Undefined control sequence.
+l.2 ...tikzpicture}[scale=1.4,font=\sffamily\small
+                                                  ,rectangle/.style={fill=pi...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Overfull \hbox (146.17pt too wide) in paragraph at lines 2--3
+[]\TU/lmss/m/n/10 ,rectangle/.style=fill=pink!20,
+ []
+
+
+Overfull \hbox (33.54001pt too wide) in paragraph at lines 2--3
+\TU/lmss/m/n/10 rounded
+ []
+
+
+Overfull \hbox (15.91pt too wide) in paragraph at lines 2--3
+\TU/lmss/m/n/10 cor-
+ []
+
+
+Overfull \hbox (130.06pt too wide) in paragraph at lines 2--3
+\TU/lmss/m/n/10 ners=.2cm,box/.style=rounded
+ []
+
+
+Overfull \hbox (15.91pt too wide) in paragraph at lines 2--3
+\TU/lmss/m/n/10 cor-
+ []
+
+
+Overfull \hbox (47.69pt too wide) in paragraph at lines 2--3
+\TU/lmss/m/n/10 ners=.2cm] 
+ []
+
+! Undefined control sequence.
+l.5   \node
+           [box] (quarks) at (-0.75,1.25) {\Large Quarks};
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.5   \node[
+            box] (quarks) at (-0.75,1.25) {\Large Quarks};
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+! Undefined control sequence.
+l.5   \node[box] (quarks) at (-0.75,1.25) {\Large
+                                                  Quarks};
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Overfull \hbox (40.56pt too wide) in paragraph at lines 5--6
+[]\TU/lmss/m/n/10 [box]
+ []
+
+
+Overfull \hbox (34.79001pt too wide) in paragraph at lines 5--6
+\TU/lmss/m/n/10 (quarks)
+ []
+
+
+Overfull \hbox (8.42pt too wide) in paragraph at lines 5--6
+\TU/lmss/m/n/10 at
+ []
+
+
+Overfull \hbox (7.22pt too wide) in paragraph at lines 5--6
+\TU/lmss/m/n/10 (-
+ []
+
+
+Overfull \hbox (42.23pt too wide) in paragraph at lines 5--6
+\TU/lmss/m/n/10 0.75,1.25)
+ []
+
+
+Overfull \hbox (31.98pt too wide) in paragraph at lines 5--6
+\TU/lmss/m/n/10 Quarks; 
+ []
+
+! Undefined control sequence.
+l.8   \node
+           [rectangle,text centered,text width = 0.29\textwidth, minimum hei...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.8   \node[
+            rectangle,text centered,text width = 0.29\textwidth, minimum hei...
+
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+                   m
+l.8 ...xt centered,text width = 0.29\textwidth, mi
+                                                  nimum height=7em,] (up) at...
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+! Undefined control sequence.
+l.8 ... minimum height=7em,] (up) at (0,0) {\Large
+                                                   \textit{up}};
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+LaTeX Font Info:    Font shape `TU/lmss/m/it' in size <10> not available
+(Font)              Font shape `TU/lmss/m/sl' tried instead on input line 8.
+! Undefined control sequence.
+l.9   \node
+           [rectangle,text centered,text width = 0.29\textwidth, minimum hei...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+                   m
+l.9 ...xt centered,text width = 0.29\textwidth, mi
+                                                  nimum height=7em,] (charm)...
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+! Undefined control sequence.
+l.9 ...nimum height=7em,] (charm) at (3,0) {\Large
+                                                   \textit{charm}};
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.10   \node
+            [rectangle,text centered,text width = 0.29\textwidth, minimum he...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+                   m
+l.10 ...t centered,text width = 0.29\textwidth, mi
+                                                  nimum height=7em,] (top) a...
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+! Undefined control sequence.
+l.10 ...inimum height=7em,] (top) at (6,0) {\Large
+                                                   \textit{top}};
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.11   \node
+            [rectangle,text centered,text width = 0.29\textwidth, minimum he...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+                   m
+l.11 ...t centered,text width = 0.29\textwidth, mi
+                                                  nimum height=7em,] (down) ...
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+! Undefined control sequence.
+l.11 ...imum height=7em,] (down) at (0,-2) {\Large
+                                                   \textit{down}};
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.12   \node
+            [rectangle,text centered,text width = 0.29\textwidth, minimum he...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+                   m
+l.12 ...t centered,text width = 0.29\textwidth, mi
+                                                  nimum height=7em,] (strang...
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+! Undefined control sequence.
+l.12 ...m height=7em,] (strange) at (3,-2) {\Large
+                                                   \textit{strange}};
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.13   \node
+            [rectangle,text centered,text width = 0.29\textwidth, minimum he...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+                   m
+l.13 ...t centered,text width = 0.29\textwidth, mi
+                                                  nimum height=7em,] (bottom...
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+! Undefined control sequence.
+l.13 ...um height=7em,] (bottom) at (6,-2) {\Large
+                                                   \textit{bottom}};
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Overfull \hbox (79.66pt too wide) in paragraph at lines 8--14
+[]\TU/lmss/m/n/10 [rectangle,text
+ []
+
+
+Overfull \hbox (17.38pt too wide) in paragraph at lines 8--14
+\TU/lmss/m/n/10 cen-
+ []
+
+
+Overfull \hbox (40.13pt too wide) in paragraph at lines 8--14
+\TU/lmss/m/n/10 tered,text
+ []
+
+
+Overfull \hbox (23.17pt too wide) in paragraph at lines 8--14
+\TU/lmss/m/n/10 width
+ []
+
+
+Overfull \hbox (7.78pt too wide) in paragraph at lines 8--14
+\TU/lmss/m/n/10 =
+ []
+
+
+Overfull \hbox (36.61pt too wide) in paragraph at lines 8--14
+\TU/lmss/m/n/10 0.29min-
+ []
+
+
+Overfull \hbox (5.72pt too wide) in paragraph at lines 8--14
+\TU/lmss/m/n/10 i-
+ []
+
+
+Overfull \hbox (21.05pt too wide) in paragraph at lines 8--14
+\TU/lmss/m/n/10 mum
+ []
+
+
+Overfull \hbox (56.61pt too wide) in paragraph at lines 8--14
+\TU/lmss/m/n/10 height=7em,]
+ []
+
+
+Overfull \hbox (18.12pt too wide) in paragraph at lines 8--14
+\TU/lmss/m/n/10 (up)
+ []
+
+
+Overfull \hbox (8.42pt too wide) in paragraph at lines 8--14
+\TU/lmss/m/n/10 at
+ []
+
+
+Overfull \hbox (20.56pt too wide) in paragraph at lines 8--14
+\TU/lmss/m/n/10 (0,0)
+ []
+
+
+Overfull \hbox (13.48pt too wide) in paragraph at lines 8--14
+\TU/lmss/m/sl/10 up\TU/lmss/m/n/10 ;
+ []
+
+
+Overfull \hbox (22.13pt too wide) in paragraph at lines 8--14
+\TU/lmss/m/n/10 [rect-
+ []
+
+
+Overfull \hbox (13.31pt too wide) in paragraph at lines 8--14
+\TU/lmss/m/n/10 an-
+ []
+
+
+Overfull \hbox (30.88pt too wide) in paragraph at lines 8--14
+\TU/lmss/m/n/10 gle,text
+ []
+
+
+Overfull \hbox (17.38pt too wide) in paragraph at lines 8--14
+\TU/lmss/m/n/10 cen-
+ []
+
+
+Overfull \hbox (40.13pt too wide) in paragraph at lines 8--14
+\TU/lmss/m/n/10 tered,text
+ []
+
+
+Overfull \hbox (23.17pt too wide) in paragraph at lines 8--14
+\TU/lmss/m/n/10 width
+ []
+
+
+Overfull \hbox (7.78pt too wide) in paragraph at lines 8--14
+\TU/lmss/m/n/10 =
+ []
+
+
+Overfull \hbox (36.61pt too wide) in paragraph at lines 8--14
+\TU/lmss/m/n/10 0.29min-
+ []
+
+
+Overfull \hbox (5.72pt too wide) in paragraph at lines 8--14
+\TU/lmss/m/n/10 i-
+ []
+
+
+Overfull \hbox (21.05pt too wide) in paragraph at lines 8--14
+\TU/lmss/m/n/10 mum
+ []
+
+
+Overfull \hbox (56.61pt too wide) in paragraph at lines 8--14
+\TU/lmss/m/n/10 height=7em,]
+ []
+
+
+Overfull \hbox (33.28pt too wide) in paragraph at lines 8--14
+\TU/lmss/m/n/10 (charm)
+ []
+
+
+Overfull \hbox (8.42pt too wide) in paragraph at lines 8--14
+\TU/lmss/m/n/10 at
+ []
+
+
+Overfull \hbox (20.56pt too wide) in paragraph at lines 8--14
+\TU/lmss/m/n/10 (3,0)
+ []
+
+
+Overfull \hbox (28.28pt too wide) in paragraph at lines 8--14
+\TU/lmss/m/sl/10 charm\TU/lmss/m/n/10 ;
+ []
+
+
+Overfull \hbox (22.13pt too wide) in paragraph at lines 8--14
+\TU/lmss/m/n/10 [rect-
+ []
+
+
+Overfull \hbox (13.31pt too wide) in paragraph at lines 8--14
+\TU/lmss/m/n/10 an-
+ []
+
+
+Overfull \hbox (30.88pt too wide) in paragraph at lines 8--14
+\TU/lmss/m/n/10 gle,text
+ []
+
+
+Overfull \hbox (17.38pt too wide) in paragraph at lines 8--14
+\TU/lmss/m/n/10 cen-
+ []
+
+
+Overfull \hbox (40.13pt too wide) in paragraph at lines 8--14
+\TU/lmss/m/n/10 tered,text
+ []
+
+
+Overfull \hbox (23.17pt too wide) in paragraph at lines 8--14
+\TU/lmss/m/n/10 width
+ []
+
+
+Overfull \hbox (7.78pt too wide) in paragraph at lines 8--14
+\TU/lmss/m/n/10 =
+ []
+
+
+Overfull \hbox (36.61pt too wide) in paragraph at lines 8--14
+\TU/lmss/m/n/10 0.29min-
+ []
+
+
+Overfull \hbox (5.72pt too wide) in paragraph at lines 8--14
+\TU/lmss/m/n/10 i-
+ []
+
+
+Overfull \hbox (21.05pt too wide) in paragraph at lines 8--14
+\TU/lmss/m/n/10 mum
+ []
+
+
+Overfull \hbox (56.61pt too wide) in paragraph at lines 8--14
+\TU/lmss/m/n/10 height=7em,]
+ []
+
+
+Overfull \hbox (21.56pt too wide) in paragraph at lines 8--14
+\TU/lmss/m/n/10 (top)
+ []
+
+
+Overfull \hbox (8.42pt too wide) in paragraph at lines 8--14
+\TU/lmss/m/n/10 at
+ []
+
+
+Overfull \hbox (20.56pt too wide) in paragraph at lines 8--14
+\TU/lmss/m/n/10 (6,0)
+ []
+
+
+Overfull \hbox (16.92pt too wide) in paragraph at lines 8--14
+\TU/lmss/m/sl/10 top\TU/lmss/m/n/10 ;
+ []
+
+
+Overfull \hbox (22.13pt too wide) in paragraph at lines 8--14
+\TU/lmss/m/n/10 [rect-
+ []
+
+
+Overfull \hbox (13.31pt too wide) in paragraph at lines 8--14
+\TU/lmss/m/n/10 an-
+ []
+
+
+Overfull \hbox (30.88pt too wide) in paragraph at lines 8--14
+\TU/lmss/m/n/10 gle,text
+ []
+
+
+Overfull \hbox (17.38pt too wide) in paragraph at lines 8--14
+\TU/lmss/m/n/10 cen-
+ []
+
+
+Overfull \hbox (40.13pt too wide) in paragraph at lines 8--14
+\TU/lmss/m/n/10 tered,text
+ []
+
+
+Overfull \hbox (23.17pt too wide) in paragraph at lines 8--14
+\TU/lmss/m/n/10 width
+ []
+
+
+Overfull \hbox (7.78pt too wide) in paragraph at lines 8--14
+\TU/lmss/m/n/10 =
+ []
+
+
+Overfull \hbox (36.61pt too wide) in paragraph at lines 8--14
+\TU/lmss/m/n/10 0.29min-
+ []
+
+
+Overfull \hbox (5.72pt too wide) in paragraph at lines 8--14
+\TU/lmss/m/n/10 i-
+ []
+
+
+Overfull \hbox (21.05pt too wide) in paragraph at lines 8--14
+\TU/lmss/m/n/10 mum
+ []
+
+
+Overfull \hbox (56.61pt too wide) in paragraph at lines 8--14
+\TU/lmss/m/n/10 height=7em,]
+ []
+
+
+Overfull \hbox (29.67pt too wide) in paragraph at lines 8--14
+\TU/lmss/m/n/10 (down)
+ []
+
+
+Overfull \hbox (8.42pt too wide) in paragraph at lines 8--14
+\TU/lmss/m/n/10 at
+ []
+
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 8--14
+\TU/lmss/m/n/10 (0,-
+ []
+
+
+Overfull \hbox (8.89pt too wide) in paragraph at lines 8--14
+\TU/lmss/m/n/10 2)
+ []
+
+
+Overfull \hbox (24.67pt too wide) in paragraph at lines 8--14
+\TU/lmss/m/sl/10 down\TU/lmss/m/n/10 ;
+ []
+
+
+Overfull \hbox (22.13pt too wide) in paragraph at lines 8--14
+\TU/lmss/m/n/10 [rect-
+ []
+
+
+Overfull \hbox (13.31pt too wide) in paragraph at lines 8--14
+\TU/lmss/m/n/10 an-
+ []
+
+
+Overfull \hbox (30.88pt too wide) in paragraph at lines 8--14
+\TU/lmss/m/n/10 gle,text
+ []
+
+
+Overfull \hbox (17.38pt too wide) in paragraph at lines 8--14
+\TU/lmss/m/n/10 cen-
+ []
+
+
+Overfull \hbox (40.13pt too wide) in paragraph at lines 8--14
+\TU/lmss/m/n/10 tered,text
+ []
+
+
+Overfull \hbox (23.17pt too wide) in paragraph at lines 8--14
+\TU/lmss/m/n/10 width
+ []
+
+
+Overfull \hbox (7.78pt too wide) in paragraph at lines 8--14
+\TU/lmss/m/n/10 =
+ []
+
+
+Overfull \hbox (36.61pt too wide) in paragraph at lines 8--14
+\TU/lmss/m/n/10 0.29min-
+ []
+
+
+Overfull \hbox (5.72pt too wide) in paragraph at lines 8--14
+\TU/lmss/m/n/10 i-
+ []
+
+
+Overfull \hbox (21.05pt too wide) in paragraph at lines 8--14
+\TU/lmss/m/n/10 mum
+ []
+
+
+Overfull \hbox (56.61pt too wide) in paragraph at lines 8--14
+\TU/lmss/m/n/10 height=7em,]
+ []
+
+
+Overfull \hbox (38.06pt too wide) in paragraph at lines 8--14
+\TU/lmss/m/n/10 (strange)
+ []
+
+
+Overfull \hbox (8.42pt too wide) in paragraph at lines 8--14
+\TU/lmss/m/n/10 at
+ []
+
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 8--14
+\TU/lmss/m/n/10 (3,-
+ []
+
+
+Overfull \hbox (8.89pt too wide) in paragraph at lines 8--14
+\TU/lmss/m/n/10 2)
+ []
+
+
+Overfull \hbox (33.45pt too wide) in paragraph at lines 8--14
+\TU/lmss/m/sl/10 strange\TU/lmss/m/n/10 ;
+ []
+
+
+Overfull \hbox (22.13pt too wide) in paragraph at lines 8--14
+\TU/lmss/m/n/10 [rect-
+ []
+
+
+Overfull \hbox (13.31pt too wide) in paragraph at lines 8--14
+\TU/lmss/m/n/10 an-
+ []
+
+
+Overfull \hbox (30.88pt too wide) in paragraph at lines 8--14
+\TU/lmss/m/n/10 gle,text
+ []
+
+
+Overfull \hbox (17.38pt too wide) in paragraph at lines 8--14
+\TU/lmss/m/n/10 cen-
+ []
+
+
+Overfull \hbox (40.13pt too wide) in paragraph at lines 8--14
+\TU/lmss/m/n/10 tered,text
+ []
+
+
+Overfull \hbox (23.17pt too wide) in paragraph at lines 8--14
+\TU/lmss/m/n/10 width
+ []
+
+
+Overfull \hbox (7.78pt too wide) in paragraph at lines 8--14
+\TU/lmss/m/n/10 =
+ []
+
+
+Overfull \hbox (36.61pt too wide) in paragraph at lines 8--14
+\TU/lmss/m/n/10 0.29min-
+ []
+
+
+Overfull \hbox (5.72pt too wide) in paragraph at lines 8--14
+\TU/lmss/m/n/10 i-
+ []
+
+
+Overfull \hbox (21.05pt too wide) in paragraph at lines 8--14
+\TU/lmss/m/n/10 mum
+ []
+
+
+Overfull \hbox (56.61pt too wide) in paragraph at lines 8--14
+\TU/lmss/m/n/10 height=7em,]
+ []
+
+
+Overfull \hbox (21.28pt too wide) in paragraph at lines 8--14
+\TU/lmss/m/n/10 (bot-
+ []
+
+
+Overfull \hbox (20.44pt too wide) in paragraph at lines 8--14
+\TU/lmss/m/n/10 tom)
+ []
+
+
+Overfull \hbox (8.42pt too wide) in paragraph at lines 8--14
+\TU/lmss/m/n/10 at
+ []
+
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 8--14
+\TU/lmss/m/n/10 (6,-
+ []
+
+
+Overfull \hbox (8.89pt too wide) in paragraph at lines 8--14
+\TU/lmss/m/n/10 2)
+ []
+
+
+Overfull \hbox (17.39pt too wide) in paragraph at lines 8--14
+\TU/lmss/m/sl/10 bot-
+ []
+
+
+Overfull \hbox (19.33pt too wide) in paragraph at lines 8--14
+\TU/lmss/m/sl/10 tom\TU/lmss/m/n/10 ; 
+ []
+
+
+! LaTeX Error: The font size command \normalsize is not defined:
+               there is probably something wrong with the class file.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.14 
+     
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+[1]
+! Undefined control sequence.
+l.16   \node
+            [above=1.5em of up.center] {\scriptsize $2.2^{+0.5}_{-0.4}$ MeV};
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.16   \node[
+             above=1.5em of up.center] {\scriptsize $2.2^{+0.5}_{-0.4}$ MeV};
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+! Undefined control sequence.
+l.16 ...ode[above=1.5em of up.center] {\scriptsize
+                                                   $2.2^{+0.5}_{-0.4}$ MeV};
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 16.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 16.
+! Undefined control sequence.
+l.17   \node
+            [above=1.5em of charm.center] {\scriptsize $1.28 \pm 0.03$ GeV/$...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.17 ...[above=1.5em of charm.center] {\scriptsize
+                                                   $1.28 \pm 0.03$ GeV/$c^2$};
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.18   \node
+            [above=1.5em of top.center] {\scriptsize $172.76$ GeV/$c^2$};
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.18 ...de[above=1.5em of top.center] {\scriptsize
+                                                   $172.76$ GeV/$c^2$};
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.19   \node
+            [above=1.5em of down.center] {\scriptsize $4.7^{+0.5}_{-0.4}$ Me...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.19 ...e[above=1.5em of down.center] {\scriptsize
+                                                   $4.7^{+0.5}_{-0.4}$ MeV/$...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.20   \node
+            [above=1.5em of strange.center] {\scriptsize $4.7^{+0.5}_{-0.4}$...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.20 ...bove=1.5em of strange.center] {\scriptsize
+                                                   $4.7^{+0.5}_{-0.4}$ MeV/$...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.21   \node
+            [above=1.5em of bottom.center] {\scriptsize $4.7^{+0.5}_{-0.4}$ ...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.21 ...above=1.5em of bottom.center] {\scriptsize
+                                                   $4.7^{+0.5}_{-0.4}$ MeV/$...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Overfull \hbox (80.14pt too wide) in paragraph at lines 16--22
+[]\TU/lmss/m/n/10 [above=1.5em
+ []
+
+
+Overfull \hbox (8.06pt too wide) in paragraph at lines 16--22
+\TU/lmss/m/n/10 of
+ []
+
+
+Overfull \hbox (41.53pt too wide) in paragraph at lines 16--22
+\TU/lmss/m/n/10 up.center]
+ []
+
+
+Overfull \hbox (29.87509pt too wide) in paragraph at lines 16--22
+\OT1/cmr/m/n/10 2\OML/cmm/m/it/10 :\OT1/cmr/m/n/10 2[]$
+ []
+
+
+Overfull \hbox (21.81pt too wide) in paragraph at lines 16--22
+\TU/lmss/m/n/10 MeV;
+ []
+
+
+Overfull \hbox (60.14pt too wide) in paragraph at lines 16--22
+\TU/lmss/m/n/10 [above=1.5em
+ []
+
+
+Overfull \hbox (8.06pt too wide) in paragraph at lines 16--22
+\TU/lmss/m/n/10 of
+ []
+
+
+Overfull \hbox (56.69pt too wide) in paragraph at lines 16--22
+\TU/lmss/m/n/10 charm.center]
+ []
+
+
+Overfull \hbox (25.55563pt too wide) in paragraph at lines 16--22
+\OT1/cmr/m/n/10 1\OML/cmm/m/it/10 :\OT1/cmr/m/n/10 28 \OMS/cmsy/m/n/10 ^^F
+ []
+
+
+Overfull \hbox (17.77783pt too wide) in paragraph at lines 16--22
+\OT1/cmr/m/n/10 0\OML/cmm/m/it/10 :\OT1/cmr/m/n/10 03$
+ []
+
+
+Overfull \hbox (33.54369pt too wide) in paragraph at lines 16--22
+\TU/lmss/m/n/10 GeV/$\OML/cmm/m/it/10 c[]$\TU/lmss/m/n/10 ;
+ []
+
+
+Overfull \hbox (60.14pt too wide) in paragraph at lines 16--22
+\TU/lmss/m/n/10 [above=1.5em
+ []
+
+
+Overfull \hbox (8.06pt too wide) in paragraph at lines 16--22
+\TU/lmss/m/n/10 of
+ []
+
+
+Overfull \hbox (44.97pt too wide) in paragraph at lines 16--22
+\TU/lmss/m/n/10 top.center]
+ []
+
+
+Overfull \hbox (27.77786pt too wide) in paragraph at lines 16--22
+\OT1/cmr/m/n/10 172\OML/cmm/m/it/10 :\OT1/cmr/m/n/10 76$
+ []
+
+
+Overfull \hbox (33.54369pt too wide) in paragraph at lines 16--22
+\TU/lmss/m/n/10 GeV/$\OML/cmm/m/it/10 c[]$\TU/lmss/m/n/10 ;
+ []
+
+
+Overfull \hbox (60.14pt too wide) in paragraph at lines 16--22
+\TU/lmss/m/n/10 [above=1.5em
+ []
+
+
+Overfull \hbox (8.06pt too wide) in paragraph at lines 16--22
+\TU/lmss/m/n/10 of
+ []
+
+
+Overfull \hbox (53.08pt too wide) in paragraph at lines 16--22
+\TU/lmss/m/n/10 down.center]
+ []
+
+
+Overfull \hbox (29.87509pt too wide) in paragraph at lines 16--22
+\OT1/cmr/m/n/10 4\OML/cmm/m/it/10 :\OT1/cmr/m/n/10 7[]$
+ []
+
+
+Overfull \hbox (35.62369pt too wide) in paragraph at lines 16--22
+\TU/lmss/m/n/10 MeV/$\OML/cmm/m/it/10 c[]$\TU/lmss/m/n/10 ;
+ []
+
+
+Overfull \hbox (60.14pt too wide) in paragraph at lines 16--22
+\TU/lmss/m/n/10 [above=1.5em
+ []
+
+
+Overfull \hbox (8.06pt too wide) in paragraph at lines 16--22
+\TU/lmss/m/n/10 of
+ []
+
+
+Overfull \hbox (61.47pt too wide) in paragraph at lines 16--22
+\TU/lmss/m/n/10 strange.center]
+ []
+
+
+Overfull \hbox (29.87509pt too wide) in paragraph at lines 16--22
+\OT1/cmr/m/n/10 4\OML/cmm/m/it/10 :\OT1/cmr/m/n/10 7[]$
+ []
+
+
+Overfull \hbox (35.62369pt too wide) in paragraph at lines 16--22
+\TU/lmss/m/n/10 MeV/$\OML/cmm/m/it/10 c[]$\TU/lmss/m/n/10 ;
+ []
+
+
+Overfull \hbox (60.14pt too wide) in paragraph at lines 16--22
+\TU/lmss/m/n/10 [above=1.5em
+ []
+
+
+Overfull \hbox (8.06pt too wide) in paragraph at lines 16--22
+\TU/lmss/m/n/10 of
+ []
+
+
+Overfull \hbox (17.39pt too wide) in paragraph at lines 16--22
+\TU/lmss/m/n/10 bot-
+ []
+
+
+Overfull \hbox (47.74pt too wide) in paragraph at lines 16--22
+\TU/lmss/m/n/10 tom.center]
+ []
+
+
+Overfull \hbox (29.87509pt too wide) in paragraph at lines 16--22
+\OT1/cmr/m/n/10 4\OML/cmm/m/it/10 :\OT1/cmr/m/n/10 7[]$
+ []
+
+
+Overfull \hbox (35.62369pt too wide) in paragraph at lines 16--22
+\TU/lmss/m/n/10 MeV/$\OML/cmm/m/it/10 c[]$\TU/lmss/m/n/10 ; 
+ []
+
+! Undefined control sequence.
+l.24   \node
+            [right=2.3em of up.center] {$+\frac{2}{3} e$};
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.24   \node[
+             right=2.3em of up.center] {$+\frac{2}{3} e$};
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+! Undefined control sequence.
+l.25   \node
+            [right=2.3em of charm.center] {$+\frac{2}{3} e$};
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.26   \node
+            [right=2.3em of top.center] {$+\frac{2}{3} e$};
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.27   \node
+            [right=2.3em of down.center] {$-\frac{1}{3} e$};
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.28   \node
+            [right=2.3em of strange.center] {$-\frac{1}{3} e$};
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.29   \node
+            [right=2.3em of bottom.center] {$-\frac{1}{3} e$};
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Overfull \hbox (75.42pt too wide) in paragraph at lines 24--30
+[]\TU/lmss/m/n/10 [right=2.3em
+ []
+
+
+Overfull \hbox (8.06pt too wide) in paragraph at lines 24--30
+\TU/lmss/m/n/10 of
+ []
+
+
+Overfull \hbox (41.53pt too wide) in paragraph at lines 24--30
+\TU/lmss/m/n/10 up.center]
+ []
+
+
+Overfull \hbox (21.60019pt too wide) in paragraph at lines 24--30
+\OT1/cmr/m/n/10 +[]\OML/cmm/m/it/10 e$\TU/lmss/m/n/10 ;
+ []
+
+
+Overfull \hbox (55.42pt too wide) in paragraph at lines 24--30
+\TU/lmss/m/n/10 [right=2.3em
+ []
+
+
+Overfull \hbox (8.06pt too wide) in paragraph at lines 24--30
+\TU/lmss/m/n/10 of
+ []
+
+
+Overfull \hbox (56.69pt too wide) in paragraph at lines 24--30
+\TU/lmss/m/n/10 charm.center]
+ []
+
+
+Overfull \hbox (21.60019pt too wide) in paragraph at lines 24--30
+\OT1/cmr/m/n/10 +[]\OML/cmm/m/it/10 e$\TU/lmss/m/n/10 ;
+ []
+
+
+Overfull \hbox (55.42pt too wide) in paragraph at lines 24--30
+\TU/lmss/m/n/10 [right=2.3em
+ []
+
+
+Overfull \hbox (8.06pt too wide) in paragraph at lines 24--30
+\TU/lmss/m/n/10 of
+ []
+
+
+Overfull \hbox (44.97pt too wide) in paragraph at lines 24--30
+\TU/lmss/m/n/10 top.center]
+ []
+
+
+Overfull \hbox (21.60019pt too wide) in paragraph at lines 24--30
+\OT1/cmr/m/n/10 +[]\OML/cmm/m/it/10 e$\TU/lmss/m/n/10 ;
+ []
+
+
+Overfull \hbox (55.42pt too wide) in paragraph at lines 24--30
+\TU/lmss/m/n/10 [right=2.3em
+ []
+
+
+Overfull \hbox (8.06pt too wide) in paragraph at lines 24--30
+\TU/lmss/m/n/10 of
+ []
+
+
+Overfull \hbox (53.08pt too wide) in paragraph at lines 24--30
+\TU/lmss/m/n/10 down.center]
+ []
+
+
+Overfull \hbox (21.60019pt too wide) in paragraph at lines 24--30
+\OMS/cmsy/m/n/10 ^^@[]\OML/cmm/m/it/10 e$\TU/lmss/m/n/10 ;
+ []
+
+
+Overfull \hbox (55.42pt too wide) in paragraph at lines 24--30
+\TU/lmss/m/n/10 [right=2.3em
+ []
+
+
+Overfull \hbox (8.06pt too wide) in paragraph at lines 24--30
+\TU/lmss/m/n/10 of
+ []
+
+
+Overfull \hbox (61.47pt too wide) in paragraph at lines 24--30
+\TU/lmss/m/n/10 strange.center]
+ []
+
+
+Overfull \hbox (21.60019pt too wide) in paragraph at lines 24--30
+\OMS/cmsy/m/n/10 ^^@[]\OML/cmm/m/it/10 e$\TU/lmss/m/n/10 ;
+ []
+
+
+Overfull \hbox (55.42pt too wide) in paragraph at lines 24--30
+\TU/lmss/m/n/10 [right=2.3em
+ []
+
+
+Overfull \hbox (8.06pt too wide) in paragraph at lines 24--30
+\TU/lmss/m/n/10 of
+ []
+
+
+Overfull \hbox (17.39pt too wide) in paragraph at lines 24--30
+\TU/lmss/m/n/10 bot-
+ []
+
+
+Overfull \hbox (47.74pt too wide) in paragraph at lines 24--30
+\TU/lmss/m/n/10 tom.center]
+ []
+
+
+Overfull \hbox (21.60019pt too wide) in paragraph at lines 24--30
+\OMS/cmsy/m/n/10 ^^@[]\OML/cmm/m/it/10 e$\TU/lmss/m/n/10 ; 
+ []
+
+! Undefined control sequence.
+l.32   \node
+            [draw,circle,text width=0.8em,align=center,thick,fill=black!90,t...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.32   \node[
+             draw,circle,text width=0.8em,align=center,thick,fill=black!90,t...
+
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+! Undefined control sequence.
+<recently read> \bm 
+                    
+l.32 ...,text=white,left=2.8em of up.center] {$\bm
+                                                  {u}$};
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.33   \node
+            [draw,circle,text width=0.8em,align=center,thick,fill=black!90,t...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<recently read> \bm 
+                    
+l.33 ...xt=white,left=2.8em of charm.center] {$\bm
+                                                  {c}$};
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.34   \node
+            [draw,circle,text width=0.8em,align=center,thick,fill=black!90,t...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<recently read> \bm 
+                    
+l.34 ...text=white,left=2.8em of top.center] {$\bm
+                                                  {t}$};
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.35   \node
+            [draw,circle,text width=0.8em,align=center,thick,fill=black!90,t...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<recently read> \bm 
+                    
+l.35 ...ext=white,left=2.8em of down.center] {$\bm
+                                                  {d}$};
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.36   \node
+            [draw,circle,text width=0.8em,align=center,thick,fill=black!90,t...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<recently read> \bm 
+                    
+l.36 ...=white,left=2.8em of strange.center] {$\bm
+                                                  {s}$};
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.37   \node
+            [draw,circle,text width=0.8em,align=center,thick,fill=black!90,t...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<recently read> \bm 
+                    
+l.37 ...t=white,left=2.8em of bottom.center] {$\bm
+                                                  {b}$};
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Overfull \hbox (86.19pt too wide) in paragraph at lines 32--38
+[]\TU/lmss/m/n/10 [draw,circle,text
+ []
+
+
+Overfull \hbox (289.31pt too wide) in paragraph at lines 32--38
+\TU/lmss/m/n/10 width=0.8em,align=center,thick,fill=black!90,text=white,left=2.
+8em
+ []
+
+
+Overfull \hbox (8.06pt too wide) in paragraph at lines 32--38
+\TU/lmss/m/n/10 of
+ []
+
+
+Overfull \hbox (41.53pt too wide) in paragraph at lines 32--38
+\TU/lmss/m/n/10 up.center]
+ []
+
+
+Overfull \hbox (8.50458pt too wide) in paragraph at lines 32--38
+\OML/cmm/m/it/10 u$\TU/lmss/m/n/10 ;
+ []
+
+
+Overfull \hbox (66.19pt too wide) in paragraph at lines 32--38
+\TU/lmss/m/n/10 [draw,circle,text
+ []
+
+
+Overfull \hbox (289.31pt too wide) in paragraph at lines 32--38
+\TU/lmss/m/n/10 width=0.8em,align=center,thick,fill=black!90,text=white,left=2.
+8em
+ []
+
+
+Overfull \hbox (8.06pt too wide) in paragraph at lines 32--38
+\TU/lmss/m/n/10 of
+ []
+
+
+Overfull \hbox (56.69pt too wide) in paragraph at lines 32--38
+\TU/lmss/m/n/10 charm.center]
+ []
+
+
+Overfull \hbox (7.10756pt too wide) in paragraph at lines 32--38
+\OML/cmm/m/it/10 c$\TU/lmss/m/n/10 ;
+ []
+
+
+Overfull \hbox (66.19pt too wide) in paragraph at lines 32--38
+\TU/lmss/m/n/10 [draw,circle,text
+ []
+
+
+Overfull \hbox (289.31pt too wide) in paragraph at lines 32--38
+\TU/lmss/m/n/10 width=0.8em,align=center,thick,fill=black!90,text=white,left=2.
+8em
+ []
+
+
+Overfull \hbox (8.06pt too wide) in paragraph at lines 32--38
+\TU/lmss/m/n/10 of
+ []
+
+
+Overfull \hbox (44.97pt too wide) in paragraph at lines 32--38
+\TU/lmss/m/n/10 top.center]
+ []
+
+
+Overfull \hbox (6.39111pt too wide) in paragraph at lines 32--38
+\OML/cmm/m/it/10 t$\TU/lmss/m/n/10 ;
+ []
+
+
+Overfull \hbox (66.19pt too wide) in paragraph at lines 32--38
+\TU/lmss/m/n/10 [draw,circle,text
+ []
+
+
+Overfull \hbox (289.31pt too wide) in paragraph at lines 32--38
+\TU/lmss/m/n/10 width=0.8em,align=center,thick,fill=black!90,text=white,left=2.
+8em
+ []
+
+
+Overfull \hbox (8.06pt too wide) in paragraph at lines 32--38
+\TU/lmss/m/n/10 of
+ []
+
+
+Overfull \hbox (53.08pt too wide) in paragraph at lines 32--38
+\TU/lmss/m/n/10 down.center]
+ []
+
+
+Overfull \hbox (7.98486pt too wide) in paragraph at lines 32--38
+\OML/cmm/m/it/10 d$\TU/lmss/m/n/10 ;
+ []
+
+
+Overfull \hbox (66.19pt too wide) in paragraph at lines 32--38
+\TU/lmss/m/n/10 [draw,circle,text
+ []
+
+
+Overfull \hbox (289.31pt too wide) in paragraph at lines 32--38
+\TU/lmss/m/n/10 width=0.8em,align=center,thick,fill=black!90,text=white,left=2.
+8em
+ []
+
+
+Overfull \hbox (8.06pt too wide) in paragraph at lines 32--38
+\TU/lmss/m/n/10 of
+ []
+
+
+Overfull \hbox (61.47pt too wide) in paragraph at lines 32--38
+\TU/lmss/m/n/10 strange.center]
+ []
+
+
+Overfull \hbox (7.4675pt too wide) in paragraph at lines 32--38
+\OML/cmm/m/it/10 s$\TU/lmss/m/n/10 ;
+ []
+
+
+Overfull \hbox (66.19pt too wide) in paragraph at lines 32--38
+\TU/lmss/m/n/10 [draw,circle,text
+ []
+
+
+Overfull \hbox (289.31pt too wide) in paragraph at lines 32--38
+\TU/lmss/m/n/10 width=0.8em,align=center,thick,fill=black!90,text=white,left=2.
+8em
+ []
+
+
+Overfull \hbox (8.06pt too wide) in paragraph at lines 32--38
+\TU/lmss/m/n/10 of
+ []
+
+
+Overfull \hbox (17.39pt too wide) in paragraph at lines 32--38
+\TU/lmss/m/n/10 bot-
+ []
+
+
+Overfull \hbox (47.74pt too wide) in paragraph at lines 32--38
+\TU/lmss/m/n/10 tom.center]
+ []
+
+
+Overfull \hbox (7.07166pt too wide) in paragraph at lines 32--38
+\OML/cmm/m/it/10 b$\TU/lmss/m/n/10 ; 
+ []
+
+! Undefined control sequence.
+l.40   \node
+            [below=1.5em of up.center] {\scriptsize 1964 - GIM mechanism};
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.40   \node[
+             below=1.5em of up.center] {\scriptsize 1964 - GIM mechanism};
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+! Undefined control sequence.
+l.40 ...ode[below=1.5em of up.center] {\scriptsize
+                                                   1964 - GIM mechanism};
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.41   \node
+            [below=1.5em of charm.center] {\scriptsize 1974 - J/$\psi$ meson};
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.41 ...[below=1.5em of charm.center] {\scriptsize
+                                                   1974 - J/$\psi$ meson};
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.42   \node
+            [below=1.5em of top.center] {\scriptsize 1995 - Tevatron};
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.42 ...de[below=1.5em of top.center] {\scriptsize
+                                                   1995 - Tevatron};
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.43   \node
+            [below=1.5em of down.center] {\scriptsize 1964 - GIM mechanism};
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.43 ...e[below=1.5em of down.center] {\scriptsize
+                                                   1964 - GIM mechanism};
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.44   \node
+            [below=1.5em of strange.center] {\scriptsize 1964 - kaon decay};
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.44 ...elow=1.5em of strange.center] {\scriptsize
+                                                   1964 - kaon decay};
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.45   \node
+            [below=1.5em of bottom.center] {\scriptsize 1977 - Upsilon meson};
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.45 ...below=1.5em of bottom.center] {\scriptsize
+                                                   1977 - Upsilon meson};
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+! LaTeX Error: \begin{document} ended by \end{tikzpicture}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.46 \end{tikzpicture}
+                      
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Environment tikzpicture undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.49 \begin{tikzpicture}
+                        [scale=1.4,font=\sffamily\small,rectangle/.style={fi...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+Missing character: There is no [ in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no = in font nullfont!
+Missing character: There is no 1 in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 4 in font nullfont!
+Missing character: There is no , in font nullfont!
+Missing character: There is no f in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no = in font nullfont!
+! Undefined control sequence.
+l.49 ...ikzpicture}[scale=1.4,font=\sffamily\small
+                                                  ,rectangle/.style={fill=bl...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Overfull \hbox (79.66pt too wide) in paragraph at lines 40--50
+[]\TU/lmss/m/n/10 [below=1.5em
+ []
+
+
+Overfull \hbox (8.06pt too wide) in paragraph at lines 40--50
+\TU/lmss/m/n/10 of
+ []
+
+
+Overfull \hbox (41.53pt too wide) in paragraph at lines 40--50
+\TU/lmss/m/n/10 up.center]
+ []
+
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 40--50
+\TU/lmss/m/n/10 1964
+ []
+
+
+Overfull \hbox (3.33pt too wide) in paragraph at lines 40--50
+\TU/lmss/m/n/10 -
+ []
+
+
+Overfull \hbox (18.2pt too wide) in paragraph at lines 40--50
+\TU/lmss/m/n/10 GIM
+ []
+
+
+Overfull \hbox (25.32pt too wide) in paragraph at lines 40--50
+\TU/lmss/m/n/10 mech-
+ []
+
+
+Overfull \hbox (8.14pt too wide) in paragraph at lines 40--50
+\TU/lmss/m/n/10 a-
+ []
+
+
+Overfull \hbox (22.11pt too wide) in paragraph at lines 40--50
+\TU/lmss/m/n/10 nism;
+ []
+
+
+Overfull \hbox (16.11pt too wide) in paragraph at lines 40--50
+\TU/lmss/m/n/10 [be-
+ []
+
+
+Overfull \hbox (46.88pt too wide) in paragraph at lines 40--50
+\TU/lmss/m/n/10 low=1.5em
+ []
+
+
+Overfull \hbox (8.06pt too wide) in paragraph at lines 40--50
+\TU/lmss/m/n/10 of
+ []
+
+
+Overfull \hbox (56.69pt too wide) in paragraph at lines 40--50
+\TU/lmss/m/n/10 charm.center]
+ []
+
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 40--50
+\TU/lmss/m/n/10 1974
+ []
+
+
+Overfull \hbox (3.33pt too wide) in paragraph at lines 40--50
+\TU/lmss/m/n/10 -
+ []
+
+
+Overfull \hbox (16.5927pt too wide) in paragraph at lines 40--50
+\TU/lmss/m/n/10 J/$\OML/cmm/m/it/10  $
+ []
+
+
+Overfull \hbox (15.71pt too wide) in paragraph at lines 40--50
+\TU/lmss/m/n/10 me-
+ []
+
+
+Overfull \hbox (16.78pt too wide) in paragraph at lines 40--50
+\TU/lmss/m/n/10 son;
+ []
+
+
+Overfull \hbox (16.11pt too wide) in paragraph at lines 40--50
+\TU/lmss/m/n/10 [be-
+ []
+
+
+Overfull \hbox (46.88pt too wide) in paragraph at lines 40--50
+\TU/lmss/m/n/10 low=1.5em
+ []
+
+
+Overfull \hbox (8.06pt too wide) in paragraph at lines 40--50
+\TU/lmss/m/n/10 of
+ []
+
+
+Overfull \hbox (44.97pt too wide) in paragraph at lines 40--50
+\TU/lmss/m/n/10 top.center]
+ []
+
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 40--50
+\TU/lmss/m/n/10 1995
+ []
+
+
+Overfull \hbox (3.33pt too wide) in paragraph at lines 40--50
+\TU/lmss/m/n/10 -
+ []
+
+
+Overfull \hbox (23.17pt too wide) in paragraph at lines 40--50
+\TU/lmss/m/n/10 Teva-
+ []
+
+
+Overfull \hbox (19.98pt too wide) in paragraph at lines 40--50
+\TU/lmss/m/n/10 tron;
+ []
+
+
+Overfull \hbox (16.11pt too wide) in paragraph at lines 40--50
+\TU/lmss/m/n/10 [be-
+ []
+
+
+Overfull \hbox (46.88pt too wide) in paragraph at lines 40--50
+\TU/lmss/m/n/10 low=1.5em
+ []
+
+
+Overfull \hbox (8.06pt too wide) in paragraph at lines 40--50
+\TU/lmss/m/n/10 of
+ []
+
+
+Overfull \hbox (53.08pt too wide) in paragraph at lines 40--50
+\TU/lmss/m/n/10 down.center]
+ []
+
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 40--50
+\TU/lmss/m/n/10 1964
+ []
+
+
+Overfull \hbox (3.33pt too wide) in paragraph at lines 40--50
+\TU/lmss/m/n/10 -
+ []
+
+
+Overfull \hbox (18.2pt too wide) in paragraph at lines 40--50
+\TU/lmss/m/n/10 GIM
+ []
+
+
+Overfull \hbox (25.32pt too wide) in paragraph at lines 40--50
+\TU/lmss/m/n/10 mech-
+ []
+
+
+Overfull \hbox (8.14pt too wide) in paragraph at lines 40--50
+\TU/lmss/m/n/10 a-
+ []
+
+
+Overfull \hbox (22.11pt too wide) in paragraph at lines 40--50
+\TU/lmss/m/n/10 nism;
+ []
+
+
+Overfull \hbox (16.11pt too wide) in paragraph at lines 40--50
+\TU/lmss/m/n/10 [be-
+ []
+
+
+Overfull \hbox (46.88pt too wide) in paragraph at lines 40--50
+\TU/lmss/m/n/10 low=1.5em
+ []
+
+
+Overfull \hbox (8.06pt too wide) in paragraph at lines 40--50
+\TU/lmss/m/n/10 of
+ []
+
+
+Overfull \hbox (61.47pt too wide) in paragraph at lines 40--50
+\TU/lmss/m/n/10 strange.center]
+ []
+
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 40--50
+\TU/lmss/m/n/10 1964
+ []
+
+
+Overfull \hbox (3.33pt too wide) in paragraph at lines 40--50
+\TU/lmss/m/n/10 -
+ []
+
+
+Overfull \hbox (19.87pt too wide) in paragraph at lines 40--50
+\TU/lmss/m/n/10 kaon
+ []
+
+
+Overfull \hbox (12.94pt too wide) in paragraph at lines 40--50
+\TU/lmss/m/n/10 de-
+ []
+
+
+Overfull \hbox (16.36pt too wide) in paragraph at lines 40--50
+\TU/lmss/m/n/10 cay;
+ []
+
+
+Overfull \hbox (16.11pt too wide) in paragraph at lines 40--50
+\TU/lmss/m/n/10 [be-
+ []
+
+
+Overfull \hbox (46.88pt too wide) in paragraph at lines 40--50
+\TU/lmss/m/n/10 low=1.5em
+ []
+
+
+Overfull \hbox (8.06pt too wide) in paragraph at lines 40--50
+\TU/lmss/m/n/10 of
+ []
+
+
+Overfull \hbox (17.39pt too wide) in paragraph at lines 40--50
+\TU/lmss/m/n/10 bot-
+ []
+
+
+Overfull \hbox (47.74pt too wide) in paragraph at lines 40--50
+\TU/lmss/m/n/10 tom.center]
+ []
+
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 40--50
+\TU/lmss/m/n/10 1977
+ []
+
+
+Overfull \hbox (3.33pt too wide) in paragraph at lines 40--50
+\TU/lmss/m/n/10 -
+ []
+
+
+Overfull \hbox (15.38pt too wide) in paragraph at lines 40--50
+\TU/lmss/m/n/10 Up-
+ []
+
+
+Overfull \hbox (18.78pt too wide) in paragraph at lines 40--50
+\TU/lmss/m/n/10 silon
+ []
+
+
+Overfull \hbox (15.71pt too wide) in paragraph at lines 40--50
+\TU/lmss/m/n/10 me-
+ []
+
+
+Overfull \hbox (16.78pt too wide) in paragraph at lines 40--50
+\TU/lmss/m/n/10 son;
+ []
+
+
+Overfull \hbox (125.72pt too wide) in paragraph at lines 40--50
+\TU/lmss/m/n/10 ,rectangle/.style=fill=blue!10,
+ []
+
+
+Overfull \hbox (33.54001pt too wide) in paragraph at lines 40--50
+\TU/lmss/m/n/10 rounded
+ []
+
+
+Overfull \hbox (15.91pt too wide) in paragraph at lines 40--50
+\TU/lmss/m/n/10 cor-
+ []
+
+
+Overfull \hbox (130.06pt too wide) in paragraph at lines 40--50
+\TU/lmss/m/n/10 ners=.2cm,box/.style=rounded
+ []
+
+
+Overfull \hbox (15.91pt too wide) in paragraph at lines 40--50
+\TU/lmss/m/n/10 cor-
+ []
+
+
+Overfull \hbox (47.69pt too wide) in paragraph at lines 40--50
+\TU/lmss/m/n/10 ners=.2cm] 
+ []
+
+! Undefined control sequence.
+l.51 \node
+          [box] (leptons) at (-0.75,1.25) {\Large Leptons};
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.51 \node[
+           box] (leptons) at (-0.75,1.25) {\Large Leptons};
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+! Undefined control sequence.
+l.51 \node[box] (leptons) at (-0.75,1.25) {\Large
+                                                  Leptons};
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Overfull \hbox (40.56pt too wide) in paragraph at lines 51--52
+[]\TU/lmss/m/n/10 [box]
+ []
+
+
+Overfull \hbox (19.22pt too wide) in paragraph at lines 51--52
+\TU/lmss/m/n/10 (lep-
+ []
+
+
+Overfull \hbox (21.5pt too wide) in paragraph at lines 51--52
+\TU/lmss/m/n/10 tons)
+ []
+
+
+Overfull \hbox (8.42pt too wide) in paragraph at lines 51--52
+\TU/lmss/m/n/10 at
+ []
+
+
+Overfull \hbox (7.22pt too wide) in paragraph at lines 51--52
+\TU/lmss/m/n/10 (-
+ []
+
+
+Overfull \hbox (42.23pt too wide) in paragraph at lines 51--52
+\TU/lmss/m/n/10 0.75,1.25)
+ []
+
+
+Overfull \hbox (18.36pt too wide) in paragraph at lines 51--52
+\TU/lmss/m/n/10 Lep-
+ []
+
+
+Overfull \hbox (20.39pt too wide) in paragraph at lines 51--52
+\TU/lmss/m/n/10 tons; 
+ []
+
+! Undefined control sequence.
+l.54 \node
+          [rectangle,text centered,text width = 0.29\textwidth, minimum heig...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.54 \node[
+           rectangle,text centered,text width = 0.29\textwidth, minimum heig...
+
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+                   m
+l.54 ...t centered,text width = 0.29\textwidth, mi
+                                                  nimum height=7em,] (electr...
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+! Undefined control sequence.
+l.54 ...m height=7em,] (electron) at (0,0) {\large
+                                                   \textit{electron}};
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.55 \node
+          [rectangle,text centered,text width = 0.29\textwidth, minimum heig...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+                   m
+l.55 ...t centered,text width = 0.29\textwidth, mi
+                                                  nimum height=7em,] (muon) ...
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+! Undefined control sequence.
+l.55 ...nimum height=7em,] (muon) at (3,0) {\Large
+                                                   \textit{muon}};
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.56 \node
+          [rectangle,text centered,text width = 0.29\textwidth, minimum heig...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+                   m
+l.56 ...t centered,text width = 0.29\textwidth, mi
+                                                  nimum height=7em,] (tau) a...
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+! Undefined control sequence.
+l.56 ...inimum height=7em,] (tau) at (6,0) {\Large
+                                                   \textit{tau}};
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.57 \node
+          [rectangle,text centered,text width = 0.29\textwidth, minimum heig...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+                   m
+l.57 ...t centered,text width = 0.29\textwidth, mi
+                                                  nimum height=7em,] (electr...
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.57 ...textwidth, minimum height=7em,] (electron_
+                                                  neutrino) at (0,-2) {\larg...
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Undefined control sequence.
+l.57 ...em,] (electron_neutrino) at (0,-2) {\large
+                                                   \textit{electron\\neutrin...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.58 \node
+          [rectangle,text centered,text width = 0.29\textwidth, minimum heig...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+                   m
+l.58 ...t centered,text width = 0.29\textwidth, mi
+                                                  nimum height=7em,] (muon_n...
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+! Undefined control sequence.
+l.58 ...ht=7em,] (muon_neutrino) at (3,-2) {\large
+                                                   \textit{muon\\neutrino}};
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.59 \node
+          [rectangle,text centered,text width = 0.29\textwidth, minimum heig...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+                   m
+l.59 ...t centered,text width = 0.29\textwidth, mi
+                                                  nimum height=7em,] (tau_ne...
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+! Undefined control sequence.
+l.59 ...ght=7em,] (tau_neutrino) at (6,-2) {\large
+                                                   \textit{tau\\neutrino}};
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.60 
+     
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+Overfull \hbox (79.66pt too wide) in paragraph at lines 54--60
+[]\TU/lmss/m/n/10 [rectangle,text
+ []
+
+
+Overfull \hbox (17.38pt too wide) in paragraph at lines 54--60
+\TU/lmss/m/n/10 cen-
+ []
+
+
+Overfull \hbox (40.13pt too wide) in paragraph at lines 54--60
+\TU/lmss/m/n/10 tered,text
+ []
+
+
+Overfull \hbox (23.17pt too wide) in paragraph at lines 54--60
+\TU/lmss/m/n/10 width
+ []
+
+
+Overfull \hbox (7.78pt too wide) in paragraph at lines 54--60
+\TU/lmss/m/n/10 =
+ []
+
+
+Overfull \hbox (36.61pt too wide) in paragraph at lines 54--60
+\TU/lmss/m/n/10 0.29min-
+ []
+
+
+Overfull \hbox (5.72pt too wide) in paragraph at lines 54--60
+\TU/lmss/m/n/10 i-
+ []
+
+
+Overfull \hbox (21.05pt too wide) in paragraph at lines 54--60
+\TU/lmss/m/n/10 mum
+ []
+
+
+Overfull \hbox (56.61pt too wide) in paragraph at lines 54--60
+\TU/lmss/m/n/10 height=7em,]
+ []
+
+
+Overfull \hbox (22.93001pt too wide) in paragraph at lines 54--60
+\TU/lmss/m/n/10 (elec-
+ []
+
+
+Overfull \hbox (21.09pt too wide) in paragraph at lines 54--60
+\TU/lmss/m/n/10 tron)
+ []
+
+
+Overfull \hbox (8.42pt too wide) in paragraph at lines 54--60
+\TU/lmss/m/n/10 at
+ []
+
+
+Overfull \hbox (20.56pt too wide) in paragraph at lines 54--60
+\TU/lmss/m/n/10 (0,0)
+ []
+
+
+Overfull \hbox (19.04001pt too wide) in paragraph at lines 54--60
+\TU/lmss/m/sl/10 elec-
+ []
+
+
+Overfull \hbox (19.98pt too wide) in paragraph at lines 54--60
+\TU/lmss/m/sl/10 tron\TU/lmss/m/n/10 ;
+ []
+
+
+Overfull \hbox (22.13pt too wide) in paragraph at lines 54--60
+\TU/lmss/m/n/10 [rect-
+ []
+
+
+Overfull \hbox (13.31pt too wide) in paragraph at lines 54--60
+\TU/lmss/m/n/10 an-
+ []
+
+
+Overfull \hbox (30.88pt too wide) in paragraph at lines 54--60
+\TU/lmss/m/n/10 gle,text
+ []
+
+
+Overfull \hbox (17.38pt too wide) in paragraph at lines 54--60
+\TU/lmss/m/n/10 cen-
+ []
+
+
+Overfull \hbox (40.13pt too wide) in paragraph at lines 54--60
+\TU/lmss/m/n/10 tered,text
+ []
+
+
+Overfull \hbox (23.17pt too wide) in paragraph at lines 54--60
+\TU/lmss/m/n/10 width
+ []
+
+
+Overfull \hbox (7.78pt too wide) in paragraph at lines 54--60
+\TU/lmss/m/n/10 =
+ []
+
+
+Overfull \hbox (36.61pt too wide) in paragraph at lines 54--60
+\TU/lmss/m/n/10 0.29min-
+ []
+
+
+Overfull \hbox (5.72pt too wide) in paragraph at lines 54--60
+\TU/lmss/m/n/10 i-
+ []
+
+
+Overfull \hbox (21.05pt too wide) in paragraph at lines 54--60
+\TU/lmss/m/n/10 mum
+ []
+
+
+Overfull \hbox (56.61pt too wide) in paragraph at lines 54--60
+\TU/lmss/m/n/10 height=7em,]
+ []
+
+
+Overfull \hbox (31.06pt too wide) in paragraph at lines 54--60
+\TU/lmss/m/n/10 (muon)
+ []
+
+
+Overfull \hbox (8.42pt too wide) in paragraph at lines 54--60
+\TU/lmss/m/n/10 at
+ []
+
+
+Overfull \hbox (20.56pt too wide) in paragraph at lines 54--60
+\TU/lmss/m/n/10 (3,0)
+ []
+
+
+Overfull \hbox (26.06pt too wide) in paragraph at lines 54--60
+\TU/lmss/m/sl/10 muon\TU/lmss/m/n/10 ;
+ []
+
+
+Overfull \hbox (22.13pt too wide) in paragraph at lines 54--60
+\TU/lmss/m/n/10 [rect-
+ []
+
+
+Overfull \hbox (13.31pt too wide) in paragraph at lines 54--60
+\TU/lmss/m/n/10 an-
+ []
+
+
+Overfull \hbox (30.88pt too wide) in paragraph at lines 54--60
+\TU/lmss/m/n/10 gle,text
+ []
+
+
+Overfull \hbox (17.38pt too wide) in paragraph at lines 54--60
+\TU/lmss/m/n/10 cen-
+ []
+
+
+Overfull \hbox (40.13pt too wide) in paragraph at lines 54--60
+\TU/lmss/m/n/10 tered,text
+ []
+
+
+Overfull \hbox (23.17pt too wide) in paragraph at lines 54--60
+\TU/lmss/m/n/10 width
+ []
+
+
+Overfull \hbox (7.78pt too wide) in paragraph at lines 54--60
+\TU/lmss/m/n/10 =
+ []
+
+
+Overfull \hbox (36.61pt too wide) in paragraph at lines 54--60
+\TU/lmss/m/n/10 0.29min-
+ []
+
+
+Overfull \hbox (5.72pt too wide) in paragraph at lines 54--60
+\TU/lmss/m/n/10 i-
+ []
+
+
+Overfull \hbox (21.05pt too wide) in paragraph at lines 54--60
+\TU/lmss/m/n/10 mum
+ []
+
+
+Overfull \hbox (56.61pt too wide) in paragraph at lines 54--60
+\TU/lmss/m/n/10 height=7em,]
+ []
+
+
+Overfull \hbox (21.37pt too wide) in paragraph at lines 54--60
+\TU/lmss/m/n/10 (tau)
+ []
+
+
+Overfull \hbox (8.42pt too wide) in paragraph at lines 54--60
+\TU/lmss/m/n/10 at
+ []
+
+
+Overfull \hbox (20.56pt too wide) in paragraph at lines 54--60
+\TU/lmss/m/n/10 (6,0)
+ []
+
+
+Overfull \hbox (16.48999pt too wide) in paragraph at lines 54--60
+\TU/lmss/m/sl/10 tau\TU/lmss/m/n/10 ;
+ []
+
+
+Overfull \hbox (22.13pt too wide) in paragraph at lines 54--60
+\TU/lmss/m/n/10 [rect-
+ []
+
+
+Overfull \hbox (13.31pt too wide) in paragraph at lines 54--60
+\TU/lmss/m/n/10 an-
+ []
+
+
+Overfull \hbox (30.88pt too wide) in paragraph at lines 54--60
+\TU/lmss/m/n/10 gle,text
+ []
+
+
+Overfull \hbox (17.38pt too wide) in paragraph at lines 54--60
+\TU/lmss/m/n/10 cen-
+ []
+
+
+Overfull \hbox (40.13pt too wide) in paragraph at lines 54--60
+\TU/lmss/m/n/10 tered,text
+ []
+
+
+Overfull \hbox (23.17pt too wide) in paragraph at lines 54--60
+\TU/lmss/m/n/10 width
+ []
+
+
+Overfull \hbox (7.78pt too wide) in paragraph at lines 54--60
+\TU/lmss/m/n/10 =
+ []
+
+
+Overfull \hbox (36.61pt too wide) in paragraph at lines 54--60
+\TU/lmss/m/n/10 0.29min-
+ []
+
+
+Overfull \hbox (5.72pt too wide) in paragraph at lines 54--60
+\TU/lmss/m/n/10 i-
+ []
+
+
+Overfull \hbox (21.05pt too wide) in paragraph at lines 54--60
+\TU/lmss/m/n/10 mum
+ []
+
+
+Overfull \hbox (56.61pt too wide) in paragraph at lines 54--60
+\TU/lmss/m/n/10 height=7em,]
+ []
+
+
+Overfull \hbox (352.23222pt too wide) in paragraph at lines 54--60
+\TU/lmss/m/n/10 (electron$[]\OML/cmm/m/it/10 eutrino\OT1/cmr/m/n/10 )\OML/cmm/m
+/it/10 at\OT1/cmr/m/n/10 (0\OML/cmm/m/it/10 ; \OMS/cmsy/m/n/10 ^^@\OT1/cmr/m/n/
+10 2)[]; [\OML/cmm/m/it/10 rectangle; textcentered; textwidth \OT1/cmr/m/n/10 =
+
+ []
+
+
+Overfull \hbox (101.65508pt too wide) in paragraph at lines 54--60
+\OT1/cmr/m/n/10 0\OML/cmm/m/it/10 :\OT1/cmr/m/n/10 29\OML/cmm/m/it/10 minimumhe
+ight \OT1/cmr/m/n/10 =
+ []
+
+
+Overfull \hbox (360.70403pt too wide) in paragraph at lines 54--60
+\OT1/cmr/m/n/10 7\OML/cmm/m/it/10 em; \OT1/cmr/m/n/10 ](\OML/cmm/m/it/10 muon[]
+eutrino\OT1/cmr/m/n/10 )\OML/cmm/m/it/10 at\OT1/cmr/m/n/10 (3\OML/cmm/m/it/10 ;
+ \OMS/cmsy/m/n/10 ^^@\OT1/cmr/m/n/10 2)[]; [\OML/cmm/m/it/10 rectangle; textcen
+tered; textwidth \OT1/cmr/m/n/10 =
+ []
+
+
+Overfull \hbox (101.65508pt too wide) in paragraph at lines 54--60
+\OT1/cmr/m/n/10 0\OML/cmm/m/it/10 :\OT1/cmr/m/n/10 29\OML/cmm/m/it/10 minimumhe
+ight \OT1/cmr/m/n/10 =
+ []
+
+
+Overfull \hbox (176.21219pt too wide) in paragraph at lines 54--60
+\OT1/cmr/m/n/10 7\OML/cmm/m/it/10 em; \OT1/cmr/m/n/10 ](\OML/cmm/m/it/10 tau[]e
+utrino\OT1/cmr/m/n/10 )\OML/cmm/m/it/10 at\OT1/cmr/m/n/10 (6\OML/cmm/m/it/10 ; 
+\OMS/cmsy/m/n/10 ^^@\OT1/cmr/m/n/10 2)[];$ 
+ []
+
+! Undefined control sequence.
+l.62 \node
+          [above=1.5em of electron.center] {\scriptsize $0.511$ MeV/$c^2$};
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.62 \node[
+           above=1.5em of electron.center] {\scriptsize $0.511$ MeV/$c^2$};
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+! Undefined control sequence.
+l.62 ...ove=1.5em of electron.center] {\scriptsize
+                                                   $0.511$ MeV/$c^2$};
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.63 \node
+          [above=1.5em of muon.center] {\scriptsize $105.66$ MeV/$c^2$};
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.63 ...e[above=1.5em of muon.center] {\scriptsize
+                                                   $105.66$ MeV/$c^2$};
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.64 \node
+          [above=1.5em of tau.center] {\scriptsize $1.77686$ GeV/$c^2$};
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.64 \node[above=1.5em of tau.center] {\scriptsize
+                                                   $1.77686$ GeV/$c^2$};
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.65 \node
+          [above=1.5em of electron_neutrino.center] {\scriptsize $< 2.2$ eV/...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.65 \node[above=1.5em of electron_
+                                   neutrino.center] {\scriptsize $< 2.2$ eV/...
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Undefined control sequence.
+l.65 ... of electron_neutrino.center] {\scriptsize
+                                                   $< 2.2$ eV/$c^2$};
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.65 ...f electron_neutrino.center] {\scriptsize $
+                                                  < 2.2$ eV/$c^2$};
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.65 ...utrino.center] {\scriptsize $< 2.2$ eV/$c^
+                                                  2$};
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Extra }, or forgotten \endgroup.
+l.65 ...ino.center] {\scriptsize $< 2.2$ eV/$c^2$}
+                                                  ;
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Undefined control sequence.
+l.66 \node
+          [above=1.5em of muon_neutrino.center] {\scriptsize $< 0.17$ MeV/$c...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.66 \node[above=1.5em of muon_
+                               neutrino.center] {\scriptsize $< 0.17$ MeV/$c...
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Undefined control sequence.
+l.66 ....5em of muon_neutrino.center] {\scriptsize
+                                                   $< 0.17$ MeV/$c^2$};
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.66 ...em of muon_neutrino.center] {\scriptsize $
+                                                  < 0.17$ MeV/$c^2$};
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.66 ...rino.center] {\scriptsize $< 0.17$ MeV/$c^
+                                                  2$};
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Extra }, or forgotten \endgroup.
+l.66 ...o.center] {\scriptsize $< 0.17$ MeV/$c^2$}
+                                                  ;
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Undefined control sequence.
+l.67 \node
+          [above=1.5em of tau_neutrino.center] {\scriptsize $< 18.2$ MeV/$c^...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.67 \node[above=1.5em of tau_
+                              neutrino.center] {\scriptsize $< 18.2$ MeV/$c^...
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Undefined control sequence.
+l.67 ...1.5em of tau_neutrino.center] {\scriptsize
+                                                   $< 18.2$ MeV/$c^2$};
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.67 ...5em of tau_neutrino.center] {\scriptsize $
+                                                  < 18.2$ MeV/$c^2$};
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.67 ...rino.center] {\scriptsize $< 18.2$ MeV/$c^
+                                                  2$};
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Extra }, or forgotten \endgroup.
+l.67 ...o.center] {\scriptsize $< 18.2$ MeV/$c^2$}
+                                                  ;
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+
+Overfull \hbox (80.14pt too wide) in paragraph at lines 62--68
+[]\TU/lmss/m/n/10 [above=1.5em
+ []
+
+
+Overfull \hbox (8.06pt too wide) in paragraph at lines 62--68
+\TU/lmss/m/n/10 of
+ []
+
+
+Overfull \hbox (19.04001pt too wide) in paragraph at lines 62--68
+\TU/lmss/m/n/10 elec-
+ []
+
+
+Overfull \hbox (48.39pt too wide) in paragraph at lines 62--68
+\TU/lmss/m/n/10 tron.center]
+ []
+
+
+Overfull \hbox (22.77785pt too wide) in paragraph at lines 62--68
+\OT1/cmr/m/n/10 0\OML/cmm/m/it/10 :\OT1/cmr/m/n/10 511$
+ []
+
+
+Overfull \hbox (35.62369pt too wide) in paragraph at lines 62--68
+\TU/lmss/m/n/10 MeV/$\OML/cmm/m/it/10 c[]$\TU/lmss/m/n/10 ;
+ []
+
+
+Overfull \hbox (60.14pt too wide) in paragraph at lines 62--68
+\TU/lmss/m/n/10 [above=1.5em
+ []
+
+
+Overfull \hbox (8.06pt too wide) in paragraph at lines 62--68
+\TU/lmss/m/n/10 of
+ []
+
+
+Overfull \hbox (54.47pt too wide) in paragraph at lines 62--68
+\TU/lmss/m/n/10 muon.center]
+ []
+
+
+Overfull \hbox (27.77786pt too wide) in paragraph at lines 62--68
+\OT1/cmr/m/n/10 105\OML/cmm/m/it/10 :\OT1/cmr/m/n/10 66$
+ []
+
+
+Overfull \hbox (35.62369pt too wide) in paragraph at lines 62--68
+\TU/lmss/m/n/10 MeV/$\OML/cmm/m/it/10 c[]$\TU/lmss/m/n/10 ;
+ []
+
+
+Overfull \hbox (60.14pt too wide) in paragraph at lines 62--68
+\TU/lmss/m/n/10 [above=1.5em
+ []
+
+
+Overfull \hbox (8.06pt too wide) in paragraph at lines 62--68
+\TU/lmss/m/n/10 of
+ []
+
+
+Overfull \hbox (44.78pt too wide) in paragraph at lines 62--68
+\TU/lmss/m/n/10 tau.center]
+ []
+
+
+Overfull \hbox (32.77788pt too wide) in paragraph at lines 62--68
+\OT1/cmr/m/n/10 1\OML/cmm/m/it/10 :\OT1/cmr/m/n/10 77686$
+ []
+
+
+Overfull \hbox (33.54369pt too wide) in paragraph at lines 62--68
+\TU/lmss/m/n/10 GeV/$\OML/cmm/m/it/10 c[]$\TU/lmss/m/n/10 ;
+ []
+
+
+Overfull \hbox (60.14pt too wide) in paragraph at lines 62--68
+\TU/lmss/m/n/10 [above=1.5em
+ []
+
+
+Overfull \hbox (8.06pt too wide) in paragraph at lines 62--68
+\TU/lmss/m/n/10 of
+ []
+
+
+Overfull \hbox (112.80786pt too wide) in paragraph at lines 62--68
+\TU/lmss/m/n/10 electron$[]\OML/cmm/m/it/10 eutrino:center\OT1/cmr/m/n/10 ][]$\
+TU/lmss/m/n/10 <
+ []
+
+
+Overfull \hbox (41.08684pt too wide) in paragraph at lines 62--68
+\TU/lmss/m/n/10 2.2$\OML/cmm/m/it/10 eV=$\TU/lmss/m/n/10 c$[]$;
+ []
+
+
+Overfull \hbox (60.14pt too wide) in paragraph at lines 62--68
+\TU/lmss/m/n/10 [above=1.5em
+ []
+
+
+Overfull \hbox (8.06pt too wide) in paragraph at lines 62--68
+\TU/lmss/m/n/10 of
+ []
+
+
+Overfull \hbox (103.17786pt too wide) in paragraph at lines 62--68
+\TU/lmss/m/n/10 muon$[]\OML/cmm/m/it/10 eutrino:center\OT1/cmr/m/n/10 ][]$\TU/l
+mss/m/n/10 <
+ []
+
+
+Overfull \hbox (56.8785pt too wide) in paragraph at lines 62--68
+\TU/lmss/m/n/10 0.17$\OML/cmm/m/it/10 MeV=$\TU/lmss/m/n/10 c$[]$;
+ []
+
+
+Overfull \hbox (60.14pt too wide) in paragraph at lines 62--68
+\TU/lmss/m/n/10 [above=1.5em
+ []
+
+
+Overfull \hbox (8.06pt too wide) in paragraph at lines 62--68
+\TU/lmss/m/n/10 of
+ []
+
+
+Overfull \hbox (93.48785pt too wide) in paragraph at lines 62--68
+\TU/lmss/m/n/10 tau$[]\OML/cmm/m/it/10 eutrino:center\OT1/cmr/m/n/10 ][]$\TU/lm
+ss/m/n/10 <
+ []
+
+
+Overfull \hbox (56.8785pt too wide) in paragraph at lines 62--68
+\TU/lmss/m/n/10 18.2$\OML/cmm/m/it/10 MeV=$\TU/lmss/m/n/10 c$[]$; 
+ []
+
+! Undefined control sequence.
+l.70 \node
+          [right=2.3em of electron.center] {$-1 e$};
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.70 \node[
+           right=2.3em of electron.center] {$-1 e$};
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+! Undefined control sequence.
+l.71 \node
+          [right=2.3em of muon.center] {$-1 e$};
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.72 \node
+          [right=2.3em of tau.center] {$-1 e$};
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.73 \node
+          [right=2.7em of electron_neutrino.center] {$0$};
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.73 \node[right=2.7em of electron_
+                                   neutrino.center] {$0$};
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.73 ...ight=2.7em of electron_neutrino.center] {$
+                                                  0$};
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Extra }, or forgotten $.
+<recently read> }
+                 
+l.73 ...t=2.7em of electron_neutrino.center] {$0$}
+                                                  ;
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Undefined control sequence.
+l.74 \node
+          [right=2.7em of muon_neutrino.center] {$0$};
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.74 \node[right=2.7em of muon_neutrino.center] {$
+                                                  0$};
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Extra }, or forgotten $.
+<recently read> }
+                 
+l.74 ...right=2.7em of muon_neutrino.center] {$0$}
+                                                  ;
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Undefined control sequence.
+l.75 \node
+          [right=2.7em of tau_neutrino.center] {$0$};
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.75 \node[right=2.7em of tau_neutrino.center] {$
+                                                 0$};
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Extra }, or forgotten $.
+<recently read> }
+                 
+l.75 ...[right=2.7em of tau_neutrino.center] {$0$}
+                                                  ;
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.76 
+     
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+Overfull \hbox (75.42pt too wide) in paragraph at lines 70--76
+[]\TU/lmss/m/n/10 [right=2.3em
+ []
+
+
+Overfull \hbox (8.06pt too wide) in paragraph at lines 70--76
+\TU/lmss/m/n/10 of
+ []
+
+
+Overfull \hbox (19.04001pt too wide) in paragraph at lines 70--76
+\TU/lmss/m/n/10 elec-
+ []
+
+
+Overfull \hbox (48.39pt too wide) in paragraph at lines 70--76
+\TU/lmss/m/n/10 tron.center]
+ []
+
+
+Overfull \hbox (20.21408pt too wide) in paragraph at lines 70--76
+\OMS/cmsy/m/n/10 ^^@\OT1/cmr/m/n/10 1\OML/cmm/m/it/10 e$\TU/lmss/m/n/10 ;
+ []
+
+
+Overfull \hbox (55.42pt too wide) in paragraph at lines 70--76
+\TU/lmss/m/n/10 [right=2.3em
+ []
+
+
+Overfull \hbox (8.06pt too wide) in paragraph at lines 70--76
+\TU/lmss/m/n/10 of
+ []
+
+
+Overfull \hbox (54.47pt too wide) in paragraph at lines 70--76
+\TU/lmss/m/n/10 muon.center]
+ []
+
+
+Overfull \hbox (20.21408pt too wide) in paragraph at lines 70--76
+\OMS/cmsy/m/n/10 ^^@\OT1/cmr/m/n/10 1\OML/cmm/m/it/10 e$\TU/lmss/m/n/10 ;
+ []
+
+
+Overfull \hbox (55.42pt too wide) in paragraph at lines 70--76
+\TU/lmss/m/n/10 [right=2.3em
+ []
+
+
+Overfull \hbox (8.06pt too wide) in paragraph at lines 70--76
+\TU/lmss/m/n/10 of
+ []
+
+
+Overfull \hbox (44.78pt too wide) in paragraph at lines 70--76
+\TU/lmss/m/n/10 tau.center]
+ []
+
+
+Overfull \hbox (20.21408pt too wide) in paragraph at lines 70--76
+\OMS/cmsy/m/n/10 ^^@\OT1/cmr/m/n/10 1\OML/cmm/m/it/10 e$\TU/lmss/m/n/10 ;
+ []
+
+
+Overfull \hbox (55.42pt too wide) in paragraph at lines 70--76
+\TU/lmss/m/n/10 [right=2.7em
+ []
+
+
+Overfull \hbox (8.06pt too wide) in paragraph at lines 70--76
+\TU/lmss/m/n/10 of
+ []
+
+
+Overfull \hbox (150.54123pt too wide) in paragraph at lines 70--76
+\TU/lmss/m/n/10 electron$[]\OML/cmm/m/it/10 eutrino:center\OT1/cmr/m/n/10 ][]$\
+TU/lmss/m/n/10 0$\OT1/cmr/m/n/10 ; [\OML/cmm/m/it/10 right \OT1/cmr/m/n/10 =
+ []
+
+
+Overfull \hbox (180.01923pt too wide) in paragraph at lines 70--76
+\OT1/cmr/m/n/10 2\OML/cmm/m/it/10 :\OT1/cmr/m/n/10 7\OML/cmm/m/it/10 emofmuon[]
+eutrino:center\OT1/cmr/m/n/10 ][]$\TU/lmss/m/n/10 0$\OT1/cmr/m/n/10 ; [\OML/cmm
+/m/it/10 right \OT1/cmr/m/n/10 =
+ []
+
+
+Overfull \hbox (131.55093pt too wide) in paragraph at lines 70--76
+\OT1/cmr/m/n/10 2\OML/cmm/m/it/10 :\OT1/cmr/m/n/10 7\OML/cmm/m/it/10 emoftau[]e
+utrino:center\OT1/cmr/m/n/10 ][]$\TU/lmss/m/n/10 0$\OT1/cmr/m/n/10 ;$ 
+ []
+
+! Undefined control sequence.
+l.78 \node
+          [draw,circle,text width=0.8em,align=center,thick,fill=black!90,tex...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.78 \node[
+           draw,circle,text width=0.8em,align=center,thick,fill=black!90,tex...
+
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+! Undefined control sequence.
+<recently read> \bm 
+                    
+l.78 ...=white,left=2.8em of electron.center]{$\bm
+                                                  {e}$};
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.79 \node
+          [draw,circle,text width=0.8em,align=center,thick,fill=black!90,tex...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<recently read> \bm 
+                    
+l.79 ...text=white,left=2.8em of muon.center]{$\bm
+                                                  {\mu}$};
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.80 \node
+          [draw,circle,text width=0.8em,align=center,thick,fill=black!90,tex...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<recently read> \bm 
+                    
+l.80 ...,text=white,left=2.8em of tau.center]{$\bm
+                                                  {\tau}$};
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.81 \node
+          [draw,circle,text width=0.8em,align=center,text width=0.8em,thick,...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.81 ... width=0.8em,thick,left=2.8em of electron_
+                                                  neutrino.center]{$\bm{\nu_...
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.81 ...,left=2.8em of electron_neutrino.center]{$
+                                                  \bm{\nu_e}$};
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Undefined control sequence.
+l.81 ...ft=2.8em of electron_neutrino.center]{$\bm
+                                                  {\nu_e}$};
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.81 ....8em of electron_neutrino.center]{$\bm{\nu
+                                                  _e}$};
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Extra }, or forgotten $.
+l.81 ...m of electron_neutrino.center]{$\bm{\nu_e}
+                                                  $};
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Undefined control sequence.
+l.82 \node
+          [draw,circle,text width=0.8em,align=center,thick,left=2.8em of muo...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.82 ...8em,align=center,thick,left=2.8em of muon_
+                                                  neutrino.center]{$\bm{\nu_...
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.82 ...hick,left=2.8em of muon_neutrino.center]{$
+                                                  \bm{\nu_\mu}$};
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Undefined control sequence.
+l.82 ...k,left=2.8em of muon_neutrino.center]{$\bm
+                                                  {\nu_\mu}$};
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.82 ...ft=2.8em of muon_neutrino.center]{$\bm{\nu
+                                                  _\mu}$};
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Extra }, or forgotten $.
+l.82 ...8em of muon_neutrino.center]{$\bm{\nu_\mu}
+                                                  $};
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Undefined control sequence.
+l.83 \node
+          [draw,circle,text width=0.8em,align=center,thick,left=2.8em of tau...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.83 ....8em,align=center,thick,left=2.8em of tau_
+                                                  neutrino.center]{$\bm{\nu_...
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.83 ...thick,left=2.8em of tau_neutrino.center]{$
+                                                  \bm{\nu_\tau}$};
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Undefined control sequence.
+l.83 ...ck,left=2.8em of tau_neutrino.center]{$\bm
+                                                  {\nu_\tau}$};
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.83 ...eft=2.8em of tau_neutrino.center]{$\bm{\nu
+                                                  _\tau}$};
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Extra }, or forgotten $.
+l.83 ...8em of tau_neutrino.center]{$\bm{\nu_\tau}
+                                                  $};
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+
+Overfull \hbox (86.19pt too wide) in paragraph at lines 78--84
+[]\TU/lmss/m/n/10 [draw,circle,text
+ []
+
+
+Overfull \hbox (289.31pt too wide) in paragraph at lines 78--84
+\TU/lmss/m/n/10 width=0.8em,align=center,thick,fill=black!90,text=white,left=2.
+8em
+ []
+
+
+Overfull \hbox (8.06pt too wide) in paragraph at lines 78--84
+\TU/lmss/m/n/10 of
+ []
+
+
+Overfull \hbox (71.53627pt too wide) in paragraph at lines 78--84
+\TU/lmss/m/n/10 electron.center]$\OML/cmm/m/it/10 e$\TU/lmss/m/n/10 ;
+ []
+
+
+Overfull \hbox (66.19pt too wide) in paragraph at lines 78--84
+\TU/lmss/m/n/10 [draw,circle,text
+ []
+
+
+Overfull \hbox (289.31pt too wide) in paragraph at lines 78--84
+\TU/lmss/m/n/10 width=0.8em,align=center,thick,fill=black!90,text=white,left=2.
+8em
+ []
+
+
+Overfull \hbox (8.06pt too wide) in paragraph at lines 78--84
+\TU/lmss/m/n/10 of
+ []
+
+
+Overfull \hbox (63.27548pt too wide) in paragraph at lines 78--84
+\TU/lmss/m/n/10 muon.center]$\OML/cmm/m/it/10 ^^V$\TU/lmss/m/n/10 ;
+ []
+
+
+Overfull \hbox (66.19pt too wide) in paragraph at lines 78--84
+\TU/lmss/m/n/10 [draw,circle,text
+ []
+
+
+Overfull \hbox (289.31pt too wide) in paragraph at lines 78--84
+\TU/lmss/m/n/10 width=0.8em,align=center,thick,fill=black!90,text=white,left=2.
+8em
+ []
+
+
+Overfull \hbox (8.06pt too wide) in paragraph at lines 78--84
+\TU/lmss/m/n/10 of
+ []
+
+
+Overfull \hbox (53.06348pt too wide) in paragraph at lines 78--84
+\TU/lmss/m/n/10 tau.center]$\OML/cmm/m/it/10 ^^\$\TU/lmss/m/n/10 ;
+ []
+
+
+Overfull \hbox (66.19pt too wide) in paragraph at lines 78--84
+\TU/lmss/m/n/10 [draw,circle,text
+ []
+
+
+Overfull \hbox (131.0pt too wide) in paragraph at lines 78--84
+\TU/lmss/m/n/10 width=0.8em,align=center,text
+ []
+
+
+Overfull \hbox (128.61pt too wide) in paragraph at lines 78--84
+\TU/lmss/m/n/10 width=0.8em,thick,left=2.8em
+ []
+
+
+Overfull \hbox (8.06pt too wide) in paragraph at lines 78--84
+\TU/lmss/m/n/10 of
+ []
+
+
+Overfull \hbox (117.0418pt too wide) in paragraph at lines 78--84
+\TU/lmss/m/n/10 electron$[]\OML/cmm/m/it/10 eutrino:center\OT1/cmr/m/n/10 ][]$$
+\OML/cmm/m/it/10 ^^W[]$\TU/lmss/m/n/10 ;
+ []
+
+
+Overfull \hbox (66.19pt too wide) in paragraph at lines 78--84
+\TU/lmss/m/n/10 [draw,circle,text
+ []
+
+
+Overfull \hbox (184.45pt too wide) in paragraph at lines 78--84
+\TU/lmss/m/n/10 width=0.8em,align=center,thick,left=2.8em
+ []
+
+
+Overfull \hbox (8.06pt too wide) in paragraph at lines 78--84
+\TU/lmss/m/n/10 of
+ []
+
+
+Overfull \hbox (108.48pt too wide) in paragraph at lines 78--84
+\TU/lmss/m/n/10 muon$[]\OML/cmm/m/it/10 eutrino:center\OT1/cmr/m/n/10 ][]$$\OML
+/cmm/m/it/10 ^^W[]$\TU/lmss/m/n/10 ;
+ []
+
+
+Overfull \hbox (66.19pt too wide) in paragraph at lines 78--84
+\TU/lmss/m/n/10 [draw,circle,text
+ []
+
+
+Overfull \hbox (184.45pt too wide) in paragraph at lines 78--84
+\TU/lmss/m/n/10 width=0.8em,align=center,thick,left=2.8em
+ []
+
+
+Overfull \hbox (8.06pt too wide) in paragraph at lines 78--84
+\TU/lmss/m/n/10 of
+ []
+
+
+Overfull \hbox (98.42458pt too wide) in paragraph at lines 78--84
+\TU/lmss/m/n/10 tau$[]\OML/cmm/m/it/10 eutrino:center\OT1/cmr/m/n/10 ][]$$\OML/
+cmm/m/it/10 ^^W[]$\TU/lmss/m/n/10 ; 
+ []
+
+! Undefined control sequence.
+l.86 \node
+          [below=1.5em of electron.center] {\scriptsize 1895 - X-rays};
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.86 \node[
+           below=1.5em of electron.center] {\scriptsize 1895 - X-rays};
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+! Undefined control sequence.
+l.86 ...low=1.5em of electron.center] {\scriptsize
+                                                   1895 - X-rays};
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.87 \node
+          [below=1.5em of muon.center] {\scriptsize 1936 - cosmic ray};
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.87 ...e[below=1.5em of muon.center] {\scriptsize
+                                                   1936 - cosmic ray};
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.88 \node
+          [below=1.5em of tau.center] {\scriptsize 1975 - SLAC};
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.88 \node[below=1.5em of tau.center] {\scriptsize
+                                                   1975 - SLAC};
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.89 \node
+          [below=1.5em of electron_neutrino.center] {\scriptsize 1956 - nucl...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.89 \node[below=1.5em of electron_
+                                   neutrino.center] {\scriptsize 1956 - nucl...
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Undefined control sequence.
+l.89 ... of electron_neutrino.center] {\scriptsize
+                                                   1956 - nuclear reactor};
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.90 \node
+          [below=1.5em of muon_neutrino.center] {\scriptsize 1962 - Brookhav...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.90 ....5em of muon_neutrino.center] {\scriptsize
+                                                   1962 - Brookhaven};
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.91 \node
+          [below=1.5em of tau_neutrino.center] {\scriptsize 2000 - Fermilab};
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.91 ...1.5em of tau_neutrino.center] {\scriptsize
+                                                   2000 - Fermilab};
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+! LaTeX Error: \begin{document} ended by \end{tikzpicture}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.92 \end{tikzpicture}
+                      
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.92 \end{tikzpicture}
+                      
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+
+! LaTeX Error: Environment tikzpicture undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.95 \begin{tikzpicture}
+                        [scale=1.4,font=\sffamily\small,rectangle/.style={fi...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+Missing character: There is no [ in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no = in font nullfont!
+Missing character: There is no 1 in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 4 in font nullfont!
+Missing character: There is no , in font nullfont!
+Missing character: There is no f in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no = in font nullfont!
+! Undefined control sequence.
+l.95 ...ikzpicture}[scale=1.4,font=\sffamily\small
+                                                  ,rectangle/.style={fill=gr...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Overfull \hbox (79.66pt too wide) in paragraph at lines 86--96
+[]\TU/lmss/m/n/10 [below=1.5em
+ []
+
+
+Overfull \hbox (8.06pt too wide) in paragraph at lines 86--96
+\TU/lmss/m/n/10 of
+ []
+
+
+Overfull \hbox (19.04001pt too wide) in paragraph at lines 86--96
+\TU/lmss/m/n/10 elec-
+ []
+
+
+Overfull \hbox (48.39pt too wide) in paragraph at lines 86--96
+\TU/lmss/m/n/10 tron.center]
+ []
+
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 86--96
+\TU/lmss/m/n/10 1895
+ []
+
+
+Overfull \hbox (3.33pt too wide) in paragraph at lines 86--96
+\TU/lmss/m/n/10 -
+ []
+
+
+Overfull \hbox (10.0pt too wide) in paragraph at lines 86--96
+\TU/lmss/m/n/10 X-
+ []
+
+
+Overfull \hbox (19.17pt too wide) in paragraph at lines 86--96
+\TU/lmss/m/n/10 rays;
+ []
+
+
+Overfull \hbox (16.11pt too wide) in paragraph at lines 86--96
+\TU/lmss/m/n/10 [be-
+ []
+
+
+Overfull \hbox (46.88pt too wide) in paragraph at lines 86--96
+\TU/lmss/m/n/10 low=1.5em
+ []
+
+
+Overfull \hbox (8.06pt too wide) in paragraph at lines 86--96
+\TU/lmss/m/n/10 of
+ []
+
+
+Overfull \hbox (54.47pt too wide) in paragraph at lines 86--96
+\TU/lmss/m/n/10 muon.center]
+ []
+
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 86--96
+\TU/lmss/m/n/10 1936
+ []
+
+
+Overfull \hbox (3.33pt too wide) in paragraph at lines 86--96
+\TU/lmss/m/n/10 -
+ []
+
+
+Overfull \hbox (16.6pt too wide) in paragraph at lines 86--96
+\TU/lmss/m/n/10 cos-
+ []
+
+
+Overfull \hbox (14.77pt too wide) in paragraph at lines 86--96
+\TU/lmss/m/n/10 mic
+ []
+
+
+Overfull \hbox (15.34pt too wide) in paragraph at lines 86--96
+\TU/lmss/m/n/10 ray;
+ []
+
+
+Overfull \hbox (16.11pt too wide) in paragraph at lines 86--96
+\TU/lmss/m/n/10 [be-
+ []
+
+
+Overfull \hbox (46.88pt too wide) in paragraph at lines 86--96
+\TU/lmss/m/n/10 low=1.5em
+ []
+
+
+Overfull \hbox (8.06pt too wide) in paragraph at lines 86--96
+\TU/lmss/m/n/10 of
+ []
+
+
+Overfull \hbox (44.78pt too wide) in paragraph at lines 86--96
+\TU/lmss/m/n/10 tau.center]
+ []
+
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 86--96
+\TU/lmss/m/n/10 1975
+ []
+
+
+Overfull \hbox (3.33pt too wide) in paragraph at lines 86--96
+\TU/lmss/m/n/10 -
+ []
+
+
+Overfull \hbox (26.54001pt too wide) in paragraph at lines 86--96
+\TU/lmss/m/n/10 SLAC;
+ []
+
+
+Overfull \hbox (16.11pt too wide) in paragraph at lines 86--96
+\TU/lmss/m/n/10 [be-
+ []
+
+
+Overfull \hbox (46.88pt too wide) in paragraph at lines 86--96
+\TU/lmss/m/n/10 low=1.5em
+ []
+
+
+Overfull \hbox (8.06pt too wide) in paragraph at lines 86--96
+\TU/lmss/m/n/10 of
+ []
+
+
+Overfull \hbox (245.70512pt too wide) in paragraph at lines 86--96
+\TU/lmss/m/n/10 electron$[]\OML/cmm/m/it/10 eutrino:center\OT1/cmr/m/n/10 ][]; 
+[\OML/cmm/m/it/10 below \OT1/cmr/m/n/10 =
+ []
+
+
+Overfull \hbox (263.91331pt too wide) in paragraph at lines 86--96
+\OT1/cmr/m/n/10 1\OML/cmm/m/it/10 :\OT1/cmr/m/n/10 5\OML/cmm/m/it/10 emofmuon[]
+eutrino:center\OT1/cmr/m/n/10 ][]; [\OML/cmm/m/it/10 below \OT1/cmr/m/n/10 =
+ []
+
+
+Overfull \hbox (201.0216pt too wide) in paragraph at lines 86--96
+\OT1/cmr/m/n/10 1\OML/cmm/m/it/10 :\OT1/cmr/m/n/10 5\OML/cmm/m/it/10 emoftau[]e
+utrino:center\OT1/cmr/m/n/10 ][];$
+ []
+
+
+Overfull \hbox (131.02pt too wide) in paragraph at lines 86--96
+\TU/lmss/m/n/10 ,rectangle/.style=fill=green!10,
+ []
+
+
+Overfull \hbox (33.54001pt too wide) in paragraph at lines 86--96
+\TU/lmss/m/n/10 rounded
+ []
+
+
+Overfull \hbox (15.91pt too wide) in paragraph at lines 86--96
+\TU/lmss/m/n/10 cor-
+ []
+
+
+Overfull \hbox (130.06pt too wide) in paragraph at lines 86--96
+\TU/lmss/m/n/10 ners=.2cm,box/.style=rounded
+ []
+
+
+Overfull \hbox (15.91pt too wide) in paragraph at lines 86--96
+\TU/lmss/m/n/10 cor-
+ []
+
+
+Overfull \hbox (47.69pt too wide) in paragraph at lines 86--96
+\TU/lmss/m/n/10 ners=.2cm] 
+ []
+
+! Undefined control sequence.
+l.100 \node
+           [rectangle,text centered,text width = 0.29\textwidth, minimum hei...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.100 \node[
+            rectangle,text centered,text width = 0.29\textwidth, minimum hei...
+
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+                   m
+l.100 ... centered,text width = 0.29\textwidth, mi
+                                                  nimum height=7em,] (photon...
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+! Undefined control sequence.
+l.100 ...um height=7em,] (photon) at (0,0) {\Large
+                                                   \textit{photon}};
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.101 \node
+           [rectangle,text centered,text width = 0.29\textwidth, minimum hei...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+                   m
+l.101 ... centered,text width = 0.29\textwidth, mi
+                                                  nimum height=7em,] (gluon)...
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+! Undefined control sequence.
+l.101 ...mum height=7em,] (gluon) at (3,0) {\Large
+                                                   \textit{gluon}};
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.102 \node
+           [rectangle,text centered,text width = 0.29\textwidth, minimum hei...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+                   m
+l.102 ... centered,text width = 0.29\textwidth, mi
+                                                  nimum height=7em,] (W) at ...
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+! Undefined control sequence.
+l.102 ...minimum height=7em,] (W) at (6,0) {\Large
+                                                   \textit{W}$^{\pm}$};
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.103 \node
+           [rectangle,text centered,text width = 0.29\textwidth, minimum hei...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+                   m
+l.103 ... centered,text width = 0.29\textwidth, mi
+                                                  nimum height=7em,] (Z) at ...
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+! Undefined control sequence.
+l.103 ...inimum height=7em,] (Z) at (0,-2) {\Large
+                                                   \textit{Z}$^{0}$};
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.104 \node
+           [rectangle,fill=black!10,text centered,text width = 0.29\textwidt...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+                   m
+l.104 ... centered,text width = 0.29\textwidth, mi
+                                                  nimum height=7em,] (Higgs)...
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+! Undefined control sequence.
+l.104 ...um height=7em,] (Higgs) at (3,-2) {\Large
+                                                   \textit{Higgs}};
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Overfull \hbox (79.66pt too wide) in paragraph at lines 100--106
+[]\TU/lmss/m/n/10 [rectangle,text
+ []
+
+
+Overfull \hbox (17.38pt too wide) in paragraph at lines 100--106
+\TU/lmss/m/n/10 cen-
+ []
+
+
+Overfull \hbox (40.13pt too wide) in paragraph at lines 100--106
+\TU/lmss/m/n/10 tered,text
+ []
+
+
+Overfull \hbox (23.17pt too wide) in paragraph at lines 100--106
+\TU/lmss/m/n/10 width
+ []
+
+
+Overfull \hbox (7.78pt too wide) in paragraph at lines 100--106
+\TU/lmss/m/n/10 =
+ []
+
+
+Overfull \hbox (36.61pt too wide) in paragraph at lines 100--106
+\TU/lmss/m/n/10 0.29min-
+ []
+
+
+Overfull \hbox (5.72pt too wide) in paragraph at lines 100--106
+\TU/lmss/m/n/10 i-
+ []
+
+
+Overfull \hbox (21.05pt too wide) in paragraph at lines 100--106
+\TU/lmss/m/n/10 mum
+ []
+
+
+Overfull \hbox (56.61pt too wide) in paragraph at lines 100--106
+\TU/lmss/m/n/10 height=7em,]
+ []
+
+
+Overfull \hbox (22.56pt too wide) in paragraph at lines 100--106
+\TU/lmss/m/n/10 (pho-
+ []
+
+
+Overfull \hbox (17.67pt too wide) in paragraph at lines 100--106
+\TU/lmss/m/n/10 ton)
+ []
+
+
+Overfull \hbox (8.42pt too wide) in paragraph at lines 100--106
+\TU/lmss/m/n/10 at
+ []
+
+
+Overfull \hbox (20.56pt too wide) in paragraph at lines 100--106
+\TU/lmss/m/n/10 (0,0)
+ []
+
+
+Overfull \hbox (18.67pt too wide) in paragraph at lines 100--106
+\TU/lmss/m/sl/10 pho-
+ []
+
+
+Overfull \hbox (16.56pt too wide) in paragraph at lines 100--106
+\TU/lmss/m/sl/10 ton\TU/lmss/m/n/10 ;
+ []
+
+
+Overfull \hbox (22.13pt too wide) in paragraph at lines 100--106
+\TU/lmss/m/n/10 [rect-
+ []
+
+
+Overfull \hbox (13.31pt too wide) in paragraph at lines 100--106
+\TU/lmss/m/n/10 an-
+ []
+
+
+Overfull \hbox (30.88pt too wide) in paragraph at lines 100--106
+\TU/lmss/m/n/10 gle,text
+ []
+
+
+Overfull \hbox (17.38pt too wide) in paragraph at lines 100--106
+\TU/lmss/m/n/10 cen-
+ []
+
+
+Overfull \hbox (40.13pt too wide) in paragraph at lines 100--106
+\TU/lmss/m/n/10 tered,text
+ []
+
+
+Overfull \hbox (23.17pt too wide) in paragraph at lines 100--106
+\TU/lmss/m/n/10 width
+ []
+
+
+Overfull \hbox (7.78pt too wide) in paragraph at lines 100--106
+\TU/lmss/m/n/10 =
+ []
+
+
+Overfull \hbox (36.61pt too wide) in paragraph at lines 100--106
+\TU/lmss/m/n/10 0.29min-
+ []
+
+
+Overfull \hbox (5.72pt too wide) in paragraph at lines 100--106
+\TU/lmss/m/n/10 i-
+ []
+
+
+Overfull \hbox (21.05pt too wide) in paragraph at lines 100--106
+\TU/lmss/m/n/10 mum
+ []
+
+
+Overfull \hbox (56.61pt too wide) in paragraph at lines 100--106
+\TU/lmss/m/n/10 height=7em,]
+ []
+
+
+Overfull \hbox (30.51pt too wide) in paragraph at lines 100--106
+\TU/lmss/m/n/10 (gluon)
+ []
+
+
+Overfull \hbox (8.42pt too wide) in paragraph at lines 100--106
+\TU/lmss/m/n/10 at
+ []
+
+
+Overfull \hbox (20.56pt too wide) in paragraph at lines 100--106
+\TU/lmss/m/n/10 (3,0)
+ []
+
+
+Overfull \hbox (25.51pt too wide) in paragraph at lines 100--106
+\TU/lmss/m/sl/10 gluon\TU/lmss/m/n/10 ;
+ []
+
+
+Overfull \hbox (22.13pt too wide) in paragraph at lines 100--106
+\TU/lmss/m/n/10 [rect-
+ []
+
+
+Overfull \hbox (13.31pt too wide) in paragraph at lines 100--106
+\TU/lmss/m/n/10 an-
+ []
+
+
+Overfull \hbox (30.88pt too wide) in paragraph at lines 100--106
+\TU/lmss/m/n/10 gle,text
+ []
+
+
+Overfull \hbox (17.38pt too wide) in paragraph at lines 100--106
+\TU/lmss/m/n/10 cen-
+ []
+
+
+Overfull \hbox (40.13pt too wide) in paragraph at lines 100--106
+\TU/lmss/m/n/10 tered,text
+ []
+
+
+Overfull \hbox (23.17pt too wide) in paragraph at lines 100--106
+\TU/lmss/m/n/10 width
+ []
+
+
+Overfull \hbox (7.78pt too wide) in paragraph at lines 100--106
+\TU/lmss/m/n/10 =
+ []
+
+
+Overfull \hbox (36.61pt too wide) in paragraph at lines 100--106
+\TU/lmss/m/n/10 0.29min-
+ []
+
+
+Overfull \hbox (5.72pt too wide) in paragraph at lines 100--106
+\TU/lmss/m/n/10 i-
+ []
+
+
+Overfull \hbox (21.05pt too wide) in paragraph at lines 100--106
+\TU/lmss/m/n/10 mum
+ []
+
+
+Overfull \hbox (56.61pt too wide) in paragraph at lines 100--106
+\TU/lmss/m/n/10 height=7em,]
+ []
+
+
+Overfull \hbox (17.22pt too wide) in paragraph at lines 100--106
+\TU/lmss/m/n/10 (W)
+ []
+
+
+Overfull \hbox (8.42pt too wide) in paragraph at lines 100--106
+\TU/lmss/m/n/10 at
+ []
+
+
+Overfull \hbox (20.56pt too wide) in paragraph at lines 100--106
+\TU/lmss/m/n/10 (6,0)
+ []
+
+
+Overfull \hbox (20.30002pt too wide) in paragraph at lines 100--106
+\TU/lmss/m/sl/10 W$[]$\TU/lmss/m/n/10 ;
+ []
+
+
+Overfull \hbox (22.13pt too wide) in paragraph at lines 100--106
+\TU/lmss/m/n/10 [rect-
+ []
+
+
+Overfull \hbox (13.31pt too wide) in paragraph at lines 100--106
+\TU/lmss/m/n/10 an-
+ []
+
+
+Overfull \hbox (30.88pt too wide) in paragraph at lines 100--106
+\TU/lmss/m/n/10 gle,text
+ []
+
+
+Overfull \hbox (17.38pt too wide) in paragraph at lines 100--106
+\TU/lmss/m/n/10 cen-
+ []
+
+
+Overfull \hbox (40.13pt too wide) in paragraph at lines 100--106
+\TU/lmss/m/n/10 tered,text
+ []
+
+
+Overfull \hbox (23.17pt too wide) in paragraph at lines 100--106
+\TU/lmss/m/n/10 width
+ []
+
+
+Overfull \hbox (7.78pt too wide) in paragraph at lines 100--106
+\TU/lmss/m/n/10 =
+ []
+
+
+Overfull \hbox (36.61pt too wide) in paragraph at lines 100--106
+\TU/lmss/m/n/10 0.29min-
+ []
+
+
+Overfull \hbox (5.72pt too wide) in paragraph at lines 100--106
+\TU/lmss/m/n/10 i-
+ []
+
+
+Overfull \hbox (21.05pt too wide) in paragraph at lines 100--106
+\TU/lmss/m/n/10 mum
+ []
+
+
+Overfull \hbox (56.61pt too wide) in paragraph at lines 100--106
+\TU/lmss/m/n/10 height=7em,]
+ []
+
+
+Overfull \hbox (13.89pt too wide) in paragraph at lines 100--106
+\TU/lmss/m/n/10 (Z)
+ []
+
+
+Overfull \hbox (8.42pt too wide) in paragraph at lines 100--106
+\TU/lmss/m/n/10 at
+ []
+
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 100--106
+\TU/lmss/m/n/10 (0,-
+ []
+
+
+Overfull \hbox (8.89pt too wide) in paragraph at lines 100--106
+\TU/lmss/m/n/10 2)
+ []
+
+
+Overfull \hbox (14.28613pt too wide) in paragraph at lines 100--106
+\TU/lmss/m/sl/10 Z$[]$\TU/lmss/m/n/10 ;
+ []
+
+
+Overfull \hbox (22.13pt too wide) in paragraph at lines 100--106
+\TU/lmss/m/n/10 [rect-
+ []
+
+
+Overfull \hbox (13.31pt too wide) in paragraph at lines 100--106
+\TU/lmss/m/n/10 an-
+ []
+
+
+Overfull \hbox (86.47pt too wide) in paragraph at lines 100--106
+\TU/lmss/m/n/10 gle,fill=black!10,text
+ []
+
+
+Overfull \hbox (17.38pt too wide) in paragraph at lines 100--106
+\TU/lmss/m/n/10 cen-
+ []
+
+
+Overfull \hbox (40.13pt too wide) in paragraph at lines 100--106
+\TU/lmss/m/n/10 tered,text
+ []
+
+
+Overfull \hbox (23.17pt too wide) in paragraph at lines 100--106
+\TU/lmss/m/n/10 width
+ []
+
+
+Overfull \hbox (7.78pt too wide) in paragraph at lines 100--106
+\TU/lmss/m/n/10 =
+ []
+
+
+Overfull \hbox (36.61pt too wide) in paragraph at lines 100--106
+\TU/lmss/m/n/10 0.29min-
+ []
+
+
+Overfull \hbox (5.72pt too wide) in paragraph at lines 100--106
+\TU/lmss/m/n/10 i-
+ []
+
+
+Overfull \hbox (21.05pt too wide) in paragraph at lines 100--106
+\TU/lmss/m/n/10 mum
+ []
+
+
+Overfull \hbox (56.61pt too wide) in paragraph at lines 100--106
+\TU/lmss/m/n/10 height=7em,]
+ []
+
+
+Overfull \hbox (31.08pt too wide) in paragraph at lines 100--106
+\TU/lmss/m/n/10 (Higgs)
+ []
+
+
+Overfull \hbox (8.42pt too wide) in paragraph at lines 100--106
+\TU/lmss/m/n/10 at
+ []
+
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 100--106
+\TU/lmss/m/n/10 (3,-
+ []
+
+
+Overfull \hbox (8.89pt too wide) in paragraph at lines 100--106
+\TU/lmss/m/n/10 2)
+ []
+
+
+Overfull \hbox (26.59pt too wide) in paragraph at lines 100--106
+\TU/lmss/m/sl/10 Higgs\TU/lmss/m/n/10 ; 
+ []
+
+! Undefined control sequence.
+l.107 \node
+           [box, above=0.5em of photon, xshift=-1em] (bosons){\Large Gauge B...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.107 \node[
+            box, above=0.5em of photon, xshift=-1em] (bosons){\Large Gauge B...
+
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+! Undefined control sequence.
+l.107 ...m of photon, xshift=-1em] (bosons){\Large
+                                                   Gauge Bosons};
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Overfull \hbox (40.45pt too wide) in paragraph at lines 107--108
+[]\TU/lmss/m/n/10 [box,
+ []
+
+
+Overfull \hbox (57.25pt too wide) in paragraph at lines 107--108
+\TU/lmss/m/n/10 above=0.5em
+ []
+
+
+Overfull \hbox (8.06pt too wide) in paragraph at lines 107--108
+\TU/lmss/m/n/10 of
+ []
+
+
+Overfull \hbox (18.67pt too wide) in paragraph at lines 107--108
+\TU/lmss/m/n/10 pho-
+ []
+
+
+Overfull \hbox (16.56pt too wide) in paragraph at lines 107--108
+\TU/lmss/m/n/10 ton,
+ []
+
+
+Overfull \hbox (33.78pt too wide) in paragraph at lines 107--108
+\TU/lmss/m/n/10 xshift=-
+ []
+
+
+Overfull \hbox (20.27pt too wide) in paragraph at lines 107--108
+\TU/lmss/m/n/10 1em]
+ []
+
+
+Overfull \hbox (62.15001pt too wide) in paragraph at lines 107--108
+\TU/lmss/m/n/10 (bosons)Gauge
+ []
+
+
+Overfull \hbox (32.28pt too wide) in paragraph at lines 107--108
+\TU/lmss/m/n/10 Bosons; 
+ []
+
+! Undefined control sequence.
+l.110 \node
+           [above=1.5em of photon.center] {\scriptsize $0$};
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.110 \node[
+            above=1.5em of photon.center] {\scriptsize $0$};
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+! Undefined control sequence.
+l.110 ...bove=1.5em of photon.center] {\scriptsize
+                                                   $0$};
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.111 \node
+           [above=1.5em of gluon.center] {\scriptsize $0$};
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.111 ...above=1.5em of gluon.center] {\scriptsize
+                                                   $0$};
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.112 \node
+           [above=1.5em of W.center] {\scriptsize $80.379$ GeV/$c^2$};
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.112 \node[above=1.5em of W.center] {\scriptsize
+                                                  $80.379$ GeV/$c^2$};
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.113 \node
+           [above=1.5em of Z.center] {\scriptsize $91.1876$ GeV/$c^2$};
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.113 \node[above=1.5em of Z.center] {\scriptsize
+                                                  $91.1876$ GeV/$c^2$};
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.114 \node
+           [above=1.5em of Higgs.center] {\scriptsize $125.10$ GeV/$c^2$};
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.114 ...above=1.5em of Higgs.center] {\scriptsize
+                                                   $125.10$ GeV/$c^2$};
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Overfull \hbox (80.14pt too wide) in paragraph at lines 110--115
+[]\TU/lmss/m/n/10 [above=1.5em
+ []
+
+
+Overfull \hbox (8.06pt too wide) in paragraph at lines 110--115
+\TU/lmss/m/n/10 of
+ []
+
+
+Overfull \hbox (18.67pt too wide) in paragraph at lines 110--115
+\TU/lmss/m/n/10 pho-
+ []
+
+
+Overfull \hbox (44.97pt too wide) in paragraph at lines 110--115
+\TU/lmss/m/n/10 ton.center]
+ []
+
+
+Overfull \hbox (7.78001pt too wide) in paragraph at lines 110--115
+\OT1/cmr/m/n/10 0$\TU/lmss/m/n/10 ;
+ []
+
+
+Overfull \hbox (60.14pt too wide) in paragraph at lines 110--115
+\TU/lmss/m/n/10 [above=1.5em
+ []
+
+
+Overfull \hbox (8.06pt too wide) in paragraph at lines 110--115
+\TU/lmss/m/n/10 of
+ []
+
+
+Overfull \hbox (53.92pt too wide) in paragraph at lines 110--115
+\TU/lmss/m/n/10 gluon.center]
+ []
+
+
+Overfull \hbox (7.78001pt too wide) in paragraph at lines 110--115
+\OT1/cmr/m/n/10 0$\TU/lmss/m/n/10 ;
+ []
+
+
+Overfull \hbox (60.14pt too wide) in paragraph at lines 110--115
+\TU/lmss/m/n/10 [above=1.5em
+ []
+
+
+Overfull \hbox (8.06pt too wide) in paragraph at lines 110--115
+\TU/lmss/m/n/10 of
+ []
+
+
+Overfull \hbox (40.63pt too wide) in paragraph at lines 110--115
+\TU/lmss/m/n/10 W.center]
+ []
+
+
+Overfull \hbox (27.77786pt too wide) in paragraph at lines 110--115
+\OT1/cmr/m/n/10 80\OML/cmm/m/it/10 :\OT1/cmr/m/n/10 379$
+ []
+
+
+Overfull \hbox (33.54369pt too wide) in paragraph at lines 110--115
+\TU/lmss/m/n/10 GeV/$\OML/cmm/m/it/10 c[]$\TU/lmss/m/n/10 ;
+ []
+
+
+Overfull \hbox (60.14pt too wide) in paragraph at lines 110--115
+\TU/lmss/m/n/10 [above=1.5em
+ []
+
+
+Overfull \hbox (8.06pt too wide) in paragraph at lines 110--115
+\TU/lmss/m/n/10 of
+ []
+
+
+Overfull \hbox (37.3pt too wide) in paragraph at lines 110--115
+\TU/lmss/m/n/10 Z.center]
+ []
+
+
+Overfull \hbox (32.77788pt too wide) in paragraph at lines 110--115
+\OT1/cmr/m/n/10 91\OML/cmm/m/it/10 :\OT1/cmr/m/n/10 1876$
+ []
+
+
+Overfull \hbox (33.54369pt too wide) in paragraph at lines 110--115
+\TU/lmss/m/n/10 GeV/$\OML/cmm/m/it/10 c[]$\TU/lmss/m/n/10 ;
+ []
+
+
+Overfull \hbox (60.14pt too wide) in paragraph at lines 110--115
+\TU/lmss/m/n/10 [above=1.5em
+ []
+
+
+Overfull \hbox (8.06pt too wide) in paragraph at lines 110--115
+\TU/lmss/m/n/10 of
+ []
+
+
+Overfull \hbox (54.49pt too wide) in paragraph at lines 110--115
+\TU/lmss/m/n/10 Higgs.center]
+ []
+
+
+Overfull \hbox (27.77786pt too wide) in paragraph at lines 110--115
+\OT1/cmr/m/n/10 125\OML/cmm/m/it/10 :\OT1/cmr/m/n/10 10$
+ []
+
+
+Overfull \hbox (33.54369pt too wide) in paragraph at lines 110--115
+\TU/lmss/m/n/10 GeV/$\OML/cmm/m/it/10 c[]$\TU/lmss/m/n/10 ; 
+ []
+
+! Undefined control sequence.
+l.117 \node
+           [right=2.3em of photon.center] {$0$};
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.117 \node[
+            right=2.3em of photon.center] {$0$};
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+! Undefined control sequence.
+l.118 \node
+           [right=2.3em of gluon.center] {$0$};
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.119 \node
+           [right=2.3em of W.center] {$\pm 1 e$};
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.120 \node
+           [right=2.3em of Z.center] {$0$};
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.121 \node
+           [right=2.3em of Higgs.center] {$0$};
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Overfull \hbox (75.42pt too wide) in paragraph at lines 117--122
+[]\TU/lmss/m/n/10 [right=2.3em
+ []
+
+
+Overfull \hbox (8.06pt too wide) in paragraph at lines 117--122
+\TU/lmss/m/n/10 of
+ []
+
+
+Overfull \hbox (18.67pt too wide) in paragraph at lines 117--122
+\TU/lmss/m/n/10 pho-
+ []
+
+
+Overfull \hbox (44.97pt too wide) in paragraph at lines 117--122
+\TU/lmss/m/n/10 ton.center]
+ []
+
+
+Overfull \hbox (7.78001pt too wide) in paragraph at lines 117--122
+\OT1/cmr/m/n/10 0$\TU/lmss/m/n/10 ;
+ []
+
+
+Overfull \hbox (55.42pt too wide) in paragraph at lines 117--122
+\TU/lmss/m/n/10 [right=2.3em
+ []
+
+
+Overfull \hbox (8.06pt too wide) in paragraph at lines 117--122
+\TU/lmss/m/n/10 of
+ []
+
+
+Overfull \hbox (53.92pt too wide) in paragraph at lines 117--122
+\TU/lmss/m/n/10 gluon.center]
+ []
+
+
+Overfull \hbox (7.78001pt too wide) in paragraph at lines 117--122
+\OT1/cmr/m/n/10 0$\TU/lmss/m/n/10 ;
+ []
+
+
+Overfull \hbox (55.42pt too wide) in paragraph at lines 117--122
+\TU/lmss/m/n/10 [right=2.3em
+ []
+
+
+Overfull \hbox (8.06pt too wide) in paragraph at lines 117--122
+\TU/lmss/m/n/10 of
+ []
+
+
+Overfull \hbox (40.63pt too wide) in paragraph at lines 117--122
+\TU/lmss/m/n/10 W.center]
+ []
+
+
+Overfull \hbox (20.21408pt too wide) in paragraph at lines 117--122
+\OMS/cmsy/m/n/10 ^^F\OT1/cmr/m/n/10 1\OML/cmm/m/it/10 e$\TU/lmss/m/n/10 ;
+ []
+
+
+Overfull \hbox (55.42pt too wide) in paragraph at lines 117--122
+\TU/lmss/m/n/10 [right=2.3em
+ []
+
+
+Overfull \hbox (8.06pt too wide) in paragraph at lines 117--122
+\TU/lmss/m/n/10 of
+ []
+
+
+Overfull \hbox (37.3pt too wide) in paragraph at lines 117--122
+\TU/lmss/m/n/10 Z.center]
+ []
+
+
+Overfull \hbox (7.78001pt too wide) in paragraph at lines 117--122
+\OT1/cmr/m/n/10 0$\TU/lmss/m/n/10 ;
+ []
+
+
+Overfull \hbox (55.42pt too wide) in paragraph at lines 117--122
+\TU/lmss/m/n/10 [right=2.3em
+ []
+
+
+Overfull \hbox (8.06pt too wide) in paragraph at lines 117--122
+\TU/lmss/m/n/10 of
+ []
+
+
+Overfull \hbox (54.49pt too wide) in paragraph at lines 117--122
+\TU/lmss/m/n/10 Higgs.center]
+ []
+
+
+Overfull \hbox (7.78001pt too wide) in paragraph at lines 117--122
+\OT1/cmr/m/n/10 0$\TU/lmss/m/n/10 ; 
+ []
+
+! Undefined control sequence.
+l.124 \node
+           [draw,circle,text width=0.8em,align=center,thick,
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.124 \node[
+            draw,circle,text width=0.8em,align=center,thick,
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+! Undefined control sequence.
+<recently read> \bm 
+                    
+l.126       left=2.8em of photon.center]{$\bm
+                                             {\gamma}$};
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.127 \node
+           [draw,circle,text width=0.8em,align=center,thick,
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<recently read> \bm 
+                    
+l.128 ...0.675mm},left=2.8em of gluon.center]{$\bm
+                                                  {g}$};
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.129 \node
+           [draw,circle,text width=0.8em,align=center,thick,fill=black!90,te...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.130 \node
+           [draw,circle,text width=0.8em,align=center,thick,fill=black!90,te...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.131 \node
+           [draw, circle, text width=0.8em, align=center, thick, fill=black!...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.132 \node
+           [draw, circle, text width=1.7em, align=center, thick, dashed, das...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Overfull \hbox (86.19pt too wide) in paragraph at lines 124--133
+[]\TU/lmss/m/n/10 [draw,circle,text
+ []
+
+
+Overfull \hbox (138.01pt too wide) in paragraph at lines 124--133
+\TU/lmss/m/n/10 width=0.8em,align=center,thick,
+ []
+
+
+Overfull \hbox (17.38pt too wide) in paragraph at lines 124--133
+\TU/lmss/m/n/10 dec-
+ []
+
+
+Overfull \hbox (8.33pt too wide) in paragraph at lines 124--133
+\TU/lmss/m/n/10 o-
+ []
+
+
+Overfull \hbox (19.06pt too wide) in paragraph at lines 124--133
+\TU/lmss/m/n/10 rate,
+ []
+
+
+Overfull \hbox (17.38pt too wide) in paragraph at lines 124--133
+\TU/lmss/m/n/10 dec-
+ []
+
+
+Overfull \hbox (8.33pt too wide) in paragraph at lines 124--133
+\TU/lmss/m/n/10 o-
+ []
+
+
+Overfull \hbox (11.56pt too wide) in paragraph at lines 124--133
+\TU/lmss/m/n/10 ra-
+ []
+
+
+Overfull \hbox (164.33pt too wide) in paragraph at lines 124--133
+\TU/lmss/m/n/10 tion=snake,amplitude=0.2mm,segment
+ []
+
+
+Overfull \hbox (65.0pt too wide) in paragraph at lines 124--133
+\TU/lmss/m/n/10 length=1.0mm,
+ []
+
+
+Overfull \hbox (46.44pt too wide) in paragraph at lines 124--133
+\TU/lmss/m/n/10 left=2.8em
+ []
+
+
+Overfull \hbox (8.06pt too wide) in paragraph at lines 124--133
+\TU/lmss/m/n/10 of
+ []
+
+
+Overfull \hbox (68.82285pt too wide) in paragraph at lines 124--133
+\TU/lmss/m/n/10 photon.center]$\OML/cmm/m/it/10 ^^M$\TU/lmss/m/n/10 ;
+ []
+
+
+Overfull \hbox (66.19pt too wide) in paragraph at lines 124--133
+\TU/lmss/m/n/10 [draw,circle,text
+ []
+
+
+Overfull \hbox (138.01pt too wide) in paragraph at lines 124--133
+\TU/lmss/m/n/10 width=0.8em,align=center,thick,
+ []
+
+
+Overfull \hbox (17.38pt too wide) in paragraph at lines 124--133
+\TU/lmss/m/n/10 dec-
+ []
+
+
+Overfull \hbox (8.33pt too wide) in paragraph at lines 124--133
+\TU/lmss/m/n/10 o-
+ []
+
+
+Overfull \hbox (19.06pt too wide) in paragraph at lines 124--133
+\TU/lmss/m/n/10 rate,
+ []
+
+
+Overfull \hbox (17.38pt too wide) in paragraph at lines 124--133
+\TU/lmss/m/n/10 dec-
+ []
+
+
+Overfull \hbox (8.33pt too wide) in paragraph at lines 124--133
+\TU/lmss/m/n/10 o-
+ []
+
+
+Overfull \hbox (11.56pt too wide) in paragraph at lines 124--133
+\TU/lmss/m/n/10 ra-
+ []
+
+
+Overfull \hbox (155.69pt too wide) in paragraph at lines 124--133
+\TU/lmss/m/n/10 tion=coil,amplitude=0.5mm,segment
+ []
+
+
+Overfull \hbox (121.44pt too wide) in paragraph at lines 124--133
+\TU/lmss/m/n/10 length=0.675mm,left=2.8em
+ []
+
+
+Overfull \hbox (8.06pt too wide) in paragraph at lines 124--133
+\TU/lmss/m/n/10 of
+ []
+
+
+Overfull \hbox (61.82846pt too wide) in paragraph at lines 124--133
+\TU/lmss/m/n/10 gluon.center]$\OML/cmm/m/it/10 g$\TU/lmss/m/n/10 ;
+ []
+
+
+Overfull \hbox (66.19pt too wide) in paragraph at lines 124--133
+\TU/lmss/m/n/10 [draw,circle,text
+ []
+
+
+Overfull \hbox (280.70001pt too wide) in paragraph at lines 124--133
+\TU/lmss/m/n/10 width=0.8em,align=center,thick,fill=black!90,text=white,decorat
+e,
+ []
+
+
+Overfull \hbox (17.38pt too wide) in paragraph at lines 124--133
+\TU/lmss/m/n/10 dec-
+ []
+
+
+Overfull \hbox (8.33pt too wide) in paragraph at lines 124--133
+\TU/lmss/m/n/10 o-
+ []
+
+
+Overfull \hbox (11.56pt too wide) in paragraph at lines 124--133
+\TU/lmss/m/n/10 ra-
+ []
+
+
+Overfull \hbox (164.33pt too wide) in paragraph at lines 124--133
+\TU/lmss/m/n/10 tion=snake,amplitude=0.2mm,segment
+ []
+
+
+Overfull \hbox (111.44pt too wide) in paragraph at lines 124--133
+\TU/lmss/m/n/10 length=1.2mm,left=2.8em
+ []
+
+
+Overfull \hbox (8.06pt too wide) in paragraph at lines 124--133
+\TU/lmss/m/n/10 of
+ []
+
+
+Overfull \hbox (55.45856pt too wide) in paragraph at lines 124--133
+\TU/lmss/m/n/10 W.center]$\OT1/cmr/bx/n/10 W$\TU/lmss/m/n/10 ;
+ []
+
+
+Overfull \hbox (66.19pt too wide) in paragraph at lines 124--133
+\TU/lmss/m/n/10 [draw,circle,text
+ []
+
+
+Overfull \hbox (280.70001pt too wide) in paragraph at lines 124--133
+\TU/lmss/m/n/10 width=0.8em,align=center,thick,fill=black!90,text=white,decorat
+e,
+ []
+
+
+Overfull \hbox (17.38pt too wide) in paragraph at lines 124--133
+\TU/lmss/m/n/10 dec-
+ []
+
+
+Overfull \hbox (8.33pt too wide) in paragraph at lines 124--133
+\TU/lmss/m/n/10 o-
+ []
+
+
+Overfull \hbox (11.56pt too wide) in paragraph at lines 124--133
+\TU/lmss/m/n/10 ra-
+ []
+
+
+Overfull \hbox (164.33pt too wide) in paragraph at lines 124--133
+\TU/lmss/m/n/10 tion=snake,amplitude=0.2mm,segment
+ []
+
+
+Overfull \hbox (111.44pt too wide) in paragraph at lines 124--133
+\TU/lmss/m/n/10 length=1.2mm,left=2.8em
+ []
+
+
+Overfull \hbox (8.06pt too wide) in paragraph at lines 124--133
+\TU/lmss/m/n/10 of
+ []
+
+
+Overfull \hbox (47.10774pt too wide) in paragraph at lines 124--133
+\TU/lmss/m/n/10 Z.center]$\OT1/cmr/bx/n/10 Z$\TU/lmss/m/n/10 ;
+ []
+
+
+Overfull \hbox (25.62pt too wide) in paragraph at lines 124--133
+\TU/lmss/m/n/10 [draw,
+ []
+
+
+Overfull \hbox (13.58pt too wide) in paragraph at lines 124--133
+\TU/lmss/m/n/10 cir-
+ []
+
+
+Overfull \hbox (14.05pt too wide) in paragraph at lines 124--133
+\TU/lmss/m/n/10 cle,
+ []
+
+
+Overfull \hbox (16.27pt too wide) in paragraph at lines 124--133
+\TU/lmss/m/n/10 text
+ []
+
+
+Overfull \hbox (58.89pt too wide) in paragraph at lines 124--133
+\TU/lmss/m/n/10 width=0.8em,
+ []
+
+
+Overfull \hbox (55.84pt too wide) in paragraph at lines 124--133
+\TU/lmss/m/n/10 align=center,
+ []
+
+
+Overfull \hbox (23.28pt too wide) in paragraph at lines 124--133
+\TU/lmss/m/n/10 thick,
+ []
+
+
+Overfull \hbox (55.59pt too wide) in paragraph at lines 124--133
+\TU/lmss/m/n/10 fill=black!90,
+ []
+
+
+Overfull \hbox (49.27pt too wide) in paragraph at lines 124--133
+\TU/lmss/m/n/10 text=white,
+ []
+
+
+Overfull \hbox (46.44pt too wide) in paragraph at lines 124--133
+\TU/lmss/m/n/10 left=2.8em
+ []
+
+
+Overfull \hbox (8.06pt too wide) in paragraph at lines 124--133
+\TU/lmss/m/n/10 of
+ []
+
+
+Overfull \hbox (54.38pt too wide) in paragraph at lines 124--133
+\TU/lmss/m/n/10 Higgs.center,
+ []
+
+
+Overfull \hbox (31.37pt too wide) in paragraph at lines 124--133
+\TU/lmss/m/n/10 dashed,
+ []
+
+
+Overfull \hbox (18.98pt too wide) in paragraph at lines 124--133
+\TU/lmss/m/n/10 dash
+ []
+
+
+Overfull \hbox (16.92pt too wide) in paragraph at lines 124--133
+\TU/lmss/m/n/10 pat-
+ []
+
+
+Overfull \hbox (34.59pt too wide) in paragraph at lines 124--133
+\TU/lmss/m/n/10 tern=on
+ []
+
+
+Overfull \hbox (13.78pt too wide) in paragraph at lines 124--133
+\TU/lmss/m/n/10 2pt
+ []
+
+
+Overfull \hbox (10.83pt too wide) in paragraph at lines 124--133
+\TU/lmss/m/n/10 off
+ []
+
+
+Overfull \hbox (16.67pt too wide) in paragraph at lines 124--133
+\TU/lmss/m/n/10 2pt]
+ []
+
+
+Overfull \hbox (41.31pt too wide) in paragraph at lines 124--133
+\TU/lmss/m/n/10 (hmarker)
+ []
+
+
+Overfull \hbox (11.77995pt too wide) in paragraph at lines 124--133
+\OT1/cmr/bx/n/10 H$\TU/lmss/m/n/10 ;
+ []
+
+
+Overfull \hbox (25.62pt too wide) in paragraph at lines 124--133
+\TU/lmss/m/n/10 [draw,
+ []
+
+
+Overfull \hbox (13.58pt too wide) in paragraph at lines 124--133
+\TU/lmss/m/n/10 cir-
+ []
+
+
+Overfull \hbox (14.05pt too wide) in paragraph at lines 124--133
+\TU/lmss/m/n/10 cle,
+ []
+
+
+Overfull \hbox (16.27pt too wide) in paragraph at lines 124--133
+\TU/lmss/m/n/10 text
+ []
+
+
+Overfull \hbox (58.89pt too wide) in paragraph at lines 124--133
+\TU/lmss/m/n/10 width=1.7em,
+ []
+
+
+Overfull \hbox (55.84pt too wide) in paragraph at lines 124--133
+\TU/lmss/m/n/10 align=center,
+ []
+
+
+Overfull \hbox (23.28pt too wide) in paragraph at lines 124--133
+\TU/lmss/m/n/10 thick,
+ []
+
+
+Overfull \hbox (31.37pt too wide) in paragraph at lines 124--133
+\TU/lmss/m/n/10 dashed,
+ []
+
+
+Overfull \hbox (18.98pt too wide) in paragraph at lines 124--133
+\TU/lmss/m/n/10 dash
+ []
+
+
+Overfull \hbox (16.92pt too wide) in paragraph at lines 124--133
+\TU/lmss/m/n/10 pat-
+ []
+
+
+Overfull \hbox (34.59pt too wide) in paragraph at lines 124--133
+\TU/lmss/m/n/10 tern=on
+ []
+
+
+Overfull \hbox (13.78pt too wide) in paragraph at lines 124--133
+\TU/lmss/m/n/10 2pt
+ []
+
+
+Overfull \hbox (10.83pt too wide) in paragraph at lines 124--133
+\TU/lmss/m/n/10 off
+ []
+
+
+Overfull \hbox (16.67pt too wide) in paragraph at lines 124--133
+\TU/lmss/m/n/10 2pt]
+ []
+
+
+Overfull \hbox (8.42pt too wide) in paragraph at lines 124--133
+\TU/lmss/m/n/10 at
+ []
+
+
+Overfull \hbox (69.61pt too wide) in paragraph at lines 124--133
+\TU/lmss/m/n/10 (hmarker.center)
+ []
+
+
+Overfull \hbox (2.78pt too wide) in paragraph at lines 124--133
+\TU/lmss/m/n/10 ; 
+ []
+
+! Undefined control sequence.
+l.136   \node
+             [below=1.5em of photon.center] {\scriptsize 1900 - Max Planck's...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.136   \node[
+              below=1.5em of photon.center] {\scriptsize 1900 - Max Planck's...
+
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+! Undefined control sequence.
+l.136 ...elow=1.5em of photon.center] {\scriptsize
+                                                   1900 - Max Planck's quanta};
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.137   \node
+             [below=1.5em of gluon.center] {\scriptsize 1979 - PETRA };
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.137 ...below=1.5em of gluon.center] {\scriptsize
+                                                   1979 - PETRA };
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.138   \node
+             [below=1.5em of W.center] {\scriptsize 1983 - UA1, UA2 };
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.138 ...ode[below=1.5em of W.center] {\scriptsize
+                                                   1983 - UA1, UA2 };
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.139   \node
+             [below=1.5em of Z.center] {\scriptsize 1983 - UA1, UA2 };
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.139 ...ode[below=1.5em of Z.center] {\scriptsize
+                                                   1983 - UA1, UA2 };
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.140   \node
+             [below=1.5em of Higgs.center] {\scriptsize 2012 - ATLAS, CMS};
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.140 ...below=1.5em of Higgs.center] {\scriptsize
+                                                   2012 - ATLAS, CMS};
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Overfull \hbox (79.66pt too wide) in paragraph at lines 136--141
+[]\TU/lmss/m/n/10 [below=1.5em
+ []
+
+
+Overfull \hbox (8.06pt too wide) in paragraph at lines 136--141
+\TU/lmss/m/n/10 of
+ []
+
+
+Overfull \hbox (18.67pt too wide) in paragraph at lines 136--141
+\TU/lmss/m/n/10 pho-
+ []
+
+
+Overfull \hbox (44.97pt too wide) in paragraph at lines 136--141
+\TU/lmss/m/n/10 ton.center]
+ []
+
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 136--141
+\TU/lmss/m/n/10 1900
+ []
+
+
+Overfull \hbox (3.33pt too wide) in paragraph at lines 136--141
+\TU/lmss/m/n/10 -
+ []
+
+
+Overfull \hbox (18.17pt too wide) in paragraph at lines 136--141
+\TU/lmss/m/n/10 Max
+ []
+
+
+Overfull \hbox (34.7pt too wide) in paragraph at lines 136--141
+\TU/lmss/m/n/10 Planck’s
+ []
+
+
+Overfull \hbox (31.52pt too wide) in paragraph at lines 136--141
+\TU/lmss/m/n/10 quanta;
+ []
+
+
+Overfull \hbox (16.11pt too wide) in paragraph at lines 136--141
+\TU/lmss/m/n/10 [be-
+ []
+
+
+Overfull \hbox (46.88pt too wide) in paragraph at lines 136--141
+\TU/lmss/m/n/10 low=1.5em
+ []
+
+
+Overfull \hbox (8.06pt too wide) in paragraph at lines 136--141
+\TU/lmss/m/n/10 of
+ []
+
+
+Overfull \hbox (53.92pt too wide) in paragraph at lines 136--141
+\TU/lmss/m/n/10 gluon.center]
+ []
+
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 136--141
+\TU/lmss/m/n/10 1979
+ []
+
+
+Overfull \hbox (3.33pt too wide) in paragraph at lines 136--141
+\TU/lmss/m/n/10 -
+ []
+
+
+Overfull \hbox (15.69pt too wide) in paragraph at lines 136--141
+\TU/lmss/m/n/10 PE-
+ []
+
+
+Overfull \hbox (19.94pt too wide) in paragraph at lines 136--141
+\TU/lmss/m/n/10 TRA
+ []
+
+
+Overfull \hbox (2.78pt too wide) in paragraph at lines 136--141
+\TU/lmss/m/n/10 ;
+ []
+
+
+Overfull \hbox (16.11pt too wide) in paragraph at lines 136--141
+\TU/lmss/m/n/10 [be-
+ []
+
+
+Overfull \hbox (46.88pt too wide) in paragraph at lines 136--141
+\TU/lmss/m/n/10 low=1.5em
+ []
+
+
+Overfull \hbox (8.06pt too wide) in paragraph at lines 136--141
+\TU/lmss/m/n/10 of
+ []
+
+
+Overfull \hbox (40.63pt too wide) in paragraph at lines 136--141
+\TU/lmss/m/n/10 W.center]
+ []
+
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 136--141
+\TU/lmss/m/n/10 1983
+ []
+
+
+Overfull \hbox (3.33pt too wide) in paragraph at lines 136--141
+\TU/lmss/m/n/10 -
+ []
+
+
+Overfull \hbox (21.33pt too wide) in paragraph at lines 136--141
+\TU/lmss/m/n/10 UA1,
+ []
+
+
+Overfull \hbox (18.55pt too wide) in paragraph at lines 136--141
+\TU/lmss/m/n/10 UA2
+ []
+
+
+Overfull \hbox (2.78pt too wide) in paragraph at lines 136--141
+\TU/lmss/m/n/10 ;
+ []
+
+
+Overfull \hbox (16.11pt too wide) in paragraph at lines 136--141
+\TU/lmss/m/n/10 [be-
+ []
+
+
+Overfull \hbox (46.88pt too wide) in paragraph at lines 136--141
+\TU/lmss/m/n/10 low=1.5em
+ []
+
+
+Overfull \hbox (8.06pt too wide) in paragraph at lines 136--141
+\TU/lmss/m/n/10 of
+ []
+
+
+Overfull \hbox (37.3pt too wide) in paragraph at lines 136--141
+\TU/lmss/m/n/10 Z.center]
+ []
+
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 136--141
+\TU/lmss/m/n/10 1983
+ []
+
+
+Overfull \hbox (3.33pt too wide) in paragraph at lines 136--141
+\TU/lmss/m/n/10 -
+ []
+
+
+Overfull \hbox (21.33pt too wide) in paragraph at lines 136--141
+\TU/lmss/m/n/10 UA1,
+ []
+
+
+Overfull \hbox (18.55pt too wide) in paragraph at lines 136--141
+\TU/lmss/m/n/10 UA2
+ []
+
+
+Overfull \hbox (2.78pt too wide) in paragraph at lines 136--141
+\TU/lmss/m/n/10 ;
+ []
+
+
+Overfull \hbox (16.11pt too wide) in paragraph at lines 136--141
+\TU/lmss/m/n/10 [be-
+ []
+
+
+Overfull \hbox (46.88pt too wide) in paragraph at lines 136--141
+\TU/lmss/m/n/10 low=1.5em
+ []
+
+
+Overfull \hbox (8.06pt too wide) in paragraph at lines 136--141
+\TU/lmss/m/n/10 of
+ []
+
+
+Overfull \hbox (54.49pt too wide) in paragraph at lines 136--141
+\TU/lmss/m/n/10 Higgs.center]
+ []
+
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 136--141
+\TU/lmss/m/n/10 2012
+ []
+
+
+Overfull \hbox (3.33pt too wide) in paragraph at lines 136--141
+\TU/lmss/m/n/10 -
+ []
+
+
+Overfull \hbox (15.98pt too wide) in paragraph at lines 136--141
+\TU/lmss/m/n/10 AT-
+ []
+
+
+Overfull \hbox (20.43001pt too wide) in paragraph at lines 136--141
+\TU/lmss/m/n/10 LAS,
+ []
+
+
+Overfull \hbox (23.48pt too wide) in paragraph at lines 136--141
+\TU/lmss/m/n/10 CMS; 
+ []
+
+
+! LaTeX Error: \begin{document} ended by \end{tikzpicture}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.142 \end{tikzpicture}
+                       
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: \begin{document} ended by \end{figure}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.143 \end{figure}
+                  
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+)
+! Emergency stop.
+<*> introduction.tex
+                    
+*** (job aborted, no legal \end found)
+
+ 
+Here is how much of TeX's memory you used:
+ 38 strings out of 479819
+ 724 string characters out of 5895846
+ 262732 words of memory out of 5000000
+ 17253 multiletter control sequences out of 15000+600000
+ 533289 words of font info for 30 fonts, out of 8000000 for 9000
+ 1348 hyphenation exceptions out of 8191
+ 18i,4n,16p,218b,140s stack positions out of 5000i,500n,10000p,200000b,80000s
+Output written on introduction.pdf (1 page).

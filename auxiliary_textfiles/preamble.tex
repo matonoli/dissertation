@@ -9,6 +9,31 @@
 %\newcommand{\red}{\textcolor{red}}
 %\newcommand{\blue}{\textcolor{blue}}
 \newcommand{\RT}{\ensuremath{R_{\rm T}}\xspace}
+\newcommand{\RTmin}{\ensuremath{R_{\rm T,min}}\xspace}
+\newcommand{\RTmax}{\ensuremath{R_{\rm T,max}}\xspace}
+\newcommand{\NT}{\ensuremath{N_{\rm T}}\xspace}
+\newcommand{\NTmin}{\ensuremath{N_{\rm T,min}}\xspace}
+\newcommand{\NTmax}{\ensuremath{N_{\rm T,max}}\xspace}
+\newcommand{\NTt}{\ensuremath{N_{\rm T}^{t}}\xspace}
+\newcommand{\NTtt}{\ensuremath{N_{\rm T}^{t'}}\xspace}
+\newcommand{\NTm}{\ensuremath{N_{\rm T}^{m}}\xspace}
+\newcommand{\nevhat}{\ensuremath{\hat{n}_{\rm ev}}\xspace}
+\newcommand{\nev}{\ensuremath{n_{\rm ev}}\xspace}
+
+\newcommand{\ptlead}{\ensuremath{p_{\rm T}^{\rm leading}}\xspace}
+\newcommand{\philead}{\ensuremath{\phi^{\rm leading}}\xspace}
+\newcommand{\meannmpi}{\ensuremath{\langle n_{\rm MPI} \rangle}\xspace}
+\newcommand{\nmpi}{\ensuremath{n_{\rm MPI}}\xspace}
+\newcommand{\tracklet}{\ensuremath{N_{\text{tracklets}}^{\text{$|\eta| < 0.8$}}}\xspace}
+\newcommand{\INELgtO}{\ensuremath{\text{INEL} > 0}\xspace}
+\newcommand{\dndy}         {\ensuremath{\mathrm{d}N_\mathrm{ch}/\mathrm{d}y}\xspace}
+\newcommand{\dndeta}       {\ensuremath{\mathrm{d}N_\mathrm{ch}/\mathrm{d}\eta}\xspace}
+\newcommand{\myield}       {\ensuremath{\left<\mathrm{d}N/\mathrm{d}y\right>}\xspace}
+\newcommand{\myieldpi}       {\ensuremath{\left<\mathrm{d}N_\mathrm{\pi}/\mathrm{d}y\right>}\xspace}
+
+\newcommand{\avdndeta}     {\ensuremath{\langle\dndeta\rangle}\xspace}
+\newcommand{\Npart}        {\ensuremath{N_\mathrm{part}}\xspace}
+\newcommand{\Ncoll}        {\ensuremath{N_\mathrm{coll}}\xspace}
 
 \newcommand{\Raa}{\ensuremath{\rm R_{AA}}\xspace}
 \newcommand{\Rpa}{\ensuremath{\rm R_{pA}}\xspace}
@@ -31,8 +56,6 @@
 \newcommand{\sppg}[1]{\ensuremath{\sqrt{s} = #1 \text{\,GeV}}\xspace}
 \newcommand{\gevc}[1]{\ensuremath{#1 \text{\,GeV/$c$}}\xspace}
 \newcommand{\gevcc}[1]{\ensuremath{#1 \text{\,GeV/$c^2$}}\xspace}
-\newcommand{\dndeta}[1]{\ensuremath{\frac{\text{d}^2N_{#1}}{\text{d}\pt \text{d}\eta}}\xspace}
-\newcommand{\dndy}[1]{\ensuremath{\frac{d^2N_{#1}}{d\pt dy}}\xspace}
 \newcommand{\eff}[1]{\ensuremath{\epsilon_{#1}}\xspace}
 \newcommand{\bareyield}{\ensuremath{Y}\xspace}
 \newcommand{\yield}[1]{\ensuremath{Y_{#1}}\xspace}
@@ -70,7 +93,7 @@
 \newcommand{\mathmdedx}{\ensuremath{\mathbf{\left <\text{d}E/\text{d}x \right>}}\xspace}
 \newcommand{\mdedxpi}{\ensuremath{\left <\text{d}E/\text{d}x \right>_{\pi}}\xspace}
 \newcommand{\meanp}{\ensuremath{\langle p \rangle}\xspace}
-\newcommand{\meanpt}{\ensuremath{\langle p_{T} \rangle}\xspace}
+\newcommand{\meanpt}{\ensuremath{\langle \pt \rangle}\xspace}
 \newcommand{\sdedx}{\ensuremath{\sigma_{\text{d}E/\text{d}x}}\xspace}
 \newcommand{\relres}{\ensuremath{\sigma/\left <\text{d}E/\text{d}x \right>}\xspace}
 \newcommand{\res}{\ensuremath{\sigma_{\text{d}E/\text{d}x}}\xspace}
@@ -87,8 +110,8 @@
 \newcommand{\VOA}{\ensuremath{\rm V 0 \rm A}\xspace}
 \newcommand{\VOC}{\ensuremath{\rm V 0 \rm C}\xspace}
 \newcommand{\VOM}{\ensuremath{\rm V 0 \rm M}\xspace}
-\newcommand{\VO}{\ensuremath{\rm V 0}\xspace}
-\newcommand{\VOs}{\ensuremath{\rm V 0 s}\xspace}
+\newcommand{\VO}{\ensuremath{\rm V^0}\xspace}
+\newcommand{\VOs}{\ensuremath{\rm V^0 s}\xspace}
 
 \newcommand{\LA}{\ensuremath{\Lambda}\xspace}
 \newcommand{\AL}{\ensuremath{\overline{\Lambda}}\xspace}
@@ -109,6 +132,7 @@
 \newcommand{\XIP}{\ensuremath{\overline{\Xi}^+}\xspace}
 \newcommand{\XISUM}{\ensuremath{\Xi^-+\bar{\Xi}^+}\xspace}
 \newcommand{\Nch}{\ensuremath{N_{\text{ch}}}\xspace}
+\newcommand{\meanNch}{\ensuremath{\langle N_{\text{ch}} \rangle}\xspace}
 \newcommand{\Ntracks}{\ensuremath{N_{\text{tracks}}}\xspace}
 \newcommand{\Minv}{\ensuremath{M_{\text{inv}}}\xspace}
 \newcommand{\SO}{\ensuremath{S_{\text{O}}}\xspace}
@@ -218,6 +242,16 @@
 
 % For tables spanning the full text width
 \usepackage{tabularx}
+
+% For fat greek letters in math mode
+\usepackage{bm}
+
+% for diagrams
+\usepackage{tikz}
+\usetikzlibrary{positioning, arrows.meta, bending, fit, calc, decorations.pathmorphing}
+
+%for cropping pictures
+\usepackage{adjustbox}
 
 % For URLs use \url{<URL>}
 \usepackage{url}
