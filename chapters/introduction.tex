@@ -7,7 +7,7 @@ One paragraph successess and drawbacks
 
 \begin{figure}[H]
 \includegraphics[width=0.90\textwidth]{\imgpath/SM.pdf}
-\caption{Standard model.}
+\caption{Standard model. VALUES NEED TO BE FIXED.}
 \end{figure}
 
 \subsection{Quantum Electrodynamics}
@@ -129,7 +129,7 @@ Here, $i$ and $j$ are the initial partons, $\hat{\sigma}_{ij\to n}$ is the parto
 
 The PDFs defining the probabilities of finding quarks and gluons in nucleons can be determined experimentally at hadron-electron colliders such as HERA. They are determined from measurements of deep inelastic scatterings in a range of energies and momentum transfers. They are displayed in Fig.~\ref{fig:intro:pdfs} as a function of the fractional momentum $x$ (also called Bj\"orken $x$). 
 
-According to collider kinematics, $x \propto \frac{1}{\sqrt{s}}$, therefore, the partonic composition of ultra-relativistic hadrons is dominated by gluons. Following unitarity principles and BK evolution equation, it is expected that gluons start recombining and the gluonic content saturates as $x\rightarrow0$. This is actively reseached, however, not directly measured yet. Additionally, it should be noted that in ultra-relativistic heavy nuclei, the partons are modified in the contracted nuclear environment and the PDFs are referred to as nPDFs.
+According to collider kinematics, $x \propto \frac{1}{\sqrt{s}e^y}$, therefore, the partonic composition of ultra-relativistic hadrons is dominated by gluons. Following unitarity principles and BK evolution equation, it is expected that gluons start recombining and the gluonic content saturates as $x\rightarrow0$. This is actively reseached, however, not directly measured yet. Additionally, it should be noted that in ultra-relativistic heavy nuclei, the partons are modified in the contracted nuclear environment and the PDFs are referred to as nPDFs.
 
 \begin{figure}[H]
 \includegraphics[width=0.4\textwidth]{\imgpath/pdf.eps}
@@ -172,10 +172,83 @@ This parameter is typically tuned to data, as substituting constituent ($m_s \ap
 
 For a $q\bar{q}g$ system, in this model, the gluon connects to the quark and antiquark and is effectively treated as a ``kink" on the color field, adding energy and momentum to the $q\bar{q}$ string (stretching it in its direction), as visualised in Fig.~\ref{eq:intro:lundstring}.
 
-It should be noted that in the paradigm of AA collisions, hadron production can be alternatively modelled by hadronisation at the QGP's phase boundary by \textit{coalescing} free quarks. 
+It should be noted that in the paradigm of AA collisions, hadron production can be alternatively modelled by hadronisation at the QGP's phase boundary by \textit{coalescing} free quarks.
+%CooperFrye freezeout
 
-TBA a sentence about the actual hadronisation.
+%%!!!!TBA a sentence about the actual hadronisation.
 
+\section{Multiple partonic interactions}
+
+Results from $\mathrm{Sp\bar{p}S}$ in the 1980s sparked motivations for considering interactions of multiple partons between the two composite protons. For example, the AFS experiment observed an abundance of 4-jet events, displayed in Fig.~\ref{fig:intro:afs4jet}, that could not be explained by calculations considering a double gluon bremststrahlung from a single partonic scattering\cite{afs-4jet}. Furthermore, UA5 measurements studying energy dependence of multiplicity distributions P(\Nch) from  revealed a significant broadening when increasing $\sqrt{s}$, and saw the so-called KNO scaling\cite{kno-scaling}, where P(\Nch)/\meanNch remains constant, which was not reproducible in the context of \Nch being produced from a single string\cite{ua5-broadening}. This further suggested at the presence of multiple production sources.
+
+\begin{figure}[H]
+\subfloat[][]{\includegraphics[width=.520\textwidth]{\imgpath/afs4jet.png}} 
+\subfloat[][]{\includegraphics[width=.380\textwidth]{\imgpath/sigmampi.pdf}}
+\caption{TBA.}
+\label{fig:intro:afs4jet}
+\end{figure}
+
+These findings prompted further development of Regge theory and approaches that incorporated multiple pomerons, which were successful in describing the \Nch distributions. However, this approach is fully decoupled from descriptions of the perturbative primary scattering. Subsequently, much of the phenomenology related to multiple partonic interactions was developed within the framework of the Pythia MC event generator, which is discussed individually in Section X. However, nowadays, the relevance of the concept of MPIs in hadronic collisions extends beyond this generator. A scattering with double partonic interactions is illustrated in Fig.~\ref{fig:intro:dps}.
+
+\begin{figure}[H]
+\includegraphics[height=7em]{\imgpath/dps.png}
+\caption{TBA.}
+\label{fig:intro:dps}
+\end{figure}
+
+In the Pythia approach, MPI are treated as additional perturbative scatterings. In QCD, the $2\to2$ cross section (dominated by the gluon exchange t-channel) diverges as $\propto \alpha^2_S(k_{\perp}^2)/k_{\perp}^4$, so a cutoff parameter $k_{\perp/\mathrm{min}}$ must be introduced, and using (\ref{fig:intro:factorization}) leads to:
+\begin{align}
+\frac{d\sigma}{dk_{\perp}^2} &= \sum_{ij}\int dx_1 dx_2 f_i(x_1,\mu_F^2)f_j(x_2,\mu_F^2) \frac{d\hat{\sigma}^H_{ij}}{dk_{\perp}^2} \, , \\
+\sigma_{\text{int}}(k_{\perp\text{min}}) &= \int_{k_{\perp\text{min}}^2}^{s/4} \frac{d\sigma}{dk_{\perp}^2}dk_{\perp}^2 \, .
+\end{align}
+The choice of cutoff can be tuned to experimental data, and for the $\mathrm{Sp\bar{p}S}$ energy of \sppg{630}, a value of around \gevc{1.6} was typical. The dependence of this parton-parton scattering cross section is shown in Fig.~\ref{fig:intro:afs4jet}.
+
+The total pp cross-section is given by
+\begin{align}
+\sigma_{\mathrm{pp}} &= \sigma_{\mathrm{elastic}} + \sigma_{\mathrm{single \, dif.}} + \sigma_{\mathrm{double \, dif.}} + \sigma_{\mathrm{non-dif.}} \quad , 
+\end{align}
+where the inelastic cross sections corresponds to approximately 60\% of the total. The mean number of MPIs, \meannmpi, can be estimated using:
+\begin{align}
+\meannmpi (k_{\perp,\mathrm{min}}) = \frac{\sigma_{\mathrm{int}}(k_{\perp,\mathrm{min}})}{\sigma_{\mathrm{inel}}}
+\end{align}
+
+However, the actual treatment is more complex and involves considerations of other parameters such as $k_\perp^0$ to account for the confinement nature of partons, modifications of multiparton PDFs, energy-momentum conservation, and the intertwinedness of partonic evolutions.
+
+
+
+In summary, MPIs represent several subcollisions that take place in an average pp collision with \pt scales of a few GeV. They are colour-connected to the beam remnants, which in the Lund model are represented by strings. Since a string with $\kappa = 1 \mathrm{GeV} /\mathrm{fm}$ yields, as a rule of thumb, approximately one hadron per unit rapidity, and the average pp collision at the LHC at \sppt{13} has $\langle \dndy \rangle \approx 6$, the typical number of partonic interactions is around six.
+
+Finally, the observation of QGP-like phenomena in pp collisions at the LHC has renewed interest in MPI phenomenology, as discussed in the following chapter. Such observations do not contradict the concept of MPIs; rather, they suggest the possibility of incorporating collective behavior among the MPIs, such as interactions between strings, local modifications of string tensions, or, alternatively, the formation of a multipartonic state with QGP-like properties.
+
+\subsection{Color reconnection}
+
+The incorporation of MPIs improved the description of the \Nch distributions and their dependence on $\sqrt{n}$. However, there were also observations of $\meanpt(\Nch)$ increasing as a function of \Nch, which could not be explained. More MPIs lead to more strings, which in turn leads to the production of more particles, but the \pt is mostly unaffected. This would predict a weaker dependence of \meanpt on \Nch, contrary to the data. The issue was resolved by implementing a possible color reconnection mechanism, which rearranges the color fields between partons.
+
+TBA Insert diagrams of the processes!
+
+One can envision the following process:
+\begin{align*}
+e^+ e^- \rightarrow W^+ W^- \rightarrow q_1\bar{q}_2 q_3\bar{q}_4  .
+\end{align*}
+In this scenario, a color reconnection mechanism could rearrange the colour-connected $q_1\bar{q}_2$ and $q_3\bar{q}_4$ into $q_1\bar{q}_4$ and $q_3\bar{q}_2$ if it were energetically favourable, depending on the phase-space configurations. Measurements at LEP of this process have indeed shown that such final-state corrections must be taken into account to explain the data on $W$ masses and widths. They also reported that the reconnection probabilities for such events are on the order of $50\%$, further indicating that colour reconnection is an important factor to consider.
+
+Pythia implements CR by minimizing the total length of strings in the system, analogous to minimising potential energy. This mechanism, illustrated in Fig.~\ref{fig:intro:cr}, explains the rising trend of $\meanpt(\Nch)$: shorter strings imply fewer hadrons to split the transverse boost across, and the more MPI, the bigger this effect. Moreover, CR also helped describe the absolute value of \meanpt. With this approach, no further modifications of fragmentation parameters were necessary, in line with the concept of jet universality. However, it should be noted that there are various CR implementations and all rely on parameters obtained from tuning to data.
+
+\begin{figure}[H]
+\includegraphics[height=7em]{\imgpath/cr.png}
+\caption{a) In a hard parton subcollision, the outgoing gluons are connected to the beam remnants through colour. Additional gluon kinks may occur through initial state radiation, which are ordered by rapidity. (b) A second hard scattering should theoretically result in two new strings connected to the remnants. (c) In order to minimise the total string length, gluons are colour reconnected.}
+\label{fig:intro:cr}
+\end{figure}
+
+It is also worth noting that the \pt boost acquired through color reconnection may depend on mass and whether a hadron is a baryon or meson, which somewhat mimics the hydrodynamic signatures of collective flow observed in AA collisions.
+
+\section{Underlying event}
+
+The underlying event (UE) in high-energy collisions refers to the additional hadronic activity that accompanies the primary hard scattering process, but is not directly related to it. This includes the fragmentation products of the beam remnants, ISR and FSR, as well as the effects of the previously discussed MPIs. The UE is typically characterized by the distribution of softer particles around and far outside of the hard process.
+
+It is important to note that the UE is different from the MB production, as it is biased by the presence of hard scattering. Additionally, the magnitude of the UE can fluctuate from event to event.
+
+TBA Maybe some illustration/plot
 
 \section{Lattice QCD}
 
@@ -193,6 +266,6 @@ One paragraph, bag model derivation of $T$
 
 One paragraph, figure
 
-\section{Implications}
+\section{Implications of high-activity QCD research}
 
 One paragraph

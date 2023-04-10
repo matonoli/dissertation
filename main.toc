@@ -20,54 +20,54 @@
 \contentsline {subsection}{\numberline {1.4.2}Factorisation theorem}{9}%
 \contentsline {subsection}{\numberline {1.4.3}Parton distribution functions}{10}%
 \contentsline {subsection}{\numberline {1.4.4}Parton fragmentation and the Lund string}{11}%
-\contentsline {section}{\numberline {1.5}Lattice QCD}{13}%
-\contentsline {section}{\numberline {1.6}QCD phase diagram}{13}%
-\contentsline {subsection}{\numberline {1.6.1}Phase transition}{13}%
-\contentsline {subsection}{\numberline {1.6.2}Chiral symmetry restoration}{13}%
-\contentsline {section}{\numberline {1.7}Implications}{13}%
-\contentsline {chapter}{\numberline {2}QCD phenomena in high energy hadronic collisions}{15}%
-\contentsline {section}{\numberline {2.1}Collisions of heavy nuclei}{15}%
-\contentsline {subsection}{\numberline {2.1.1}Collision geometry, Centrality, multiplicity}{15}%
-\contentsline {subsection}{\numberline {2.1.2}MC Glauber model}{17}%
-\contentsline {section}{\numberline {2.2}Quark-gluon plasma}{18}%
-\contentsline {subsection}{\numberline {2.2.1}Quarkonium dissociation and sequential suppression}{20}%
-\contentsline {subsection}{\numberline {2.2.2}Strangeness enhancement}{21}%
-\contentsline {subsection}{\numberline {2.2.3}Collective flow}{21}%
-\contentsline {subsection}{\numberline {2.2.4}Jet quenching}{22}%
-\contentsline {subsection}{\numberline {2.2.5}Cold nuclear matter effects}{22}%
-\contentsline {section}{\numberline {2.3}QGP phenomena in small systems}{22}%
-\contentsline {subsubsection}{Strangeness and charm enhancement}{23}%
-\contentsline {subsubsection}{Anisotropic flow}{23}%
-\contentsline {subsubsection}{Radial flow}{24}%
-\contentsline {subsubsection}{Sequential suppression of Y states}{25}%
-\contentsline {subsubsection}{Other QGP signatures}{26}%
-\contentsline {subsection}{\numberline {2.3.1}Role of multiplicity}{26}%
-\contentsline {section}{\numberline {2.4}Multiple partonic interactions}{27}%
-\contentsline {subsection}{\numberline {2.4.1}Color reconnection}{27}%
-\contentsline {section}{\numberline {2.5}Underlying event}{27}%
-\contentsline {section}{\numberline {2.6}Phenomenological models}{27}%
-\contentsline {subsection}{\numberline {2.6.1}Pythia}{27}%
-\contentsline {subsubsection}{Ropes}{27}%
-\contentsline {subsection}{\numberline {2.6.2}Epos LHC}{27}%
-\contentsline {part}{II\hspace {1em}Experimental Setup and Methodology}{29}%
-\contentsline {chapter}{\numberline {3}Large Hadron Collider}{31}%
-\contentsline {section}{\numberline {3.1}European Organisation for Nuclear Research}{31}%
-\contentsline {section}{\numberline {3.2}Large Hadron Collider (LHC)}{31}%
-\contentsline {chapter}{\numberline {4}The ALICE Detector}{35}%
-\contentsline {chapter}{\numberline {5}Events, Vertices, Tracks, and Particles}{37}%
-\contentsline {part}{III\hspace {1em}Author's measurements}{39}%
-\contentsline {chapter}{\numberline {6}Reconstruction of neutral strange particles with ALICE}{41}%
-\contentsline {chapter}{\numberline {7}Transverse Spherocity}{43}%
-\contentsline {chapter}{\numberline {8}Underlying Event Activity}{45}%
-\contentsline {chapter}{\numberline {9}Discussion of Results and Conclusions}{47}%
-\contentsline {part}{IV\hspace {1em}Appendices}{49}%
-\contentsline {chapter}{\numberline {A}List of Acronyms}{51}%
-\contentsline {chapter}{\numberline {B}Mathematical Derivations}{53}%
-\contentsline {chapter}{\numberline {C}Complementary Material}{55}%
-\contentsline {chapter}{\numberline {D}Scientific Publications}{57}%
-\contentsline {section}{Author contributions}{57}%
-\contentsline {subsection}{Paper~\textrm {\scshape i}\xspace : Title paper 1}{57}%
-\contentsline {subsection}{Paper~\textrm {\scshape ii}\xspace : Title paper 2}{57}%
-\contentsline {section}{Paper~\textrm {\scshape i}\xspace : {Title paper 1}}{59}%
-\contentsline {section}{Paper~\textrm {\scshape ii}\xspace : {Title paper 2}}{63}%
-\contentsline {chapter}{References}{67}%
+\contentsline {section}{\numberline {1.5}Multiple partonic interactions}{13}%
+\contentsline {subsection}{\numberline {1.5.1}Color reconnection}{15}%
+\contentsline {section}{\numberline {1.6}Underlying event}{16}%
+\contentsline {section}{\numberline {1.7}Lattice QCD}{16}%
+\contentsline {section}{\numberline {1.8}QCD phase diagram}{17}%
+\contentsline {subsection}{\numberline {1.8.1}Phase transition}{17}%
+\contentsline {subsection}{\numberline {1.8.2}Chiral symmetry restoration}{17}%
+\contentsline {section}{\numberline {1.9}Implications of high-activity QCD research}{17}%
+\contentsline {chapter}{\numberline {2}QCD phenomena in high energy hadronic collisions}{19}%
+\contentsline {section}{\numberline {2.1}Collisions of heavy nuclei}{19}%
+\contentsline {subsection}{\numberline {2.1.1}Collision geometry, Centrality, multiplicity}{19}%
+\contentsline {subsection}{\numberline {2.1.2}MC Glauber model}{21}%
+\contentsline {section}{\numberline {2.2}Quark-gluon plasma}{22}%
+\contentsline {subsection}{\numberline {2.2.1}Quarkonium dissociation and sequential suppression}{24}%
+\contentsline {subsection}{\numberline {2.2.2}Strangeness enhancement}{25}%
+\contentsline {subsection}{\numberline {2.2.3}Collective flow}{25}%
+\contentsline {subsection}{\numberline {2.2.4}Jet quenching}{26}%
+\contentsline {subsection}{\numberline {2.2.5}Cold nuclear matter effects}{26}%
+\contentsline {section}{\numberline {2.3}QGP phenomena in small systems}{26}%
+\contentsline {subsubsection}{Strangeness and charm enhancement}{27}%
+\contentsline {subsubsection}{Anisotropic flow}{27}%
+\contentsline {subsubsection}{Radial flow}{28}%
+\contentsline {subsubsection}{Sequential suppression of $\Upsilon $ states}{29}%
+\contentsline {subsubsection}{Other QGP signatures}{30}%
+\contentsline {subsection}{\numberline {2.3.1}Role of multiplicity}{30}%
+\contentsline {section}{\numberline {2.4}Phenomenological models}{31}%
+\contentsline {subsection}{\numberline {2.4.1}Pythia}{31}%
+\contentsline {subsubsection}{String interactions and Ropes}{31}%
+\contentsline {subsection}{\numberline {2.4.2}Epos LHC}{31}%
+\contentsline {part}{II\hspace {1em}Experimental Setup and Methodology}{33}%
+\contentsline {chapter}{\numberline {3}Large Hadron Collider}{35}%
+\contentsline {section}{\numberline {3.1}European Organisation for Nuclear Research}{35}%
+\contentsline {section}{\numberline {3.2}Large Hadron Collider (LHC)}{35}%
+\contentsline {chapter}{\numberline {4}The ALICE Detector}{39}%
+\contentsline {chapter}{\numberline {5}Events, Vertices, Tracks, and Particles}{41}%
+\contentsline {part}{III\hspace {1em}Author's measurements}{43}%
+\contentsline {chapter}{\numberline {6}Reconstruction of neutral strange particles with ALICE}{45}%
+\contentsline {chapter}{\numberline {7}Transverse Spherocity}{47}%
+\contentsline {chapter}{\numberline {8}Underlying Event Activity}{49}%
+\contentsline {chapter}{\numberline {9}Discussion of Results and Conclusions}{51}%
+\contentsline {part}{IV\hspace {1em}Appendices}{53}%
+\contentsline {chapter}{\numberline {A}List of Acronyms}{55}%
+\contentsline {chapter}{\numberline {B}Mathematical Derivations}{57}%
+\contentsline {chapter}{\numberline {C}Complementary Material}{59}%
+\contentsline {chapter}{\numberline {D}Scientific Publications}{61}%
+\contentsline {section}{Author contributions}{61}%
+\contentsline {subsection}{Paper~\textrm {\scshape i}\xspace : Title paper 1}{61}%
+\contentsline {subsection}{Paper~\textrm {\scshape ii}\xspace : Title paper 2}{61}%
+\contentsline {section}{Paper~\textrm {\scshape i}\xspace : {Title paper 1}}{63}%
+\contentsline {section}{Paper~\textrm {\scshape ii}\xspace : {Title paper 2}}{67}%
+\contentsline {chapter}{References}{71}%

@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999991 (TeX Live 2019/Debian) (preloaded format=xelatex 2022.8.22)  10 APR 2023 01:10
+This is XeTeX, Version 3.14159265-2.6-0.999991 (TeX Live 2019/Debian) (preloaded format=xelatex 2022.8.22)  11 APR 2023 01:33
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -776,10 +776,16 @@ File: pgfmodulematrix.code.tex 2020/01/08 v3.1.5b (3.1.5b)
 zlibrarytopaths.code.tex
 File: tikzlibrarytopaths.code.tex 2020/01/08 v3.1.5b (3.1.5b)
 )))
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
-zlibrarypositioning.code.tex
-File: tikzlibrarypositioning.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+(/usr/share/texlive/texmf-dist/tex/latex/tikz-feynman/tikz-feynman.sty
+Package: tikz-feynman 2016/02/05v1.1.0Feynman diagrams with TikZ
+
+(/usr/share/texlive/texmf-dist/tex/latex/pgfopts/pgfopts.sty
+Package: pgfopts 2014/07/10 v2.1a LaTeX package options with pgfkeys
+\pgfopts@list@add@a@toks=\toks39
+\pgfopts@list@add@b@toks=\toks40
 )
+(/usr/share/texlive/texmf-dist/tex/latex/tikz-feynman/tikzlibraryfeynman.code.t
+ex
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/pgflibraryarrows.meta.
 code.tex
 File: pgflibraryarrows.meta.code.tex 2020/01/08 v3.1.5b (3.1.5b)
@@ -788,6 +794,65 @@ File: pgflibraryarrows.meta.code.tex 2020/01/08 v3.1.5b (3.1.5b)
 \pgfarrowwidth=\dimen269
 \pgfarrowlinewidth=\dimen270
 )
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
+zlibrarycalc.code.tex
+File: tikzlibrarycalc.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
+zlibrarydecorations.code.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/modules/pgfmoduledecorations.cod
+e.tex
+\pgfdecoratedcompleteddistance=\dimen271
+\pgfdecoratedremainingdistance=\dimen272
+\pgfdecoratedinputsegmentcompleteddistance=\dimen273
+\pgfdecoratedinputsegmentremainingdistance=\dimen274
+\pgf@decorate@distancetomove=\dimen275
+\pgf@decorate@repeatstate=\count305
+\pgfdecorationsegmentamplitude=\dimen276
+\pgfdecorationsegmentlength=\dimen277
+)
+\tikz@lib@dec@box=\box66
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
+zlibrarydecorations.markings.code.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/decorations/pgflibrary
+decorations.markings.code.tex))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
+zlibrarydecorations.pathmorphing.code.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/decorations/pgflibrary
+decorations.pathmorphing.code.tex))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
+zlibrarydecorations.pathreplacing.code.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/decorations/pgflibrary
+decorations.pathreplacing.code.tex))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/gra
+phs/tikzlibrarygraphs.code.tex
+File: tikzlibrarygraphs.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+\tikz@lib@auto@number=\count306
+\tikz@qnode@count=\count307
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
+zlibrarypatterns.code.tex
+File: tikzlibrarypatterns.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/pgflibrarypatterns.cod
+e.tex
+File: pgflibrarypatterns.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
+zlibrarypositioning.code.tex
+File: tikzlibrarypositioning.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
+zlibraryshapes.geometric.code.tex
+File: tikzlibraryshapes.geometric.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/shapes/pgflibraryshape
+s.geometric.code.tex
+File: pgflibraryshapes.geometric.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+))
+(/usr/share/texlive/texmf-dist/tex/latex/tikz-feynman/tikzfeynman.keys.code.tex
+)))
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
 zlibrarybending.code.tex
 File: tikzlibrarybending.code.tex 2020/01/08 v3.1.5b (3.1.5b)
@@ -799,46 +864,23 @@ File: pgfmodulebending.code.tex 2020/01/08 v3.1.5b (3.1.5b)
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/modules/pgfmodulenonlineartransf
 ormations.code.tex
 File: pgfmodulenonlineartransformations.code.tex 2020/01/08 v3.1.5b (3.1.5b)
-\pgftransformnonlinearflatness=\dimen271
+\pgftransformnonlinearflatness=\dimen278
 )
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/pgflibrarycurvilinear.
 code.tex
 File: pgflibrarycurvilinear.code.tex 2020/01/08 v3.1.5b (3.1.5b)
-\pgf@curvilinear@time@a=\dimen272
-\pgf@curvilinear@length@a=\dimen273
-\pgf@curvilinear@length@b=\dimen274
-\pgf@curvilinear@length@c=\dimen275
-\pgf@curvilinear@length@d=\dimen276
+\pgf@curvilinear@time@a=\dimen279
+\pgf@curvilinear@length@a=\dimen280
+\pgf@curvilinear@length@b=\dimen281
+\pgf@curvilinear@length@c=\dimen282
+\pgf@curvilinear@length@d=\dimen283
 )
-\pgf@arrows@the@rigidity=\dimen277
+\pgf@arrows@the@rigidity=\dimen284
 ))
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
 zlibraryfit.code.tex
 File: tikzlibraryfit.code.tex 2020/01/08 v3.1.5b (3.1.5b)
 )
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
-zlibrarycalc.code.tex
-File: tikzlibrarycalc.code.tex 2020/01/08 v3.1.5b (3.1.5b)
-)
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
-zlibrarydecorations.pathmorphing.code.tex
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
-zlibrarydecorations.code.tex
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/modules/pgfmoduledecorations.cod
-e.tex
-\pgfdecoratedcompleteddistance=\dimen278
-\pgfdecoratedremainingdistance=\dimen279
-\pgfdecoratedinputsegmentcompleteddistance=\dimen280
-\pgfdecoratedinputsegmentremainingdistance=\dimen281
-\pgf@decorate@distancetomove=\dimen282
-\pgf@decorate@repeatstate=\count305
-\pgfdecorationsegmentamplitude=\dimen283
-\pgfdecorationsegmentlength=\dimen284
-)
-\tikz@lib@dec@box=\box66
-)
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/decorations/pgflibrary
-decorations.pathmorphing.code.tex))
 (/usr/share/texlive/texmf-dist/tex/latex/adjustbox/adjustbox.sty
 Package: adjustbox 2019/01/04 v1.2 Adjusting TeX boxes (trim, clip, ...)
 
@@ -873,12 +915,12 @@ File: tc-xetex.def 2019/01/04 v2.2 Clipping driver for xetex
 
 (/usr/share/texlive/texmf-dist/tex/latex/ifoddpage/ifoddpage.sty
 Package: ifoddpage 2016/04/23 v1.1 Conditionals for odd/even page detection
-\c@checkoddpage=\count306
+\c@checkoddpage=\count308
 )
 (/usr/share/texlive/texmf-dist/tex/latex/varwidth/varwidth.sty
 Package: varwidth 2009/03/30 ver 0.92;  Variable-width minipages
 \@vwid@box=\box68
-\sift@deathcycles=\count307
+\sift@deathcycles=\count309
 \@vwid@loff=\dimen297
 \@vwid@roff=\dimen298
 ))
@@ -895,24 +937,24 @@ Package: xspace 2014/10/28 v1.13 Space after command names (DPC,MH)
 )
 (/usr/share/texlive/texmf-dist/tex/latex/blindtext/blindtext.sty
 Package: blindtext 2012/01/06 V2.0 blindtext-Package
-\c@blindtext=\count308
-\c@Blindtext=\count309
-\c@blind@countparstart=\count310
-\blind@countxx=\count311
-\blindtext@numBlindtext=\count312
-\blind@countyy=\count313
-\c@blindlist=\count314
-\c@blindlistlevel=\count315
-\c@blindlist@level=\count316
-\blind@listitem=\count317
-\c@blind@listcount=\count318
-\c@blind@levelcount=\count319
-\blind@mathformula=\count320
-\blind@Mathformula=\count321
-\c@blind@randomcount=\count322
-\c@blind@randommax=\count323
-\c@blind@pangramcount=\count324
-\c@blind@pangrammax=\count325
+\c@blindtext=\count310
+\c@Blindtext=\count311
+\c@blind@countparstart=\count312
+\blind@countxx=\count313
+\blindtext@numBlindtext=\count314
+\blind@countyy=\count315
+\c@blindlist=\count316
+\c@blindlistlevel=\count317
+\c@blindlist@level=\count318
+\blind@listitem=\count319
+\c@blind@listcount=\count320
+\c@blind@levelcount=\count321
+\blind@mathformula=\count322
+\blind@Mathformula=\count323
+\c@blind@randomcount=\count324
+\c@blind@randommax=\count325
+\c@blind@pangramcount=\count326
+\c@blind@pangrammax=\count327
 )
 (/usr/share/texlive/texmf-dist/tex/latex/booktabs/booktabs.sty
 Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
@@ -926,12 +968,12 @@ Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
 \cmidrulesep=\dimen306
 \cmidrulekern=\dimen307
 \defaultaddspace=\dimen308
-\@cmidla=\count326
-\@cmidlb=\count327
+\@cmidla=\count328
+\@cmidlb=\count329
 \@aboverulesep=\dimen309
 \@belowrulesep=\dimen310
-\@thisruleclass=\count328
-\@lastruleclass=\count329
+\@thisruleclass=\count330
+\@lastruleclass=\count331
 \@thisrulewidth=\dimen311
 )
 (/usr/share/texlive/texmf-dist/tex/latex/tools/longtable.sty
@@ -940,17 +982,17 @@ Package: longtable 2020/01/07 v4.13 Multi-page Table package (DPC)
 \LTright=\skip105
 \LTpre=\skip106
 \LTpost=\skip107
-\LTchunksize=\count330
+\LTchunksize=\count332
 \LTcapwidth=\dimen312
 \LT@head=\box69
 \LT@firsthead=\box70
 \LT@foot=\box71
 \LT@lastfoot=\box72
-\LT@cols=\count331
-\LT@rows=\count332
-\c@LT@tables=\count333
-\c@LT@chunks=\count334
-\LT@p@ftn=\toks39
+\LT@cols=\count333
+\LT@rows=\count334
+\c@LT@tables=\count335
+\c@LT@chunks=\count336
+\LT@p@ftn=\toks41
 )
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amsfonts.sty
 Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
@@ -977,14 +1019,14 @@ LaTeX Info: Redefining \boldsymbol on input line 28.
 (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsopn.sty
 Package: amsopn 2016/03/08 v2.02 operator names
 )
-\inf@bad=\count335
+\inf@bad=\count337
 LaTeX Info: Redefining \frac on input line 227.
-\uproot@=\count336
-\leftroot@=\count337
+\uproot@=\count338
+\leftroot@=\count339
 LaTeX Font Info:    Redeclaring math symbol \varTheta on input line 387.
 LaTeX Info: Redefining \overline on input line 389.
-\classnum@=\count338
-\DOTSCASE@=\count339
+\classnum@=\count340
+\DOTSCASE@=\count341
 LaTeX Info: Redefining \ldots on input line 486.
 LaTeX Info: Redefining \dots on input line 489.
 LaTeX Info: Redefining \cdots on input line 610.
@@ -993,26 +1035,26 @@ LaTeX Info: Redefining \cdots on input line 610.
 \big@size=\dimen314
 LaTeX Font Info:    Redeclaring font encoding OML on input line 733.
 LaTeX Font Info:    Redeclaring font encoding OMS on input line 734.
-\macc@depth=\count340
-\c@MaxMatrixCols=\count341
+\macc@depth=\count342
+\c@MaxMatrixCols=\count343
 \dotsspace@=\muskip17
-\c@parentequation=\count342
-\dspbrk@lvl=\count343
-\tag@help=\toks40
-\row@=\count344
-\column@=\count345
-\maxfields@=\count346
-\andhelp@=\toks41
+\c@parentequation=\count344
+\dspbrk@lvl=\count345
+\tag@help=\toks42
+\row@=\count346
+\column@=\count347
+\maxfields@=\count348
+\andhelp@=\toks43
 \eqnshift@=\dimen315
 \alignsep@=\dimen316
 \tagshift@=\dimen317
 \tagwidth@=\dimen318
 \totwidth@=\dimen319
 \lineht@=\dimen320
-\@envbody=\toks42
+\@envbody=\toks44
 \multlinegap=\skip109
 \multlinetaggap=\skip110
-\mathdisplay@stack=\toks43
+\mathdisplay@stack=\toks45
 LaTeX Info: Redefining \[ on input line 2859.
 LaTeX Info: Redefining \] on input line 2860.
 )
@@ -1026,7 +1068,7 @@ Invalid UTF-8 byte or sequence at line 284 replaced by U+FFFD.
 Invalid UTF-8 byte or sequence at line 299 replaced by U+FFFD.
 Invalid UTF-8 byte or sequence at line 550 replaced by U+FFFD.
 Package: algorithm2e 2017/07/18 v5.2 algorithms environments
-\c@AlgoLine=\count347
+\c@AlgoLine=\count349
 \algocf@hangindent=\skip111
 
 (/usr/share/texlive/texmf-dist/tex/latex/relsize/relsize.sty
@@ -1062,9 +1104,9 @@ Package: relsize 2013/03/29 ver 4.1
 \algoheightrule=\skip127
 \algotitleheightruledefault=\skip128
 \algotitleheightrule=\skip129
-\c@algocfline=\count348
-\c@algocfproc=\count349
-\c@algocf=\count350
+\c@algocfline=\count350
+\c@algocfproc=\count351
+\c@algocf=\count352
 \algocf@algoframe=\box81
 \algocf@algobox=\box82
 )
@@ -1073,15 +1115,15 @@ Package: pdfpages 2020/01/28 v0.5q Insert pages of external PDF documents (AM)
 
 (/usr/share/texlive/texmf-dist/tex/latex/tools/calc.sty
 Package: calc 2017/05/25 v4.3 Infix arithmetic (KKT,FJ)
-\calc@Acount=\count351
-\calc@Bcount=\count352
+\calc@Acount=\count353
+\calc@Bcount=\count354
 \calc@Adimen=\dimen327
 \calc@Bdimen=\dimen328
 \calc@Askip=\skip130
 \calc@Bskip=\skip131
 LaTeX Info: Redefining \setlength on input line 80.
 LaTeX Info: Redefining \addtolength on input line 81.
-\calc@Ccount=\count353
+\calc@Ccount=\count355
 \calc@Cskip=\skip132
 )
 (/usr/share/texlive/texmf-dist/tex/latex/eso-pic/eso-pic.sty
@@ -1097,21 +1139,21 @@ Package: atbegshi 2019/12/05 v1.19 At begin shipout hook (HO)
 File: ppxetex.def 2020/01/28 v0.5q Pdfpages driver for XeTeX (AM)
 )
 \AM@pagebox=\box83
-\AM@global@opts=\toks44
-\AM@pagecnt=\count354
-\AM@toc@title=\toks45
-\c@AM@survey=\count355
+\AM@global@opts=\toks46
+\AM@pagecnt=\count356
+\AM@toc@title=\toks47
+\c@AM@survey=\count357
 \AM@templatesizebox=\box84
 )
 (/usr/share/texlive/texmf-dist/tex/latex/derivative/derivative.sty
 Package: derivative 2020/02/03 v0.97 Nice and easy derivatives
-\l__deriv_vmo_int=\count356
-\l__deriv_tmpa_int=\count357
-\l__deriv_numerical_int=\count358
-\l__deriv_sort_counter_int=\count359
-\l__deriv_sort_max_int=\count360
-\l__deriv_position_int=\count361
-\l__deriv_rebuild_int=\count362
+\l__deriv_vmo_int=\count358
+\l__deriv_tmpa_int=\count359
+\l__deriv_numerical_int=\count360
+\l__deriv_sort_counter_int=\count361
+\l__deriv_sort_max_int=\count362
+\l__deriv_position_int=\count363
+\l__deriv_rebuild_int=\count364
 \l__deriv_odv_sep_inf_ord_muskip=\muskip18
 \l__deriv_odv_sep_inf_fun_muskip=\muskip19
 \l__deriv_odv_sep_ord_fun_muskip=\muskip20
@@ -1172,13 +1214,13 @@ Language: swedish 2005/03/31 v2.3d Swedish support from the babel system
 
 (/usr/share/texlive/texmf-dist/tex/generic/babel/babel.def
 File: babel.def 2020/02/14 3.40 Babel common definitions
-\babel@savecnt=\count363
+\babel@savecnt=\count365
 \U@D=\dimen331
 
 (/usr/share/texlive/texmf-dist/tex/generic/babel/xebabel.def
 (/usr/share/texlive/texmf-dist/tex/generic/babel/txtbabel.def))
 \bbl@readstream=\read3
-\bbl@dirlevel=\count364
+\bbl@dirlevel=\count366
 )
 Package babel Info: Making " an active character on input line 90.
 )
@@ -1204,7 +1246,7 @@ Package: natbib 2010/09/13 8.31b (PWD, AO)
 \bibhang=\skip133
 \bibsep=\skip134
 LaTeX Info: Redefining \cite on input line 694.
-\c@NAT@ctr=\count365
+\c@NAT@ctr=\count367
 )
 (/usr/share/texlive/texmf-dist/tex/latex/geometry/geometry.sty
 Package: geometry 2020/01/02 v5.9 Page Geometry
@@ -1212,9 +1254,9 @@ Package: geometry 2020/01/02 v5.9 Page Geometry
 (/usr/share/texlive/texmf-dist/tex/generic/iftex/ifvtex.sty
 Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
 )
-\Gm@cnth=\count366
-\Gm@cntv=\count367
-\c@Gm@tempcnt=\count368
+\Gm@cnth=\count368
+\Gm@cntv=\count369
+\c@Gm@tempcnt=\count370
 \Gm@bindingoffset=\dimen332
 \Gm@wd@mp=\dimen333
 \Gm@odd@mp=\dimen334
@@ -1223,7 +1265,7 @@ Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
 \Gm@layoutheight=\dimen337
 \Gm@layouthoffset=\dimen338
 \Gm@layoutvoffset=\dimen339
-\Gm@dimlist=\toks46
+\Gm@dimlist=\toks48
 )
 (/usr/share/texlive/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
 Package: fancyhdr 2019/01/31 v3.10 Extensive control of page headers and footer
@@ -1243,8 +1285,8 @@ Package: tcolorbox 2019/11/15 version 4.22 text color boxes
 
 (/usr/share/texlive/texmf-dist/tex/latex/tools/verbatim.sty
 Package: verbatim 2019/11/10 v1.5r LaTeX2e package for verbatim enhancements
-\every@verbatim=\toks47
-\verbatim@line=\toks48
+\every@verbatim=\toks49
+\verbatim@line=\toks50
 \verbatim@in@stream=\read4
 )
 (/usr/share/texlive/texmf-dist/tex/latex/environ/environ.sty
@@ -1257,9 +1299,9 @@ Package: trimspaces 2009/09/17 v1.1 Trim spaces around a token list
 \tcb@upperbox=\box86
 \tcb@lowerbox=\box87
 \tcb@phantombox=\box88
-\c@tcbbreakpart=\count369
-\c@tcblayer=\count370
-\tcolorbox@number=\count371
+\c@tcbbreakpart=\count371
+\c@tcblayer=\count372
+\tcolorbox@number=\count373
 \tcb@temp=\box89
 \tcb@temp=\box90
 \tcb@temp=\box91
@@ -1273,14 +1315,14 @@ Library (tcolorbox): 'tcbskins.code.tex' version '4.22'
 (/usr/share/texlive/texmf-dist/tex/latex/tcolorbox/tcbskinsjigsaw.code.tex
 Library (tcolorbox): 'tcbskinsjigsaw.code.tex' version '4.22'
 ))
-\c@exa=\count372
+\c@exa=\count374
 ) (./parameters.tex) (./main.aux
-\c@pagesLTS.roman.1.local.cnt=\count373
+\c@pagesLTS.roman.1.local.cnt=\count375
 
 
 LaTeX Warning: Label `fig:experiment:cern' multiply defined.
 
-\c@pagesLTS.arabic.1.local.cnt=\count374
+\c@pagesLTS.arabic.1.local.cnt=\count376
 )
 \openout1 = `main.aux'.
 
@@ -1350,10 +1392,14 @@ Package: fr-longtable 2007/11/28 v0.1b (beta) floatrow: additions for longtable
 
 \flrow@LT@lasthead=\box94
 \flrow@LT@prelastfoot=\box95
-\c@FBLTpage=\count375
+\c@FBLTpage=\count377
 )
-\AtBeginShipoutBox=\box96
 
+Package tikz-feynman Warning: LuaTeX is required if you wish to have vertices a
+utomatically placed. You can disable this warning by setting /tikzfeynman/warn 
+luatex=false on input line 38.
+
+\AtBeginShipoutBox=\box96
 (/usr/share/texlive/texmf-dist/tex/latex/pdflscape/pdflscape.sty
 Package: pdflscape 2019/12/05 v0.12 Display of landscape pages in PDF (HO)
 
@@ -1400,9 +1446,9 @@ Package pdflscape Info: Auto-detected driver: dvipdfm (xetex) on input line 98.
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 (./auxiliary_textfiles/frontmatter.tex
-\c@pagesLTS.pnc.roman=\count376
-\c@pagesLTS.double.roman=\count377
-\c@pagesLTS.current.local.roman=\count378
+\c@pagesLTS.pnc.roman=\count378
+\c@pagesLTS.double.roman=\count379
+\c@pagesLTS.current.local.roman=\count380
  [1
 
 
@@ -1413,13 +1459,13 @@ File: figures/LundUniversity_C2line_BLACK.eps Graphic file (type eps)
 <figures/LundUniversity_C2line_BLACK.eps>
  [3]
 (./auxiliary_textfiles/datasheet.tex
-\c@aformdx=\count379
-\c@aformdy=\count380
-\c@aformx=\count381
-\c@aformy=\count382
-\c@aformtx=\count383
-\c@aformtdx=\count384
-\c@aformty=\count385
+\c@aformdx=\count381
+\c@aformdy=\count382
+\c@aformx=\count383
+\c@aformy=\count384
+\c@aformtx=\count385
+\c@aformtdx=\count386
+\c@aformty=\count387
 
 Underfull \hbox (badness 10000) in paragraph at lines 48--48
 
@@ -1492,10 +1538,10 @@ Package blindtext Warning: swedish not defined, using English instead.
 (blindtext)                 on input line 127.
 
 [6]
-\c@pagesLTS.roman.1.local.count=\count386
-\c@pagesLTS.pnc.arabic=\count387
-\c@pagesLTS.double.arabic=\count388
-\c@pagesLTS.current.local.arabic=\count389
+\c@pagesLTS.roman.1.local.count=\count388
+\c@pagesLTS.pnc.arabic=\count389
+\c@pagesLTS.double.arabic=\count390
+\c@pagesLTS.current.local.arabic=\count391
  [1
 
 
@@ -1586,36 +1632,69 @@ n/10.95 ,
 LaTeX Warning: Reference `eq:intro:lundstring' on page 13 undefined on input li
 ne 173.
 
-) [13] [14
+
+Package natbib Warning: Citation `afs-4jet' on page 13 undefined on input line 
+182.
+
+
+Package natbib Warning: Citation `kno-scaling' on page 13 undefined on input li
+ne 182.
+
+
+Package natbib Warning: Citation `ua5-broadening' on page 13 undefined on input
+ line 182.
+
+File: ./figures/intro/afs4jet.png Graphic file (type bmp)
+<./figures/intro/afs4jet.png>
+File: ./figures/intro/sigmampi.pdf Graphic file (type pdf)
+<use ./figures/intro/sigmampi.pdf>
+[13]
+File: ./figures/intro/dps.png Graphic file (type bmp)
+<./figures/intro/dps.png>
+
+
+LaTeX Warning: Reference `fig:intro:factorization' on page 14 undefined on inpu
+t line 199.
+
+[14]
+Overfull \hbox (2.83632pt too wide) in paragraph at lines 232--234
+\TU/AGaramondPro(0)/m/n/10.95 In this scenario, a color reconnection mechanism 
+could rearrange the colour-connected
+ []
+
+[15]
+File: ./figures/intro/cr.png Graphic file (type bmp)
+<./figures/intro/cr.png>
+ [16]) [17] [18
 
 ]
 Chapter 2.
-(./chapters/collisions.tex [15]
+(./chapters/collisions.tex [19]
 File: ./figures/colls/glauber_mc_event.eps Graphic file (type eps)
 <./figures/colls/glauber_mc_event.eps>
 File: ./figures/colls/cocktail3.eps Graphic file (type eps)
 <./figures/colls/cocktail3.eps>
- [16] [17]
+ [20] [21]
 
-Package natbib Warning: Citation `loizides-extendedMC' on page 18 undefined on 
+Package natbib Warning: Citation `loizides-extendedMC' on page 22 undefined on 
 input line 59.
 
 
-Package natbib Warning: Citation `rhic-qgp' on page 18 undefined on input line 
+Package natbib Warning: Citation `rhic-qgp' on page 22 undefined on input line 
 63.
 
 
-Package natbib Warning: Citation `lhc-qgp' on page 18 undefined on input line 6
+Package natbib Warning: Citation `lhc-qgp' on page 22 undefined on input line 6
 3.
 
 
-Package natbib Warning: Citation `sps-qgp' on page 18 undefined on input line 6
+Package natbib Warning: Citation `sps-qgp' on page 22 undefined on input line 6
 3.
 
-[18]
+[22]
 File: ./figures/colls/evolution.jpg Graphic file (type bmp)
 <./figures/colls/evolution.jpg>
- [19]
+ [23]
 Overfull \hbox (5.49092pt too wide) in paragraph at lines 95--96
 \TU/AGaramondPro(0)/m/n/10.95 considering their in-vacuum radii determined from
  the $\OML/cmm/m/it/10.95 q[]$ \TU/AGaramondPro(0)/m/n/10.95 potential, $\OML/c
@@ -1625,113 +1704,98 @@ mm/m/it/10.95 r[] \OMS/cmsy/m/n/10.95 ^^X \OT1/cmr/m/n/10.95 0\OML/cmm/m/it/10.
 
 File: ./figures/colls/spec.eps Graphic file (type eps)
 <./figures/colls/spec.eps>
-[20]
+[24]
 File: ./figures/colls/cms_ups1.pdf Graphic file (type pdf)
 <use ./figures/colls/cms_ups1.pdf>
 File: ./figures/colls/cms_ups2.pdf Graphic file (type pdf)
 <use ./figures/colls/cms_ups2.pdf>
- [21] [22]
+ [25] [26]
 File: ./figures/colls/ss_strangeness1.pdf Graphic file (type pdf)
 <use ./figures/colls/ss_strangeness1.pdf>
 File: ./figures/colls/ss_strangeness2.pdf Graphic file (type pdf)
 <use ./figures/colls/ss_strangeness2.pdf>
 File: ./figures/colls/ss_strangeness2.pdf Graphic file (type pdf)
 <use ./figures/colls/ss_strangeness2.pdf>
- [23]
+ [27]
 File: ./figures/colls/ss_ridge1.pdf Graphic file (type pdf)
 <use ./figures/colls/ss_ridge1.pdf>
 File: ./figures/colls/ss_ridge2.pdf Graphic file (type pdf)
 <use ./figures/colls/ss_ridge2.pdf>
 File: ./figures/colls/ss_v2.pdf Graphic file (type pdf)
 <use ./figures/colls/ss_v2.pdf>
-Missing character: There is no Λ in font [./fonts/AGaramondPro/AGaramondPro-Reg
-ular.otf]/OT:script=latn;language=dflt;+onum;+pnum;mapping=tex-text;!
-Missing character: There is no Λ in font [./fonts/AGaramondPro/AGaramondPro-Reg
-ular.otf]/OT:script=latn;language=dflt;+onum;+pnum;mapping=tex-text;!
-Missing character: There is no Λ in font [./fonts/AGaramondPro/AGaramondPro-Reg
-ular.otf]/OT:script=latn;language=dflt;+onum;+pnum;mapping=tex-text;!
-Missing character: There is no Λ in font [./fonts/AGaramondPro/AGaramondPro-Reg
-ular.otf]/OT:script=latn;language=dflt;+onum;+pnum;mapping=tex-text;!
-Missing character: There is no Λ in font [./fonts/AGaramondPro/AGaramondPro-Reg
-ular.otf]/OT:script=latn;language=dflt;+onum;+pnum;mapping=tex-text;!
-Missing character: There is no Λ in font [./fonts/AGaramondPro/AGaramondPro-Reg
-ular.otf]/OT:script=latn;language=dflt;+onum;+pnum;mapping=tex-text;!
- [24]
-Missing character: There is no Υ in font [./fonts/AGaramondPro/AGaramondPro-Reg
-ular.otf]/OT:script=latn;language=dflt;+onum;+pnum;mapping=tex-text;!
-Missing character: There is no Υ in font [./fonts/AGaramondPro/AGaramondPro-Reg
-ular.otf]/OT:script=latn;language=dflt;+onum;+pnum;mapping=tex-text;!
-Missing character: There is no 〈 in font [./fonts/AGaramondPro/AGaramondPro-Reg
-ular.otf]/OT:script=latn;language=dflt;+onum;+pnum;mapping=tex-text;!
-Missing character: There is no 〉 in font [./fonts/AGaramondPro/AGaramondPro-Reg
-ular.otf]/OT:script=latn;language=dflt;+onum;+pnum;mapping=tex-text;!
+File: ./figures/colls/ss_v2.pdf Graphic file (type pdf)
+<use ./figures/colls/ss_v2.pdf>
+ [28]
+File: ./figures/colls/ss_rflow.pdf Graphic file (type pdf)
+<use ./figures/colls/ss_rflow.pdf>
+ [29]
 File: ./figures/colls/ss_ups1.pdf Graphic file (type pdf)
 <use ./figures/colls/ss_ups1.pdf>
 File: ./figures/colls/ss_ups2.pdf Graphic file (type pdf)
 <use ./figures/colls/ss_ups2.pdf>
- [25] [26]) [27] [28
+ [30]) [31] [32
 
-] [29] [30]
+] [33] [34]
 Chapter 3.
-(./chapters/experiment.tex [31
+(./chapters/experiment.tex [35
 
 ]
 File: ./figures/lhc/cern.png Graphic file (type bmp)
 <./figures/lhc/cern.png>
 File: ./figures/lhc/dipole.jpg Graphic file (type bmp)
 <./figures/lhc/dipole.jpg>
-) [32] [33] [34
+) [36] [37] [38
 
 ]
 Chapter 4.
-[35] [36
+[39] [40
 
 ]
 Chapter 5.
-(./chapters/blank.tex) [37] [38
+(./chapters/blank.tex) [41] [42
 
-] [39] [40]
+] [43] [44]
 Chapter 6.
-[41
+[45
 
-] [42
+] [46
 
 ]
 Chapter 7.
-[43] [44
+[47] [48
 
 ]
 Chapter 8.
-[45] [46
+[49] [50
 
 ]
 Chapter 9.
-(./chapters/outlook.tex) [47] [48
+(./chapters/outlook.tex) [51] [52
 
-] [49] [50]
+] [53] [54]
 Appendix A.
-(./chapters/blank.tex) [51
+(./chapters/blank.tex) [55
 
-] [52
+] [56
 
 ]
 Appendix B.
-(./chapters/blank.tex) [53] [54
+(./chapters/blank.tex) [57] [58
 
 ]
 Appendix C.
-(./chapters/blank.tex) [55] [56
+(./chapters/blank.tex) [59] [60
 
 ]
 Appendix D.
-(./papers/include_papers.tex [57] [58
+(./papers/include_papers.tex [61] [62
 
 ]
 Overfull \hbox (26.26378pt too wide) in paragraph at lines 17--17
 [][] 
  []
 
-[59] [60
+[63] [64
 
 ]
 File: papers/paperI.pdf Graphic file (type pdf)
@@ -1748,14 +1812,14 @@ File: papers/paperI.pdf Graphic file (type pdf)
 <use papers/paperI.pdf, page 1>
 File: papers/paperI.pdf Graphic file (type pdf)
 <use papers/paperI.pdf, page 1>
- [61] [62
+ [65] [66
 
 ]
 Overfull \hbox (26.26378pt too wide) in paragraph at lines 47--47
 [][] 
  []
 
-[63] [64
+[67] [68
 
 ]
 File: papers/paperII.pdf Graphic file (type pdf)
@@ -1772,17 +1836,17 @@ File: papers/paperII.pdf Graphic file (type pdf)
 <use papers/paperII.pdf, page 1>
 File: papers/paperII.pdf Graphic file (type pdf)
 <use papers/paperII.pdf, page 1>
- [65]) (./main.bbl [66
+ [69]) (./main.bbl [70
 
 ]) 
 AED: pageslts setting LastPage 
-[67]
+[71]
 
 Package natbib Warning: There were undefined citations.
 
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 212.
 Package atveryend Info: Executing hook `AfterLastShipout' on input line 212.
-\c@pagesLTS.arabic.1.local.count=\count390
+\c@pagesLTS.arabic.1.local.count=\count392
 
 AED: pageslts setting VeryLastPage via AfterLastShipout 
 
@@ -1805,12 +1869,12 @@ LaTeX Warning: There were multiply-defined labels.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 212.
  ) 
 Here is how much of TeX's memory you used:
- 33819 strings out of 479819
- 712021 string characters out of 5895846
- 1035377 words of memory out of 5000000
- 50163 multiletter control sequences out of 15000+600000
+ 35701 strings out of 479819
+ 768875 string characters out of 5895846
+ 1117435 words of memory out of 5000000
+ 51998 multiletter control sequences out of 15000+600000
  552350 words of font info for 138 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 67i,18n,104p,1055b,679s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 67i,18n,104p,1055b,683s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on main.pdf (81 pages).
+Output written on main.pdf (85 pages).
