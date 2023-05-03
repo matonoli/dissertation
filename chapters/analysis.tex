@@ -1,5 +1,5 @@
 \def \imgpath {"./figures/analysis"}
-Hadrons \KOs and \LA (\AL) are unstable neutral primary particles that usually decay within the volume of the detector through the weak interaction. Their mean lifetimes are $\sim \cmc{2.7}$ and $\sim \cmc{7.9}$, respectively.\cite{ALICEprimaries} Their dominant decay channels, which are also used for their measurement, are:
+Hadrons \KOs and \LA (\AL) are unstable neutral primary particles that usually decay within the volume of the detector through the weak interaction. Their mean lifetimes are $\sim \cmc{2.7}$ and $\sim \cmc{7.9}$, respectively.\cite{alicecollaborationALICEDefinitionPrimary2017} Their dominant decay channels, which are also used for their measurement, are:
 \begin{align}
 \KOs &\rightarrow \pip \, \pim \\
 \LA &\rightarrow \p \, \pim \\
@@ -11,9 +11,9 @@ Because of how these hadrons' decay topologies appear in the detector (an undete
 TBA
 Description of data, collection years, some QA
 Monte Carlo
-The Monte Carlo data are simulated using a physics event generator (in this measurement, Pythia 8\cite{}) and a model describing the propagation of particles through the detector environment (GEANT\cite{}). 
+The Monte Carlo data are simulated using a physics event generator (in this measurement, Pythia 8\cite{bierlichComprehensiveGuidePhysics2022}) and a model describing the propagation of particles through the detector environment (GEANT\cite{brunGEANTDetectorDescription1993,agostinelliGEANT4aSimulationToolkit2003}). 
 
-\section{Identification of \VOs using ALICE}
+\section{Identification of \VOs using ALICE}\label{sec:ana:cuts}
 A centrally developed ALICE algorithm, the ALICE \VO finder, is used to collect suitable \VO candidates from pairs of oppositely charged tracks  with the relevant topology. This typical topology is illustrated in Fig.~\ref{fig:analysis:v0decay.} %More details here and cite
 Additional selection criteria (``cuts") are further applied to suppress the background among those candidates. These include:
 \begin{itemize}

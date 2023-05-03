@@ -1,16 +1,17 @@
 \def \imgpath {"./figures/sphero"}
+\label{chap:sphero}
 In this chapter, measurements of \KOs, \LA, and \AL are reported as a function of transverse spherocity \SOPT, a measure of the event's topology in the transverse $xy-$plane. 
 \section{Transverse spherocity}
 
 \subsection{Motivation for studying event topology}
 
-As explained in Chapter X, there is overwhelming evidence that some phenomena associated with QGP, such as collective flow and strangeness enhancement, also arise in pp and p--A collisions at LHC energies and high event multiplicities. This challenges the conventional assumption that the hadron densities and densities of colour fields between partons are too low to interact with each other. Consequently, high-multiplicity pp (and p--A) collisions cannot be treated as a superposition of mostly independent parton-parton (or parton-hadron) scatterings and a more in-depth approach  is required to fully understand these phenomena.
+As explained in Sec.~\ref{sec:colls:qgpss}, there is overwhelming evidence that some phenomena associated with QGP, such as collective flow and strangeness enhancement, also arise in pp and p--A collisions at LHC energies and high event multiplicities. This challenges the conventional assumption that the hadron densities and densities of colour fields between partons are too low to interact with each other. Consequently, high-multiplicity pp (and p--A) collisions cannot be treated as a superposition of mostly independent parton-parton (or parton-hadron) scatterings and a more in-depth approach  is required to fully understand these phenomena.
 
-Event shape observables have been used historically in lepton experiments to study fundamental QCD properties such as the gluon spin \cite{petra-tasso-gluonspin}, and also at Tevatron and the LHC in events with very high \pt ($\gtrsim 100~\gevc$) jets to further test pQCD predictions \cite{antonio-sphero-motivation}. There are various observables, including sphericity, spherocity, thrust, F-parameter, and Ellis-Karliner angle, most of which are collinear- and infrared-safe and therefore moderately easily calculable\cite{banfi-eventshape-pheno}. An illustration of two events with different topologies and calculated values of selected observables can be seen in Fig.~\ref{fig:sphero:topologies}.
+Event shape observables have been used historically in lepton experiments to study fundamental QCD properties such as the gluon spin \cite{brandelikEvidenceSpin1Gluon1980}, and also at Tevatron and the LHC in events with very high \pt ($\gtrsim 100~\gevc$) jets to further test pQCD predictions \cite{ortizExperimentalResultsEvent2018}. There are various observables, including sphericity $S_\mathrm{T}$, spherocity \SO, thrust $T$, F-parameter, and Ellis-Karliner angle, most of which are collinear- and infrared-safe and therefore moderately easily calculable\cite{banfiPhenomenologyEventShapes2010}. An illustration of two events with different topologies and calculated values of selected observables can be seen in Fig.~\ref{fig:sphero:topologies}.
 
 \begin{figure}%
 \includegraphics[width=.90\textwidth]{\imgpath/event-observables.png}
-\caption{TBA.}
+\caption{Visualisation of two events in the azimuthal plane: \textbf{(left)} more ``jetty" and \textbf{(right)} more isotropic. Values for the transverse spherocity \SO are given as well as for some other event shape observables: sphericity, thrust, thrust-minor, and F-parameter. The vector minimising the \SO calculation is denoted as a blue arrow. \cite{ortizExperimentalResultsEvent2018}}
 \label{fig:sphero:topologies}
 \end{figure}
 
@@ -29,18 +30,18 @@ Traditionally, spherocity \SO is defined as:
 \end{align}
 where $p_{\textrm{T},i}$ represents the vector of transverse momentum of a particle $i$ and $\hat{n}$ is the event-dependent unit vector that minimises the sum. The sum runs over all charged particles in the event within the detector acceptance.
 
-Previous ALICE measurements \cite{alice-spherocity} studied characteristics of charged particles in pp collisions and discovered their strong dependence of \meanpt on spherocity \SO, which validates the previously discussed motivation. This relationship is shown in Fig.~\ref{fig:sphero:nchpt}. Additionally, phenomenological studies of \SO in Pythia 8 further demonstrate its classifying power by finding strong dependence of \meannmpi as well as the mean number of reconstructed jets $\langle n_\mathrm{j} \rangle$ on \SO\cite{antonio-sphero-mpi}\cite{antonio-sphero-njets}. These results can be seen in Fig.~\ref{fig:sphero:nmpinjets}.
+Previous ALICE measurements \cite{alicecollaborationChargedparticleProductionFunction2019} studied characteristics of charged particles in pp collisions and discovered their strong dependence of \meanpt on spherocity \SO, which validates the previously discussed motivation. This relationship is shown in Fig.~\ref{fig:sphero:nchpt}. Additionally, phenomenological studies of \SO in Pythia 8 further demonstrate its classifying power by finding strong dependence of \meannmpi as well as the mean number of reconstructed jets $\langle n_\mathrm{j} \rangle$ on \SO\cite{cuautleDisentanglingSoftHard2014, cuautleMidrapidityChargedHadron2015}. These results can be seen in Fig.~\ref{fig:sphero:nmpinjets}.
 
 \begin{figure}%
 \includegraphics[width=.60\textwidth]{\imgpath/alice_sphero_meanpt.pdf}
-\caption{TBA.}
+\caption{Dependence of the transverse momentum spectrum of charged particles as a function of event multiplicity at mid-rapidity. Cases for jetty, isotropic, and spherocity-unbiased events are displayed. Systematic uncertainties are indicated by the boxes and shaded areas. \cite{alicecollaborationChargedparticleProductionFunction2019}}
 \label{fig:sphero:nchpt}
 \end{figure}
 
 \begin{figure}%
 \subfloat[][]{\includegraphics[width=.48\textwidth]{\imgpath/sphero_nmpi.png}}
 \subfloat[][]{\includegraphics[width=.48\textwidth]{\imgpath/sphero_njets.png}}\\
-\caption{TBA.}
+\caption{\textbf{(a)} Correlation between the mean number of MPIs and transverse spherocity (and sphericity) in pp collisions at \sppt{7} predicted by Pythia 8, shown as solid and dotted lines. The horizontal line shows the average for minimum bias inelastic events. Events with high (red) and low (blue) self-normalised event multiplicity $z$ are also studied and depicted as datapoints. \cite{cuautleDisentanglingSoftHard2014} \textbf{(b)} Average number of reconstructed jets as a function of self-normalised event multiplicity in pp collisions at \sppt{7} with varying values of spherocity, as predicted by Pythia 8. \cite{cuautleMidrapidityChargedHadron2015}}
 \label{fig:sphero:nmpinjets}
 \end{figure}
 
@@ -57,8 +58,8 @@ In this thesis, unless stated otherwise, the terms transverse spherocity and sph
 
 Applying the spherocity \SOPT, events in two geometrical limits can be studied:
 \begin{itemize}
-\item $\SOPT \rightarrow 0$ : the \textbf{``jetty"} limit. Pencil-like topology is selected. These events are dominated by hard pQCD processes. In this limit, with perfectly collimated back-to-back particles, $\hat{n}$ coincides with them. Thus, the sum of vector products in Eq.~\ref{eq:sOpt} contains only zero values as $\sin 0 = \sin \pi = 0$.
-\item $\SOPT \rightarrow 1$ : the \textbf{``isotropic"} limit. Circular topology is selected. Such events are dominated by multiple softer non-perturbative processes\footnote{However, it is important to mention that  anisotropic collective flow such as $v_2$, a non-perturbative phenomenon, reduces the event isotropy.}. In this limit of $N\rightarrow\infty$ uniformly distributed unit vectors within $(0,2\pi)$, the choice of $\hat{n}$ becomes arbitrary and calculation of the sum in Eq.~\ref{eq:sOpt} leads to:
+\item $\SOPT \rightarrow 0$ : the \textbf{``jetty"} limit, where a pencil-like topology is selected. These events are dominated by hard pQCD processes. In this limit, with perfectly collimated back-to-back particles, $\hat{n}$ aligns with them. Thus, the sum of vector products in Eq.~\ref{eq:sOpt} contains only zero values as $\sin 0 = \sin \pi = 0$.
+\item $\SOPT \rightarrow 1$ : the \textbf{``isotropic"} limit, where a circular topology is selected. Such events are dominated by multiple softer non-perturbative processes\footnote{However, it is important to mention that  anisotropic collective flow such as $v_2$, a non-perturbative phenomenon, reduces the event isotropy.}. In this limit of $N\rightarrow\infty$ uniformly distributed unit vectors within $(0,2\pi)$, the choice of $\hat{n}$ becomes arbitrary and calculation of the sum in Eq.~\ref{eq:sOpt} leads to:
  \begin{align}
 \frac{1}{N} \sum_{n=1}^N | \sin\frac{2\pi n}{N}| &\approx \frac{1}{N} \int_0^N |\sin\frac{2\pi x}{N}| \mathrm{d}x \\ 
 &= \frac{2}{N} \int_0^{N/2} \sin\frac{2\pi x}{N} \mathrm{d}x = \frac{1}{\pi} \int_0^{\pi} \sin u \mathrm{d}u \\
@@ -67,11 +68,11 @@ Applying the spherocity \SOPT, events in two geometrical limits can be studied:
 and therefore $\SOPT=1$. 
 \end{itemize}
 
-Figure~\ref{fig:sphero:shapelimits} illustrates how spherocity slowly approaches the circular limit value with increasing $N$ compared to other event shape observables. This property makes spherocity favoured by experimentalists in these measurements, as it provides the highest discrimination power of isotropic events \cite{antonio-sphero-motivation}.
+Figure~\ref{fig:sphero:shapelimits} illustrates how spherocity slowly approaches the circular limit value with increasing $N$ compared to other event shape observables. This property makes spherocity favoured by experimentalists in these measurements, as it provides the highest discrimination power of isotropic events \cite{ortizExperimentalResultsEvent2018}.
 
 \begin{figure}%
 \includegraphics[width=.90\textwidth]{\imgpath/sphero-shapelimits.png}
-\caption{TBA.}
+\caption{Graphs showing how rapidly the different event shape observables approach the circular limit $V_\mathrm{circ}$ corresponding to $N\to\infty$, based on the number of perfectly isotropically distributed particles $N$. Transverse spherocity, here denoted as $S^\mathrm{phero}_{\perp,g}$, exhibits the slowest rise, and never exceeds unity.\cite{banfiPhenomenologyEventShapes2010}}
 \label{fig:sphero:shapelimits}
 \end{figure}
 
@@ -82,16 +83,15 @@ In ALICE, only charged particles are considered when calculating spherocities. T
 
 \begin{figure}%
 \includegraphics[width=.70\textwidth]{\imgpath/SOvsSOPT2_up.png}
-\caption{TBA.}
+\caption{Illustration of two topologically identical events with swapped charged and neutral particles. Momentum vectors entering the \pt-weighted spherocity (red) and \pt-unweighted (blue) calculations are displaying, showing a larger difference between the two scenarios for the former than the latter. (\textit{Needs to be remade or credited})}
 \label{fig:sphero:sOvssOpt}
 \end{figure}
 
-In addition, while not a large concern in high-multiplicity collisions\cite{alice-sphero-nch}, \SOPT also offers improved resolution compared to \SO, as the failure to reconstruct a high-\pt track has a smaller impact. Overall, \SO and \SOPT exhibit similar values and interpretations, with a strong correlation between the two, as illustrated in Fig.~\ref{fig:sphero:sOvssOptcorr}.
+In addition, while not a large concern in high-multiplicity collisions \cite{alicecollaborationChargedparticleProductionFunction2019}, \SOPT also offers improved resolution compared to \SO, as the failure to reconstruct a high-\pt track has a smaller impact. Overall, \SO and \SOPT exhibit similar values and interpretations, with a strong correlation between the two, as illustrated in Fig.~\ref{fig:sphero:sOvssOptcorr}.
 
 \begin{figure}%
-%\includegraphics[width=.70\textwidth]{\imgpath/SOvsSOPT2_up.png}
-\includegraphics[width=.70\textwidth]{example-image-a}
-\caption{TBA.}
+\includegraphics[width=.70\textwidth]{\imgpath/InfoSO_norm.pdf}
+\caption{Two-dimensional histogram showing the correlation between the traditional transverse spherocity \SO and the unweighted transverse spherocity \SOPT employed in this measurement, obtained from ALICE MC simulations.}
 \label{fig:sphero:sOvssOptcorr}
 \end{figure}
 
@@ -101,7 +101,7 @@ The measurements are carried out on MB events with \INELgtO, requiring at least 
 
 To ensure a high level of azimuthal acceptance uniformity, which is important for event shape measurements, the following, rather loose, selection criteria are employed:
 \begin{enumerate}
-\item The SPD is not used due to its holes, at the expense of a lower momentum resolution.
+\item The SPD is not used due to its inactive sectors, at the expense of a lower momentum resolution.
 \item A track is required to have at least 50 clusters in the TPC and be matched to hits in the ITS to improve tracking precision and further reject  pile-up.
 \item DCA cuts are applied in both the longitudinal ($|\mathrm{DCA}_z|<3.2$~cm) and transverse ($|\mathrm{DCA}_{xy}|<2.4$~cm) planes to ensure that the reconstructed TPC track points to the primary vertex.
 \end{enumerate}
@@ -109,9 +109,9 @@ It should be noted that charged decay products of \VOs with low \pt ($\lesssim \
 
 \subsection{Multiplicity selection and its interplay with \SOPT}
 
-Spherocity exhibits a twofold correlation with multiplicity that is not particularly informative. First, the definition of \SOPT results in higher values for events with more uniformly distributed particles, as shown in Fig.~\ref{fig:sphero:shapelimits}. Second, in models such as Pythia, high multiplicity is often associated with more MPI, which tend to lead to higher isotropy due to the increased number of emission sources. To gain a more nuanced understanding of the relationship between spherocity and multiplicity, we analyze the effect of \SOPT on measured particles in high-multiplicity events determined in two distinct rapidity regions, as described above. Specifically, the top $1\%$ ($10\%$) quantiles are used, denoted as \VOM I and \NSPD I (\VOM I-III and \NSPD I-III).
+Spherocity exhibits a twofold correlation with multiplicity that is not particularly informative. First, the definition of \SOPT results in higher values for events with more uniformly distributed particles, as shown in Fig.~\ref{fig:sphero:shapelimits}. Second, in models such as Pythia, high multiplicity is often associated with more MPI, which tend to lead to higher isotropy due to the increased number of emission sources. To gain a more nuanced understanding of the relationship between spherocity and multiplicity, the effect of \SOPT on measured particles was analysed in high-multiplicity events determined in two distinct rapidity regions, as described above. Specifically, the top $1\%$ ($10\%$) quantiles are used, denoted as \VOM I and \NSPD I (\VOM I-III and \NSPD I-III).
 
-Figure~\ref{fig:sphero:v0mvscl1} shows the effect of \SOPT on the pion yields and \meanpt. Pions are measured in the high-multiplicity events and in top and bottom $10\%$ and $1\%$ quantiles of \SOPT. The result reveals that when measuring multiplicity in forward rapidity (\VOM I), the effect of \SOPT causes a change of approximately $100\%$ in the yields when going from jetty to isotropic limits, whereas the difference in \meanpt is only ca.\ $10\%$. Conversely, when determining the multiplicity in mid-rapidity (\NSPD I), the same region where the pion spectra are reconstructed, the change in the yields is only approximately $10\%$ while the change in \meanpt is ca.\ $25\%$.
+Figure~\ref{fig:sphero:v0mvscl1} shows the effect of \SOPT on the pion yields and \meanpt. Pions are measured in the high-multiplicity events and in top and bottom $10\%$ and $1\%$ quantiles of \SOPT. The result reveals that when measuring multiplicity in forward rapidity (\VOM I), the effect of \SOPT causes a change of approximately $100\%$ in the yields when going from jetty to isotropic limits, whereas the difference in \meanpt is only about $10\%$. Conversely, when determining the multiplicity in mid-rapidity (\NSPD I), the same region where the pion spectra are reconstructed, the change in the yields is only approximately $10\%$ while the change in \meanpt is approx.\ $25\%$.
 
 For this reason, the following combinations of multiplicity and \SOPT selections are presented:
 \begin{enumerate}
@@ -121,17 +121,20 @@ For this reason, the following combinations of multiplicity and \SOPT selections
 \end{enumerate}
 
 \begin{figure}%
-\includegraphics[width=.70\textwidth]{\imgpath/mgPion_0.pdf}
-\caption{TBA.}
+\begin{tikzpicture}
+    \draw (0, 0) node[inner sep=0] {\includegraphics[width=.70\textwidth]{\imgpath/mgPion_0.pdf}};
+    \draw (-1.5, -0.2) node {This thesis};
+\end{tikzpicture}
+\caption{Relationship between the mean transverse momentum of charged pions and their yields in events with different \SOPT values and event multiplicity determined at mid-rapidity (here denoted $N_\mathrm{tracklets}^{|\eta|<0.8}$) and forward rapidity (VOM). Events in the same multiplicity classes are connected with lines for clarity's sake.}
 \label{fig:sphero:v0mvscl1}
 \end{figure}
 
-The mid-rapidity multiplicities in the different high-multiplicity classes are reported in Tab.~\ref{tab:sphero:hm}. The measured \SOPT distributions in \NSPD I, \NSPD I-III, and \VOM I-III are shown in Fig.~\ref{fig:sphero:sopt}. They are treated with Bayesian unfolding to account for reconstruction effects. They are also compared with theoretical predictions from Pythia 8 (Monash and Ropes tunes), EPOS LHC, and Herwig. Table~\ref{tab:sphero:sOpt} provides the \SOPT cut values associated with the quantile selections in data.
+The mid-rapidity multiplicities in the different high-multiplicity classes are reported in Tab.~\ref{tab:sphero:hm}. The measured \SOPT distributions in \NSPD I, \NSPD I-III, and \VOM I-III are shown in Fig.~\ref{fig:sphero:sopt}. They are treated with Bayesian unfolding to account for reconstruction effects. They are also compared with theoretical predictions from Pythia 8 (Monash \cite{skandsTuningPYTHIAMonash2014} and Ropes \cite{bierlichEffectsOverlappingStrings2015} tunes), EPOS LHC \cite{pierogEPOSLHCTest2015}, and Herwig 7 \cite{bellmHerwigReleaseNote2020}. Table~\ref{tab:sphero:sOpt} provides the \SOPT cut values associated with the quantile selections in data.
 
-\begin{figure}[!htb]%
-\subfloat[][]{\includegraphics[width=.60\textwidth]{\imgpath/SO_Unfolded_CL1_Perc_1.pdf}}\\
-\subfloat[][]{\includegraphics[width=.60\textwidth]{\imgpath/SO_Unfolded_CL1_Perc_10.pdf}}\\
-\subfloat[][]{\includegraphics[width=.60\textwidth]{\imgpath/SO_Unfolded_V0M_Perc_1.pdf}}\\
+\begin{figure}[H]%
+\subfloat[][]{\includegraphics[width=.45\textwidth]{\imgpath/SO_Unfolded_CL1_Perc_1.pdf}}
+\subfloat[][]{\includegraphics[width=.45\textwidth]{\imgpath/SO_Unfolded_CL1_Perc_10.pdf}}\\
+\subfloat[][]{\includegraphics[width=.45\textwidth]{\imgpath/SO_Unfolded_V0M_Perc_1.pdf}}
 \caption{The measured and fully corrected \SOPT distributions for both \textbf{(a)} \NSPD 0--1\%, \textbf{(b)} 0--10\% and \textbf{(c)} \VOM 0--1\% . The curves represent different model prediction, where the shaded area represents the statistical uncertainty of the models.}
 \label{fig:sphero:sopt}
 \end{figure}
@@ -149,7 +152,7 @@ The mid-rapidity multiplicities in the different high-multiplicity classes are r
 
 \begin{table}[h!]
 \centering
-\caption{TBA.}
+\caption{Mean values of charged particle multiplicity at mid-rapidity in different high-multiplicity event classes.}
 \label{tab:sphero:hm}
 
 \begin{tabular}{|cc|ccc|}
@@ -163,7 +166,7 @@ The mid-rapidity multiplicities in the different high-multiplicity classes are r
 
 \begin{table}[h!]
 \centering
-\caption{Values of the different quantiles of the uncorrected \SOPT distribution used for the event selections in this analysis.}\label{tab:sphero:sopt}
+\caption{Cut values of the different quantiles of the uncorrected \SOPT distribution used for the event selections in this analysis.}\label{tab:sphero:sOpt}
 
 \begin{tabular}{|cc|ccc|}
 \hline
@@ -181,69 +184,59 @@ The mid-rapidity multiplicities in the different high-multiplicity classes are r
 
 \subsection{Comparison of \VO production with MC generators}
 
-Further on in this chapter, the results of \KOs, \LA, and \AL as a function of \SOPT are presented and compared with predictions from phenomenological models Pythia 8, EPOS LHC, and Herwig obtained from MC simulations. To mitigate the effect of reconstruction on the experimental results and make the comparison with these predictions as comparable as possible, the following strategies were employed based on findings using the ALICE MC simulations:
+Further on in this chapter, the results of \KOs, \LA, and \AL as a function of \SOPT are presented and compared with predictions from phenomenological models Pythia 8 \cite{bierlichComprehensiveGuidePhysics2022}, EPOS LHC \cite{pierogEPOSLHCTest2015}, and Herwig 7 \cite{bellmHerwigReleaseNote2020} obtained from MC simulations. To mitigate the effect of reconstruction on the experimental results and make the comparison with these predictions as comparable as possible, the following strategies were employed based on findings using the ALICE MC simulations:
 \begin{itemize}
 \item The results were compared using the same quantiles of the \SOPT distributions in both the MC and the data, instead of relying on the experimental \SOPT ranges determined by specific cut values. This approach reduced the effects of \SOPT resolution.
-\item In the MC simulations, the \SOPT calculations included neutral particles \KOs, \LA, and \AL, despite their neutral charge. This helped minimize differences between the true and reconstructed/corrected MC results, possible due to the potential contribution of charged \VO daughters to the \SOPT calculation. 
+\item In the MC simulations, the \SOPT calculations included neutral particles \KOs, \LA, and \AL, despite their neutral charge. This helped minimize differences between the true and reconstructed/corrected MC results, possible due to the potential contribution of charged daughters to the \SOPT calculation. 
 \end{itemize}
 Any discrepancies that still persisted between the true and reconstructed/corrected transverse momentum spectra were accounted for as systematic uncertainties.
 
 \section{Systematic uncertainties}
 
-The systematic uncertainties associated with the \pt spectra of \KOs, \LA, and \AL were evaluated separately for \NSPD I and \VOM I events with no \SOPT selection, as well as for the top and bottom $10\%$ isotropic and jetty quantiles, using the methodology described in Section~\ref{sec:ana:systematics}. The relative systematic uncertainties obtained from these configurations were also applied to the \NSPD I-III and \VOM I-III event classes with different jetty/isotropic quantiles.
+The systematic uncertainties associated with the \pt spectra of \KOs, \LA, and \AL were evaluated separately for \NSPD I and \VOM I events with no \SOPT selection, as well as for the top and bottom $10\%$ isotropic and jetty quantiles, using the methodology described in Section~\ref{sec:ana:syst}. The relative systematic uncertainties obtained from these configurations were also applied to the \NSPD I-III and \VOM I-III event classes with different jetty/isotropic quantiles.
 
-\subsection{Variations in alternative methods}
+Figures~\ref{fig:sphero:systK0s}, \ref{fig:sphero:systLA}, and \ref{fig:sphero:systAL} illustrate the maximal deviations of variations resulting from alternative cut values, extraction parameters, or feeddown methods in \VOM I, \SOPT-unbiased events for \KOs, \LA, and \AL, respectively. 
 
-Figures~\ref{fig:sphero:systK0s}, \ref{fig:sphero:systLA}, and \ref{fig:sphero:systAL} illustrate the variations resulting from alternative cut values, extraction parameters, or feeddown methods in \VOM I, \SOPT-unbiased events for \KOs, \LA, and \AL, respectively. The maximal deviations, contributing to the final systematic uncertainties, are also shown.
-
-\begin{figure}[!h]
+\begin{figure}[H]
   \centering
 \includegraphics[width=.98\textwidth]{\imgpath/cDev_K0s_V0M01_MB.png}
-  \caption{Deviations of the corrected spectra w.r.t.\ the different cut variations used for the \Ks . The maximum deviation is added in quadrature to the total, if it's larger than $\sigma_\mathrm{RB}$ (depicted as errorbars) from unity.}
+  \caption{NEEDS TO BE REDRAWN IN CONSISTENT STYLE WITH RT CHAPTER:Deviations of the corrected spectra w.r.t.\ the different cut variations used for the \Ks . The maximum deviation is added in quadrature to the total, if it's larger than $\sigma_\mathrm{RB}$ (depicted as errorbars) from unity.}
   \label{fig:sphero:systK0s}
 \end{figure}
 
-\begin{figure}[!h]
+\begin{figure}[H]
   \centering
 \includegraphics[width=.98\textwidth]{\imgpath/cDev_L_V0M01_MB.png}
-  \caption{Deviations of the corrected spectra w.r.t.\ the different cut variations used for the \Ks . The maximum deviation is added in quadrature to the total, if it's larger than $\sigma_\mathrm{RB}$ (depicted as errorbars) from unity.}
+  \caption{NEEDS TO BE REDRAWN IN CONSISTENT STYLE WITH RT CHAPTER:Deviations of the corrected spectra w.r.t.\ the different cut variations used for the \Ks . The maximum deviation is added in quadrature to the total, if it's larger than $\sigma_\mathrm{RB}$ (depicted as errorbars) from unity.}
   \label{fig:sphero:systLA}
 \end{figure}
 
-\begin{figure}[!h]
+\begin{figure}[H]
   \centering
 \includegraphics[width=.98\textwidth]{\imgpath/cDev_Lbar_V0M01_MB.png}
-  \caption{Deviations of the corrected spectra w.r.t.\ the different cut variations used for the \Ks . The maximum deviation is added in quadrature to the total, if it's larger than $\sigma_\mathrm{RB}$ (depicted as errorbars) from unity.}
+  \caption{NEEDS TO BE REDRAWN IN CONSISTENT STYLE WITH RT CHAPTER:Deviations of the corrected spectra w.r.t.\ the different cut variations used for the \Ks . The maximum deviation is added in quadrature to the total, if it's larger than $\sigma_\mathrm{RB}$ (depicted as errorbars) from unity.}
   \label{fig:sphero:systAL}
 \end{figure}
 
 \subsection{Experimental bias}
 
-TBA
+To estimate the experimental bias of the \SOPT selection, Monte Carlo closure tests were used, studying the ratios of true \pt spectra in jetty/isotropic quantiles of the true \SOPT distribution to the measured and corrected \pt spectra in quantiles of the measured \SOPT distribution.
+
+Due to the loose DCA cuts used in the \SOPT determination, it is expected that the \VO daughters may enter its calculation. Thus, to make the predictions from simulations more comparable to the data, the \KOs, \LA, and \AL particles were included in the true \SOPT calculation. Although insufficient below $\pt < \gevc{1}$, this works well and corresponds to $1\%$ and $4\%$ discrepancies for isotropic and jetty events, respectively \cite{nassirpourShapeStrangenessTransverse2022}. 
+
+Alternatively, as discussed further in this dissertation in the \RT measurements in Chapter~\ref{chap:rt} but not employed here, this effect could be accounted for experimentally, by making the two track sets (spherocity and \VO daughters) explicitly disjunct by enforcing a DCA cut.
 
 \subsection{Correlation of uncertainties with \SOPT}
 
-Correlations of several systematic uncertainties with respect to the \SOPT selection are expected. Since the ratios of jetty/isotropic results to \SOPT-unbiased ones provide important insights, it is necessary to study and account for these correlations.
+Correlations of several systematic uncertainties with respect to the \SOPT selection are expected. Since the ratios of jetty/isotropic results to \SOPT-unbiased ones provide important insights, it is necessary to account for these correlations in order to not overestimate the uncertainties, following the methodology described in Fig.~\ref{sec:ana:systcorr}.
 
-TBA add methodology.
-
-The systematic uncertainty associated with the material budget is fully correlated, while assuming the reconstruction efficiency is independent of multiplicity leads to an uncorrelated uncertainty. This assumption would lead to a factor of $\sqrt{2}$ in the ratios of jetty/isotropic to \SOPT-unbiased for this uncertainty. However, in ALICE, this assumption is generally considered too conservative by ALICE, and thus this factor is dropped. The same approach is used for the uncertainty associated with the multiplicity independence of the feeddown matrix. Detailed results can be found in Appendix~\ref{app:spherosyst}.
-
+Moreover, the systematic uncertainty associated with the material budget is treated as fully correlated, while assuming the reconstruction efficiency is independent of multiplicity leads to an uncorrelated uncertainty. This assumption would lead to a factor of $\sqrt{2}$ in the ratios of jetty/isotropic to \SOPT-unbiased for this uncertainty. However, in ALICE, this assumption is generally considered too conservative \cite{alicecollaborationMultiplicityDependenceLightflavor2019}, and thus this factor is dropped. The same approach is used for the uncertainty associated with the multiplicity independence of the feeddown matrix. Detailed results can be found in Appendix~\ref{app:spherosyst}.
 
 \subsection{Summary}
 
-The total systematic uncertainties are reported in Tab.~\ref{tab:sphero:syst} and visualised in Fig.~\ref{fig:sphero:systtot}.
+The total systematic uncertainties are reported in Tab.~\ref{tab:sphero:syst} and visualised in Fig.~\ref{fig:sphero:systtot}. The dominant contributions are, in no specific order, selection cuts, experimental bias, signal extraction, and the enforcement of signals from fast detectors to prevent track pile-up.
 
-\begin{figure}[!h]
-\centering
-\subfloat[][]{\includegraphics[height=.3\textheight]{\imgpath/k0s_sys.pdf}}\\
-\subfloat[][]{\includegraphics[height=.3\textheight]{\imgpath/l_sys.pdf}}\\
-\subfloat[][]{\includegraphics[height=.3\textheight]{\imgpath/lbar_sys.pdf}}\\
-\caption{Total relative systematic uncertainty and individual contributions for the \KOs, \LA, and \AL .}
-\label{fig:sphero:systtot}
-\end{figure}
-
-\begin{table}[h!]
+\begin{table}[H]
 \centering
 \caption{The most relevant systematic uncertainties for the long-lived particles \KOs and \LA(\AL) as a function of \SOPT. ``HM'' in this table represents the \SOPT-unbiased spectra. Uncertainties are pt-dependent, and the ranges listed represents the minimum-maximum values presented in the final spectra (see text for details). }
 \label{tab:sphero:syst}
@@ -273,50 +266,125 @@ Total uncertainty     & 8--10\%    & 8--9\%     & 7--9\%     & 5\%         & 3--
 \end{tabular}
 \end{table}
 
+\begin{figure}[H]
+\centering
+\subfloat[][]{\includegraphics[height=.3\textheight]{\imgpath/k0s_sys.pdf}}\\
+\subfloat[][]{\includegraphics[height=.3\textheight]{\imgpath/l_sys.pdf}}\\
+%\subfloat[][]{\includegraphics[height=.3\textheight]{\imgpath/lbar_sys.pdf}}\\
+\caption{NEEDS TO BE REDRAWN IN CONSISTENT STYLE WITH RT CHAPTER: Total relative systematic uncertainty and individual contributions for the \KOs, \LA, and \AL .}
+\label{fig:sphero:systtot}
+\end{figure}
+
+
 \section{Transverse momentum spectra vs. \SOPT}
 
-The corrected spectra in \VOM and \NSPD high-multiplicity events and the dependence on spherocity for the \KOs and \LA + \AL can be seen in Fig.~\ref{fig:sphero:k0spt} and Fig.~\ref{fig:sphero:lpt}, respectively.
+The corrected spectra in \VOM and \NSPD high-multiplicity events and the dependence on spherocity for the \KOs and \LA + \AL can be seen in Fig.~\ref{fig:sphero:k0spt} and Fig.~\ref{fig:sphero:lpt}, respectively.  The trends observed in the spectra are consistent between \KOs and \LA and indicate a significant hardening (softening) in the low (high) spherocity selection, relative to the inclusive high-multiplicity event class. These trends are qualitatively generally well captured by all included model predictions, favouring Pythia 8 Ropes. Particularly, EPOS LHC overestimates the yields and Pythia 8 Monash fails in describing the \LA \pt spectra.
 
-\begin{figure}[!htb]%[!h]
+The seperation between jetty and isotropic events is more pronounced in the \NSPD high-multiplicity events, and shows significant difference in the spectra slopes rather than just an offset, which is somewhat the case for the \VOM events.
+
+\begin{figure}[H]%
 \centering%
-\includegraphics[height=.3\textheight]{\imgpath/sp_K0s_V0M01_spher10.pdf}
-\includegraphics[height=.3\textheight]{\imgpath/sp_K0s_NCharged01_spher10.pdf}
-\includegraphics[height=.3\textheight]{\imgpath/sp_K0s_NCharged_spher1.pdf}
-%\includegraphics[height=.3\textheight]{\imgpath/sp_K0s_V0M01_spher1.pdf}
-%\includegraphics[height=.3\textheight]{\imgpath/sp_K0s_NCharged01_spher1.pdf}
-  \caption{Corrected and normalised \pt -spectra of the \KOs particle in high-multiplicity \VOM 0-1\%(\textit{top left, bottom left}), CL1 0-1\% (\textit{top middle, bottom right}), and CL1 0-10\% (\textit{top right}) events, shown as black points. The bottom (jetty) and top (isotropic) 1\% or 10\% of spherocity events are also shown as red and blue points. The ratios of isotropic/jetty spectra to the high-multiplicity spectra are shown in the bottom panels.}
+\subfloat[][]{\includegraphics[width=.33\textwidth]{\imgpath/sp_K0s_NCharged01_spher10.pdf}}
+\subfloat[][]{\includegraphics[width=.33\textwidth]{\imgpath/sp_K0s_NCharged_spher1.pdf}}
+\subfloat[][]{\includegraphics[width=.33\textwidth]{\imgpath/sp_K0s_V0M01_spher10.pdf}}
+\caption{Transverse momentum spectra of \KOs in high-multiplicity jetty (red) and isotropic (blue) events of pp collisions at \sppt{13} measured in the \textbf{(a)} \NSPD I, \textbf{(b)} \NSPD I-III, and \textbf{(c)} \VOM I event classes. The bottom panels display ratios to the \SOPT-unbiased spectra. Statistical and systematic uncertainties are indicated with error bars and boxes, respectively. (\textit{Needs to be redrawn to also show MC})}
 \label{fig:sphero:k0spt}
 \end{figure}
 
-\begin{figure}[!htb]%[!h]
+\begin{figure}[H]%
 \centering%
-\subfloat[][]{\includegraphics[height=.3\textheight]{\imgpath/sp_LLbar_V0M01_spher10.pdf}}
-\subfloat[][]{\includegraphics[height=.3\textheight]{\imgpath/sp_LLbar_NCharged01_spher10.pdf}}\\
-\subfloat[][]{\includegraphics[height=.3\textheight]{\imgpath/sp_LLbar_NCharged_spher1.pdf}}
-%\includegraphics[height=.3\textheight]{\imgpath/sp_LLbar_V0M01_spher1.pdf}
-%\includegraphics[height=.3\textheight]{\imgpath/sp_LLbar_NCharged01_spher1.pdf}
-  \caption{Corrected and normalised \pt -spectra of the \LA + \AL particles in high-multiplicity V0M 0-1\%(\textit{top left, bottom left}), CL1 0-1\% (\textit{top middle, bottom right}), and CL1 0-10\% (\textit{top right}) events, shown as black points. The bottom (jetty) and top (isotropic) 1\% or 10\% of spherocity events are also shown as red and blue points. The ratios of isotropic/jetty spectra to the high-multiplicity spectra are shown in the bottom panels.}
+\subfloat[][]{\includegraphics[width=.33\textwidth]{\imgpath/sp_LLbar_NCharged01_spher10.pdf}}
+\subfloat[][]{\includegraphics[width=.33\textwidth]{\imgpath/sp_LLbar_NCharged_spher1.pdf}}
+\subfloat[][]{\includegraphics[width=.33\textwidth]{\imgpath/sp_LLbar_V0M01_spher10.pdf}}
+\caption{Transverse momentum spectra of \LA+\AL in high-multiplicity jetty (red) and isotropic (blue) events of pp collisions at \sppt{13} measured in the \textbf{(a)} \NSPD I, \textbf{(b)} \NSPD I-III, and \textbf{(c)} \VOM I event classes. The bottom panels display ratios to the \SOPT-unbiased spectra. Statistical and systematic uncertainties are indicated with error bars and boxes, respectively. (\textit{Needs to be redrawn to also show MC and be cut off from 1 GeV.})}
 \label{fig:sphero:lpt}
 \end{figure}
 
+\subsection{Ratios of neutral kaons to charged kaons}
+
+To verify the robustness of \SOPT as an event observable, the \pt spectra of neutral and charged kaons are compared in the \NSPD I and \VOM I classes. The ratios exhibit no dependence on \SOPT and are consistent with unity, according to expectations. The slight depletion of \KOs in the \NSPD I class is interpreted as the multiplicity selection bias due to requiring a large number of charged tracks at mid-rapidity, and is also reproducible by simulations. The ratios are shown in Fig.~\ref{fig:sphero:ktok}.
+
+\begin{figure}[H]%
+\centering%
+\subfloat[][]{\includegraphics[width=.4\textwidth]{\imgpath/KtoK_NCharged01_spher10.pdf}}\hspace{1em}
+\subfloat[][]{\includegraphics[width=.4\textwidth]{\imgpath/KtoK_V0M01_spher10.pdf}}
+\caption{Ratios of transverse momentum spectra of \KOs to \kpm in \textbf{(a)} \NSPD I and \textbf{(b)} \VOM I high-multiplicity events, also showing the effect of spherocity selection. The results are compared with MC predictions of Pythia 8 tunes.}
+\label{fig:sphero:ktok}
+\end{figure}
+
+\section{Mean transverse momenta and integrated yields}
+
+The \meanpt and particle yields $\langle \dndy \rangle$ in different \SOPT bins for the \NSPD I class are reported in Fig.~\ref{fig:sphero:meanpt}. The measured values of \meanpt quantify the observations in the spectra: there is a significant \pt-hardening in jet-like events, consistently seen in both \KOs and \LA. Furthermore, the \meanpt of the inclusive high-multiplicity events is consistent with that of the isotropic subsample. This result suggests that the average high-multiplicity events and \SOPT-selected isotropic events are dominated by similar underlying physics processes.
+
+Furthermore, the \SOPT-integrated event class is not simply the arithmetic average of the jetty and isotropic subsamples. This implies that jetty events are rare outliers of a much more homogeneous group of high-multiplicity events, which will be further focused on in the next sections.
+
+\begin{figure}[H]
+\subfloat[][]{\adjincludegraphics[trim={0 0 0 0},clip,height=10em]{\imgpath/meanpt.pdf}}\\
+\subfloat[][]{\adjincludegraphics[trim={0 0 0 0},clip,height=10em]{\imgpath/meanpttopi.pdf}}\\
+\subfloat[][]{\adjincludegraphics[trim={0 0 0 0},clip,height=10em]{\imgpath/dndy.pdf}}\\
+\subfloat[][]{\adjincludegraphics[trim={0 0 0 0},clip,height=10em]{\imgpath/dndytopi.pdf}} 
+\caption{\textbf{(a)} Mean transverse momentum and \textbf{(c)} integrated yields of \pip+\pim, \KOs, and \LA+\AL in jetty, isotropic, and \SOPT-unbiased high-multiplicity events determined at mid-rapidity. \textbf{(b,d)} Their ratios of \KOs and \LA+\AL to pions. \textit{CROP TO SHOW ONLY pi, \KOs, \LA.}}
+\label{fig:sphero:meanpt}
+\end{figure}
+
+The results indicate that not only charged pions but also neutral \KOs and \LA show little variation in multiplicity between the different \SOPT extremes in the \NSPD I class, although more so for the latter two. This could be because of their smaller correlation with \SOPT as they are neutral, or it may suggest strangeness enhancement. The models generally provide good agreement with the measured \meanpt of \KOs, while the results for \LA are best described by the Pythia Ropes model. The yields for \KOs are also largely consistent with the models presented, whereas the Pythia Monash model does not match the \LA yields.
+
 \section{Ratios to pions}
 
-TBA plots and discussion
+Rather than focusing on the models' inability to match the absolute values, this measurement can provide an opportunity to study the underlying dynamics that affect the heavier and stranger particles. To achieve this, the \KOs and \LA+\AL \pt spectra are divided by the \pip+\pim spectra. The results are presented in Fig.~\ref{fig:sphero:ktopi} and Fig.~\ref{fig:sphero:ltopi}.
+
+The data reveals overall suppression of \KOs in jetty events and enhancement in isotropic events in the measured \pt range. The effect is observed, although in different ways, in all three event classes: \NSPD I (where spherocity is assumed to change mostly the \meanpt), \NSPD I-III (where spherocity is assumed to change both the \meanpt and multiplicity), and \VOM I (where spherocity is assumed to change mostly the multiplicity). The \LA ratios behave similarly but an enhancement in low-\pt is observed in the \VOM I case, resembling typical radial flow signatures.
+
+The presented models cannot describe the ratios to pions, although the trends relative to the \SOPT-unbiased case are reproduced well.
+
+\begin{figure}[H]%
+\centering%
+\subfloat[][]{\includegraphics[width=.25\textwidth]{\imgpath/ktopi_nch01.png}}\hspace{1em}
+\subfloat[][]{\includegraphics[width=.25\textwidth]{\imgpath/ktopi_nch.png}}\hspace{1em}
+\subfloat[][]{\includegraphics[width=.25\textwidth]{\imgpath/ktopi_v0m01.png}}
+\caption{Ratios of transverse momentum spectra of \KOs to \pip+\pim in jetty, isotropic, and \SOPT-unbiased in events with high-multiplicity classes \textbf{(a)} \NSPD I, \textbf{(b)} \NSPD I-III, and \textbf{(c)} \VOM I. Statistical and systematic uncertainties are depicted as error bars and boxes, respectively.}
+\label{fig:sphero:ktopi}
+\end{figure}
+
+\begin{figure}[H]%
+\centering%
+\subfloat[][]{\includegraphics[width=.25\textwidth]{\imgpath/ltopi_nch01.png}}\hspace{1em}
+\subfloat[][]{\includegraphics[width=.25\textwidth]{\imgpath/ltopi_nch.png}}\hspace{1em}
+\subfloat[][]{\includegraphics[width=.25\textwidth]{\imgpath/ltopi_v0m01.png}}
+\caption{Ratios of transverse momentum spectra of \LA+\AL to \pip+\pim in jetty, isotropic, and \SOPT-unbiased in events with high-multiplicity classes \textbf{(a)} \NSPD I, \textbf{(b)} \NSPD I-III, and \textbf{(c)} \VOM I. Statistical and systematic uncertainties are depicted as error bars and boxes, respectively.}
+\label{fig:sphero:ltopi}
+\end{figure}
 
 \section{Baryon-to-meson ratio}
 
-TBA plots and discussion
+The baryon-to-meson ratio \ltok was investigated in this study, as it is a common observable used to measure the effects of radial flow, as discussed in Section X. To focus on the different functions of \SOPT selection in the different high-multiplicity classes, the results for the \NSPD I and \VOM I events are shown in Fig.~\ref{fig:sphero:ltok}. They are also juxtaposed with the \ptopi ratios \cite{vazquezruedaStudyProductionPp2022}. The ratios reveal a significant increase when transitioning from jetty to isotropic events, indicating that the production of heavier $\LA$ is systematically more suppressed in jetty events than \KOs. Similar observations have been made in other ALICE measurements studying jets (discussed further in \ref{sec:rt:btom}) \cite{acharyaProductionKS0Jets2022}.
 
-\section{Ratio of integrated yields}
+Although the increase in the ratio is consistent with the typical signatures of radial flow, the \NSPD I results do not reveal the depletion at low \pt and neither results show the shift of the peak to higher \pt, both of which are also its characteristic features. Additionally, the data are compared with the two tunes of Pythia 8, favouring the Ropes configuration.
 
-TBA discussion
+\begin{figure}[H]
+%\subfloat[][]{\adjincludegraphics[trim={0 0 {0.32\width} 0},clip,height=15em]{\imgpath/ratiosBaryonMeson.pdf}}\\
+\subfloat[][]{\includegraphics[width=.49\textwidth]{\imgpath/ratiosBaryonMesonNCharged01.pdf}}
+\subfloat[][]{\includegraphics[width=.49\textwidth]{\imgpath/ratiosBaryonMesonV0M01.pdf}}
+\caption{Baryon-to-meson ratios of the jetty ($0-10\%$) and isotropic ($90-100\%$) transverse momentum spectra of p to $\pi$ and \LA+\AL to \KOs in the \textbf{(a)} \NSPD I and \textbf{(b)} \VOM I high-multiplicity events of pp collisions at \sppt{13}. The bottom panels display the ratios to the \SOPT-unbiased case. MC predictions are denoted as lines, statistical uncertainties as error bars, and systematic uncertainties as error boxes.}
+\label{fig:sphero:ltok}
+\end{figure}
 
-\begin{figure}[!htb]
+\section{Ratio of integrated yields vs. \SOPT}
+
+The main contribution of this study is the investigation of strangeness production as a function of \SOPT. Yields of the \LA baryon were determined in \NSPD I and \VOM I classes in the following intervals of \SOPT: $0-1\%$, $1-5\%$, $5-10\%$, $10-20\%$, $20-80\%$, $80-90\%$, $90-95\%$, $95-99\%$, and $99-100\%$. The integration was done in the measured \pt range rather than extrapolated. The \SOPT-dependent \LA yields are then divided by \SOPT-dependent pion yields as a reference. The effects of not extrapolating were studied and found to be unimportant, and while the extrapolation confirms the physics message of the default method, it also increases systematic uncertainties. 
+
+The results, together also with p ($|S|=0$) and \XI ($|S|=2$) are reported in Fig.~\ref{fig:sphero:lvssOpt}. For the \NSPD I events, there is a clear strangeness- and/or mass-dependent enhancement with increasing \SOPT. It is important to emphasize that in this event class, the \Nch multiplicity is basically fixed. Therefore, these effects are results of the different underlying dynamics of the collisions, specifically the varying hardness of involved scatterings, rather than merely an effect of increased \Nch.
+
+Conversely, the \VOM I events show no such dependence, and jetty and isotropic events appear to produce the same relative amount of strangeness. This goes against intuition that varying \Nch between jetty ($\Nch \to 15$) and isotropic events ($\Nch \to 30$, according to Fig.~\ref{fig:sphero:v0mvscl1}) should introduce an effect, in accordance with traditional studies of strangeness enhancement in pp collisions as a function of \Nch. This observation is not fully understood, but it suggests that the decrease in strangeness in jetty events due to the decrease in \Nch and  increase in \meanpt is not trivial and counterbalanced by some other factors of the collision.
+
+Finally, the results were compared with MC predictions, and only Pythia 8 Ropes accurately captures the observed trends and, to some extent, the magnitudes.
+
+\begin{figure}[H]
 \centering%
 \subfloat[][]{\includegraphics[width=.45\textwidth]{\imgpath/xi_over_pi_vs_So_CL1_01_PY.pdf}}
 \subfloat[][]{\includegraphics[width=.45\textwidth]{\imgpath/xi_over_pi_vs_So_CL1_01_HW.pdf}}\\
 \subfloat[][]{\includegraphics[width=.45\textwidth]{\imgpath/xi_over_pi_vs_So_V0M_01_PY.pdf}}
 \subfloat[][]{\includegraphics[width=.45\textwidth]{\imgpath/xi_over_pi_vs_So_V0M_01_HW.pdf}}\\
-\caption{TBA.}
+\caption{Double-ratios of integrated yields with respect to pions as a function of \SOPT in the \NSPD I and \VOM I events. Statistical and total systematic uncertainties are shown by bars and boxes, respectively. The curves represent different model predictions of the same measurement: \textbf{(a)},\textbf{(c)} Pythia Monash and Ropes, \textbf{(b)},\textbf{(d)} EPOS LHC and Herwig.}
 \label{fig:sphero:lvssOpt}
 \end{figure}

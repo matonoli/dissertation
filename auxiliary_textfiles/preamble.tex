@@ -49,13 +49,16 @@
 \newcommand{\twotwo}{\ensuremath{2\rightarrow 2}\xspace}
 \newcommand{\ltok}{\ensuremath{({\rm \Lambda}^{0}+\bar {\rm \Lambda}^{0})/(\rm 2 K^{0}_{s} )} \xspace}
 
+\newcommand{\snng}[1]{\ensuremath{\sqrt{s_{\rm NN}} = #1 \text{\,GeV}}\xspace}
 \newcommand{\snnt}[1]{\ensuremath{\sqrt{s_{\rm NN}} = #1 \text{\,TeV}}\xspace}
 % \newcommand{\snnt}[1]{\ensuremath{\sqrt{s_{NN}} = #1 \text{ TeV}}\xspace}
 \newcommand{\snnnotext}[1]{\ensuremath{\sqrt{s_{NN}} = #1}\xspace}
 \newcommand{\sppt}[1]{\ensuremath{\sqrt{s} = #1 \text{\,TeV}}\xspace}
 \newcommand{\sppg}[1]{\ensuremath{\sqrt{s} = #1 \text{\,GeV}}\xspace}
 \newcommand{\gevc}[1]{\ensuremath{#1 \text{\,GeV/$c$}}\xspace}
+\newcommand{\mevc}[1]{\ensuremath{#1 \text{\,MeV/$c$}}\xspace}
 \newcommand{\gevcc}[1]{\ensuremath{#1 \text{\,GeV/$c^2$}}\xspace}
+\newcommand{\mevcc}[1]{\ensuremath{#1 \text{\,MeV/$c^2$}}\xspace}
 \newcommand{\eff}[1]{\ensuremath{\epsilon_{#1}}\xspace}
 \newcommand{\bareyield}{\ensuremath{Y}\xspace}
 \newcommand{\yield}[1]{\ensuremath{Y_{#1}}\xspace}
@@ -76,6 +79,7 @@
 \newcommand{\pip}{\ensuremath{\pi^{+}}\xspace}
 \newcommand{\km}{\ensuremath{K^{-}}\xspace}
 \newcommand{\kp}{\ensuremath{K^{+}}\xspace}
+\newcommand{\kpm}{\ensuremath{K^{\pm}}\xspace}
 \newcommand{\p}{\ensuremath{p}\xspace}
 \newcommand{\pbar}{\ensuremath{\bar{p}}\xspace}
 \newcommand{\mathpt}{\ensuremath{\mathbf{p_{\text{T}}}}\xspace}
@@ -257,6 +261,9 @@
 % For URLs use \url{<URL>}
 \usepackage{url}
 
+% For clickable references and citations
+\usepackage[hidelinks]{hyperref}
+
 
 % Chapters should have numbers - a typical thesis consists of two chapters:
 % One to introduce and summarize the research ("kappa"), and one for
@@ -305,6 +312,9 @@
 %\usepackage{caption}
 %\usepackage{subcaption}
 
+% For slash notation
+\usepackage{slashed}
+
 % For Natural Science students who use ADS. Save to have in any case.
 \usepackage{auxiliary_textfiles/aas_macros}
 
@@ -313,7 +323,17 @@
 \usepackage[swedish,ngerman,english]{babel} 
 
 % Reference in style of Natural Sciences
-\usepackage[super, comma, sort]{natbib}
+\usepackage[square, numbers, comma, sort]{natbib}
+
+% Command to edit the IEEE style
+\makeatletter
+\def\bstctlcite{\@ifnextchar[{\@bstctlcite}{\@bstctlcite[@auxout]}}
+\def\@bstctlcite[#1]#2{\@bsphack
+  \@for\@citeb:=#2\do{%
+    \edef\@citeb{\expandafter\@firstofone\@citeb}%
+    \if@filesw\immediate\write\csname #1\endcsname{\string\citation{\@citeb}}\fi}%
+  \@esphack}
+\makeatother 
 
 % Non-indented paragraphs with a small vertical space in-between
 \parindent 0in

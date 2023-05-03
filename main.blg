@@ -1,50 +1,89 @@
 This is BibTeX, Version 0.99d (TeX Live 2019/Debian)
 Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
 The top-level auxiliary file: main.aux
-The style file: unsrtnat.bst
+The style file: IEEEtranN.bst
+Reallocated buffer (elt_size=1) to 40000 items from 20000.
+Reallocated sv_buffer (elt_size=1) to 40000 items from 20000.
+Reallocated ex_buf (elt_size=1) to 40000 items from 20000.
+Reallocated out_buf (elt_size=1) to 40000 items from 20000.
+Reallocated name_tok (elt_size=4) to 40000 items from 20000.
+Reallocated name_sep_char (elt_size=1) to 40000 items from 20000.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated field_info (elt_size=4) to 13096 items from 5000.
 Database file #1: refs.bib
-Warning--empty journal in ALICEprimaries
-Warning--empty year in ALICEprimaries
-Warning--empty year in ALICEprimaries
-You've used 2 entries,
-            2481 wiz_defined-function locations,
-            564 strings with 4712 characters,
-and the built_in function-call counts, 694 in all, are:
-= -- 53
-> -- 28
-< -- 1
-+ -- 12
-- -- 8
-* -- 54
-:= -- 117
-add.period$ -- 6
-call.type$ -- 2
-change.case$ -- 4
-chr.to.int$ -- 2
-cite$ -- 5
-duplicate$ -- 37
-empty$ -- 66
-format.name$ -- 10
-if$ -- 138
-int.to.chr$ -- 1
-int.to.str$ -- 3
-missing$ -- 2
-newline$ -- 18
-num.names$ -- 6
-pop$ -- 20
+Reallocated str_pool (elt_size=1) to 130000 items from 65000.
+Reallocated buffer (elt_size=1) to 60000 items from 40000.
+Reallocated sv_buffer (elt_size=1) to 60000 items from 40000.
+Reallocated ex_buf (elt_size=1) to 60000 items from 40000.
+Reallocated out_buf (elt_size=1) to 60000 items from 40000.
+Reallocated name_tok (elt_size=4) to 60000 items from 40000.
+Reallocated name_sep_char (elt_size=1) to 60000 items from 40000.
+Reallocated str_pool (elt_size=1) to 195000 items from 130000.
+Reallocated str_pool (elt_size=1) to 260000 items from 195000.
+Warning--I didn't find a database entry for "wongIntroductionHighEnergyHeavyIon1994"
+Warning--I didn't find a database entry for "PerformanceALICEExperiment2014"
+Warning--I didn't find a database entry for ""
+Warning--I didn't find a database entry for "tuvathesis"
+Warning--I didn't find a database entry for "acharyaUnderlyingEventProperties2020"
+-- IEEEtranN.bst version 1.14 (2015/08/26) by Michael Shell.
+-- http://www.michaelshell.org/tex/ieeetran/bibtex/
+-- See the "IEEEtran_bst_HOWTO.pdf" manual for usage information.
+** Natbib version - not for normal IEEE work.
+Reallocated glb_str_ptr (elt_size=4) to 20 items from 10.
+Reallocated global_strs (elt_size=200001) to 20 items from 10.
+Reallocated glb_str_end (elt_size=4) to 20 items from 10.
+** IEEEtran BST control entry "IEEEexample:BSTcontrol" detected.
+Warning--empty booktitle in dissertoriDeterminationStrongCoupling2016
+Warning--empty author in ElectroweakMeasurementsElectron2013
+Warning--missing school in schadeApplicationsHolographyStrongly2012
+Reallocated str_pool (elt_size=1) to 325000 items from 260000.
+Warning--missing publisher in peskovTechnicalDesignReport2014
+Warning--empty booktitle in ortizExperimentalResultsEvent2018
+
+Done.
+You've used 171 entries,
+            4855 wiz_defined-function locations,
+            1979 strings with 245375 characters,
+and the built_in function-call counts, 294060 in all, are:
+= -- 13569
+> -- 38972
+< -- 974
++ -- 13537
+- -- 12690
+* -- 31319
+:= -- 57849
+add.period$ -- 340
+call.type$ -- 171
+change.case$ -- 342
+chr.to.int$ -- 1681
+cite$ -- 178
+duplicate$ -- 9984
+empty$ -- 9504
+format.name$ -- 12983
+if$ -- 55244
+int.to.chr$ -- 15
+int.to.str$ -- 172
+missing$ -- 1415
+newline$ -- 534
+num.names$ -- 508
+pop$ -- 2837
 preamble$ -- 1
-purify$ -- 2
-quote$ -- 0
-skip$ -- 20
+purify$ -- 170
+quote$ -- 4
+skip$ -- 10831
 stack$ -- 0
-substring$ -- 22
-swap$ -- 3
-text.length$ -- 0
+substring$ -- 4754
+swap$ -- 7713
+text.length$ -- 372
 text.prefix$ -- 0
-top$ -- 0
-type$ -- 14
-warning$ -- 3
-while$ -- 5
+top$ -- 7
+type$ -- 2657
+warning$ -- 5
+while$ -- 659
 width$ -- 0
-write$ -- 31
-(There were 3 warnings)
+write$ -- 2069
+(There were 10 warnings)
